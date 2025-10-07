@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage / Landing Page Principal -->
+  <url>
+    <loc>https://revpulse.com.br/</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- Imagens da página -->
+    <image:image>
+      <image:loc>https://revpulse.com.br/images/logo-revpulse.png</image:loc>
+      <image:title>Rev Pulse Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://revpulse.com.br/images/logo-mini.png</image:loc>
+      <image:title>Rev Pulse Mini Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://revpulse.com.br/images/familia.jpg</image:loc>
+      <image:title>Igor Silveira e família - Fundador Rev Pulse</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://revpulse.com.br/images/depoimento-novo1.jpg</image:loc>
+      <image:title>Depoimento Rev Pulse - Oking Davi</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://revpulse.com.br/images/depoimento-novo2.jpg</image:loc>
+      <image:title>Depoimento Rev Pulse - Oking Davi Meta</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://revpulse.com.br/images/depoimento-novo3.jpg</image:loc>
+      <image:title>Depoimento Rev Pulse - Alecsander Gestor</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://revpulse.com.br/images/depoimento-novo4.jpg</image:loc>
+      <image:title>Depoimento Rev Pulse - Luiz Henrique</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://revpulse.com.br/images/og-image.jpg</image:loc>
+      <image:title>Rev Pulse - Atendentes IA para WhatsApp</image:title>
+    </image:image>
+  </url>
+
+  <!-- Adicione mais URLs conforme seu site crescer -->
+  <!-- Exemplo: páginas de blog, políticas, etc. -->
+
+</urlset>

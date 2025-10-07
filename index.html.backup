@@ -1,0 +1,2509 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rev Pulse - Implante Atendentes IA em Horas | Curso + Software por R$ 497</title>
+    <meta name="description" content="Aprenda a vender e implantar atendentes IA para negócios locais em horas. Curso completo + software vitalício por R$ 497. Sem programar, sem N8N.">
+    <meta name="author" content="Igor Silveira - Rev Pulse">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <!-- SEO Enhancements -->
+    <link rel="canonical" href="https://revpulse.com.br/">
+    <link rel="sitemap" type="application/xml" href="https://revpulse.com.br/sitemap.xml">
+    <meta name="google-site-verification" content="SUBSTITUA_PELO_SEU_CODIGO_DO_SEARCH_CONSOLE" />
+    <meta property="article:published_time" content="2025-01-15T00:00:00-03:00">
+    <meta property="article:modified_time" content="2025-01-15T00:00:00-03:00">
+    <meta property="article:author" content="Igor Silveira">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://revpulse.com.br/">
+    <meta property="og:title" content="Rev Pulse - Implante Atendentes IA em Horas">
+    <meta property="og:description" content="Aprenda a vender e implantar atendentes IA para negócios locais. Curso completo + software vitalício por R$ 497.">
+    <meta property="og:image" content="https://revpulse.com.br/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Rev Pulse">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://revpulse.com.br/">
+    <meta name="twitter:title" content="Rev Pulse - Implante Atendentes IA em Horas">
+    <meta name="twitter:description" content="Curso completo + software vitalício por R$ 497. Sem programar, sem N8N.">
+    <meta name="twitter:image" content="https://revpulse.com.br/images/twitter-card.jpg">
+    <meta name="twitter:creator" content="@oigorsilveira">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo-mini.png">
+    <link rel="apple-touch-icon" href="images/logo-mini.png">
+
+    <!-- Performance Optimization - Preload Critical Resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" as="style">
+    <link rel="preload" href="https://unpkg.com/aos@next/dist/aos.css" as="style">
+
+    <!-- Google Fonts - Otimizado (apenas pesos necessários) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons" defer></script>
+
+    <!-- Meta Pixel Code (Pixel 1) -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1510338823013947');
+    fbq('init', '834524104691321');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1510338823013947&ev=PageView&noscript=1"
+    /></noscript>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=834524104691321&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Schema Markup - Product -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "Rev Pulse - Curso de Atendentes IA para WhatsApp",
+      "image": "https://revpulse.com.br/images/logo-revpulse.png",
+      "description": "Curso completo + software para criar e vender atendentes IA para negócios locais. Sem programar, sem N8N. Implante em horas.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Rev Pulse"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://revpulse.com.br/",
+        "priceCurrency": "BRL",
+        "price": "497.00",
+        "priceValidUntil": "2025-12-31",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Rev Pulse"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "127",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    }
+    </script>
+
+    <!-- Schema Markup - Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Rev Pulse",
+      "url": "https://revpulse.com.br",
+      "logo": "https://revpulse.com.br/images/logo-revpulse.png",
+      "description": "Plataforma para criar e vender atendentes IA para WhatsApp sem programação",
+      "founder": {
+        "@type": "Person",
+        "name": "Igor Silveira",
+        "jobTitle": "Founder & CEO",
+        "image": "https://revpulse.com.br/images/familia.jpg"
+      },
+      "sameAs": [
+        "https://instagram.com/oigorsilveira",
+        "https://www.youtube.com/@oigorsilveira"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "availableLanguage": "Portuguese"
+      }
+    }
+    </script>
+
+    <!-- Schema Markup - FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Preciso saber programar para usar o Rev Pulse?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não! O Rev Pulse é 100% visual, drag-and-drop. Você cria fluxos de atendimento clicando e arrastando, sem escrever uma linha de código."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual a diferença do Rev Pulse para o N8N?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No N8N você passa dias configurando código e APIs. No Rev Pulse você implanta o mesmo sistema em 2-6 horas, sem programar. É drag-and-drop, visual e intuitivo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto posso cobrar dos meus clientes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nossos alunos cobram R$ 2.000-8.000 pela implementação + R$ 497-1.497/mês de suporte. Nichos como clínicas, imobiliárias e concessionárias pagam valores mais altos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Rev Pulse funciona em quais nichos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Funciona em qualquer negócio local: Clínicas, Imobiliárias, Academias, Restaurantes, Concessionárias, Salões de beleza, Lojas de roupas, Escolas, e muito mais."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tem garantia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim! 7 dias de garantia incondicional. Se não gostar por qualquer motivo, devolvemos 100% do seu dinheiro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto tempo leva para implantar um atendente IA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Com o Rev Pulse, você implanta um atendente IA completo em 2 a 6 horas. Muito mais rápido que ferramentas como N8N que levam dias ou semanas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O software tem custo de mensalidade?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não! Você paga R$ 497 uma única vez e tem acesso vitalício ao software Rev Pulse. Sem mensalidades recorrentes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Consigo integrar com outras plataformas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim! O Rev Pulse integra com WhatsApp, Google Calendar, CRMs, e diversas IAs como GPT, Gemini e DeepSeek. Tudo de forma visual e sem código."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Já tenho clientes, posso usar o Rev Pulse?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Com certeza! O Rev Pulse é perfeito para quem já atende clientes e quer entregar atendentes IA de forma rápida e profissional, aumentando sua receita mensal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual IA o Rev Pulse utiliza?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Rev Pulse permite integrar múltiplas IAs: ChatGPT (OpenAI), Google Gemini e DeepSeek. Você escolhe qual usar em cada projeto conforme as necessidades do cliente."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema Markup - Course -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Rev Pulse - Curso Completo de Atendentes IA",
+      "description": "Aprenda a vender e implantar atendentes IA para negócios locais usando o Rev Pulse. Curso + Software vitalício.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Rev Pulse",
+        "sameAs": "https://revpulse.com.br"
+      },
+      "offers": {
+        "@type": "Offer",
+        "category": "Paid",
+        "priceCurrency": "BRL",
+        "price": "497.00"
+      },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "online",
+        "courseWorkload": "PT20H"
+      }
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0e1a;
+            color: #e4e6eb;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0a0e1a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(180deg, #FF6B35 0%, #ff8555 100%);
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ff7a47;
+        }
+
+        /* Background Pattern */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:
+                radial-gradient(circle at 20% 50%, rgba(255, 107, 53, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(76, 175, 80, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 40% 20%, rgba(33, 150, 243, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+
+        /* Header */
+        header {
+            background: rgba(15, 20, 31, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+            border-bottom: 1px solid rgba(255, 107, 53, 0.1);
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: transform 0.3s;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #FF6B35 0%, #ff8555 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+        }
+
+        .pulse-wave {
+            width: 30px;
+            height: 20px;
+            position: relative;
+        }
+
+        .pulse-wave::before,
+        .pulse-wave::after {
+            content: '';
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background: white;
+            border-radius: 50%;
+            animation: pulse-beat 1.5s ease-in-out infinite;
+        }
+
+        .pulse-wave::before {
+            left: 0;
+        }
+
+        .pulse-wave::after {
+            right: 0;
+            animation-delay: 0.15s;
+        }
+
+        @keyframes pulse-beat {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.3); opacity: 0.7; }
+        }
+
+        .logo-text {
+            font-size: 28px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #fff 0%, #e0e0e0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: -0.5px;
+        }
+
+        .header-cta {
+            background: linear-gradient(135deg, #FF6B35 0%, #ff8555 100%);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 15px;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header-cta::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .header-cta:hover::before {
+            left: 100%;
+        }
+
+        .header-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(255, 107, 53, 0.5);
+        }
+
+        /* Pre-Hero Story */
+        .pre-hero {
+            background: linear-gradient(135deg, #1a1f2e 0%, #252b3d 100%);
+            padding: 80px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pre-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #FF6B35, transparent);
+        }
+
+        .pre-hero h2 {
+            font-size: 22px;
+            color: #a8b3cf;
+            margin-bottom: 50px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .person-card {
+            background: rgba(26, 31, 46, 0.6);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 16px;
+            border: 2px solid rgba(45, 53, 72, 0.6);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+        }
+
+        .person-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 16px;
+            padding: 2px;
+            background: linear-gradient(135deg, transparent, rgba(255,107,53,0.3));
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+
+        .person-card:hover::before {
+            opacity: 1;
+        }
+
+        .person-card.winner {
+            border-color: #FF6B35;
+            box-shadow: 0 0 40px rgba(255, 107, 53, 0.3);
+            transform: scale(1.02);
+        }
+
+        .person-card h3 {
+            font-size: 28px;
+            margin-bottom: 25px;
+            color: white;
+            font-weight: 700;
+        }
+
+        .person-card p {
+            margin-bottom: 15px;
+            color: #c5cfe0;
+            font-size: 16px;
+        }
+
+        .person-card .revenue {
+            font-size: 36px;
+            color: #FF6B35;
+            font-weight: 800;
+            margin-top: 25px;
+            text-shadow: 0 0 20px rgba(255, 107, 53, 0.5);
+        }
+
+        .difference {
+            margin-top: 50px;
+            font-size: 20px;
+            color: #FF6B35;
+            font-weight: 700;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 120px 0;
+            text-align: center;
+            background:
+                radial-gradient(circle at 30% 20%, rgba(255, 107, 53, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 70% 80%, rgba(76, 175, 80, 0.08) 0%, transparent 40%),
+                linear-gradient(180deg, #0a0e1a 0%, #121623 100%);
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background:
+                repeating-linear-gradient(
+                    45deg,
+                    transparent,
+                    transparent 100px,
+                    rgba(255, 107, 53, 0.02) 100px,
+                    rgba(255, 107, 53, 0.02) 200px
+                );
+            animation: pattern-move 20s linear infinite;
+        }
+
+        @keyframes pattern-move {
+            from { transform: translate(0, 0); }
+            to { transform: translate(100px, 100px); }
+        }
+
+        .hero h1 {
+            font-size: 58px;
+            line-height: 1.15;
+            margin-bottom: 30px;
+            color: white;
+            max-width: 1100px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 900;
+            letter-spacing: -1px;
+            text-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+
+        .hero .subtitle {
+            font-size: 21px;
+            color: #b8c1db;
+            margin-bottom: 50px;
+            max-width: 850px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+
+        .pricing-highlight {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin: 50px 0;
+            flex-wrap: wrap;
+        }
+
+        .pricing-item {
+            text-align: center;
+            padding: 30px;
+            background: rgba(26, 31, 46, 0.5);
+            border-radius: 16px;
+            border: 1px solid rgba(255, 107, 53, 0.2);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+        }
+
+        .pricing-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(255, 107, 53, 0.2);
+        }
+
+        .pricing-item .label {
+            font-size: 13px;
+            color: #a8b3cf;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .pricing-item .value {
+            font-size: 38px;
+            background: linear-gradient(135deg, #FF6B35 0%, #ffab35 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 900;
+        }
+
+        .price-box {
+            background: rgba(26, 31, 46, 0.8);
+            backdrop-filter: blur(20px);
+            padding: 40px;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 40px 0;
+            border: 2px solid #FF6B35;
+            box-shadow:
+                0 0 60px rgba(255, 107, 53, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            animation: price-glow 3s ease-in-out infinite;
+            position: relative;
+        }
+
+        @keyframes price-glow {
+            0%, 100% {
+                box-shadow:
+                    0 0 60px rgba(255, 107, 53, 0.4),
+                    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            }
+            50% {
+                box-shadow:
+                    0 0 80px rgba(255, 107, 53, 0.6),
+                    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            }
+        }
+
+        .price-box .offer-badge {
+            background: linear-gradient(135deg, #FF6B35 0%, #ff8555 100%);
+            color: white;
+            padding: 10px 24px;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+            letter-spacing: 0.5px;
+        }
+
+        .price-box .price {
+            font-size: 56px;
+            color: white;
+            font-weight: 900;
+            margin: 20px 0;
+            letter-spacing: -2px;
+        }
+
+        .price-box .original-price {
+            text-decoration: line-through;
+            color: #888;
+            font-size: 24px;
+            margin-right: 15px;
+        }
+
+        .price-box .installment {
+            color: #b8c1db;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .cta-button {
+            background: linear-gradient(135deg, #FF6B35 0%, #ff8555 100%);
+            color: white;
+            padding: 22px 55px;
+            font-size: 20px;
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            font-weight: 800;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 25px;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 6px 25px rgba(255, 107, 53, 0.4);
+            position: relative;
+            overflow: hidden;
+            letter-spacing: 0.5px;
+        }
+
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.6s;
+        }
+
+        .cta-button:hover::before {
+            left: 100%;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 10px 40px rgba(255, 107, 53, 0.6);
+        }
+
+        .cta-button:active {
+            transform: translateY(-1px) scale(0.98);
+        }
+
+        /* Sections */
+        section {
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .section-title {
+            font-size: 48px;
+            text-align: center;
+            margin-bottom: 25px;
+            color: white;
+            font-weight: 900;
+            letter-spacing: -1px;
+        }
+
+        .section-subtitle {
+            font-size: 19px;
+            text-align: center;
+            color: #b8c1db;
+            max-width: 800px;
+            margin: 0 auto 70px;
+            line-height: 1.7;
+            font-weight: 500;
+        }
+
+        /* Icon Styles */
+        .icon-wrapper {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, rgba(255, 107, 53, 0.2) 0%, rgba(255, 107, 53, 0.05) 100%);
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 107, 53, 0.3);
+        }
+
+        .icon-wrapper svg {
+            width: 30px;
+            height: 30px;
+            stroke: #FF6B35;
+        }
+
+        /* Comparison Table */
+        .comparison-table {
+            background: rgba(26, 31, 46, 0.6);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            overflow: hidden;
+            max-width: 900px;
+            margin: 0 auto;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            border: 1px solid rgba(255, 107, 53, 0.1);
+        }
+
+        .comparison-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border-bottom: 1px solid rgba(45, 53, 72, 0.5);
+        }
+
+        .comparison-row:last-child {
+            border-bottom: none;
+        }
+
+        .comparison-cell {
+            padding: 24px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .comparison-cell.header {
+            background: rgba(45, 53, 72, 0.6);
+            font-weight: 700;
+            color: white;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+        }
+
+        .comparison-cell.highlight {
+            background: rgba(255, 107, 53, 0.12);
+            color: #FF6B35;
+            font-weight: 700;
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 35px;
+            margin-top: 60px;
+        }
+
+        .card {
+            background: rgba(26, 31, 46, 0.6);
+            backdrop-filter: blur(10px);
+            padding: 45px;
+            border-radius: 20px;
+            border: 1px solid rgba(45, 53, 72, 0.6);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #FF6B35, #ffab35);
+            transform: scaleX(0);
+            transition: transform 0.4s;
+        }
+
+        .card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(255, 107, 53, 0.4);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+        }
+
+        .card h3 {
+            font-size: 24px;
+            margin-bottom: 18px;
+            color: white;
+            font-weight: 700;
+        }
+
+        .card p {
+            color: #b8c1db;
+            line-height: 1.8;
+            font-weight: 400;
+        }
+
+        /* Feature List */
+        .feature-list {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .feature-item {
+            background: rgba(26, 31, 46, 0.6);
+            backdrop-filter: blur(10px);
+            padding: 35px;
+            margin-bottom: 25px;
+            border-radius: 16px;
+            border-left: 4px solid #FF6B35;
+            border: 1px solid rgba(45, 53, 72, 0.6);
+            border-left: 4px solid #FF6B35;
+            transition: all 0.3s;
+        }
+
+        .feature-item:hover {
+            transform: translateX(5px);
+            box-shadow: -5px 0 20px rgba(255, 107, 53, 0.2);
+        }
+
+        .feature-item h3 {
+            font-size: 22px;
+            margin-bottom: 12px;
+            color: white;
+            font-weight: 700;
+        }
+
+        .feature-item .why {
+            color: #FF6B35;
+            font-weight: 600;
+            margin-top: 12px;
+        }
+
+        /* Author Section */
+        .author-section {
+            background: linear-gradient(135deg, #1a1f2e 0%, #252b3d 100%);
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .author-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .author-image {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 25px 70px rgba(0,0,0,0.5);
+            border: 3px solid rgba(255, 107, 53, 0.3);
+            transition: transform 0.4s;
+        }
+
+        .author-image:hover {
+            transform: scale(1.02) rotate(-1deg);
+        }
+
+        .author-text h2 {
+            font-size: 42px;
+            margin-bottom: 30px;
+            color: white;
+            font-weight: 900;
+            letter-spacing: -1px;
+        }
+
+        .author-text p {
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: #b8c1db;
+            line-height: 1.8;
+            font-weight: 400;
+        }
+
+        .author-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin: 40px 0;
+        }
+
+        .stat-box {
+            background: rgba(10, 14, 26, 0.8);
+            padding: 30px;
+            border-radius: 16px;
+            text-align: center;
+            border: 1px solid rgba(255, 107, 53, 0.2);
+            transition: all 0.3s;
+        }
+
+        .stat-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(255, 107, 53, 0.2);
+        }
+
+        .stat-box .number {
+            font-size: 38px;
+            background: linear-gradient(135deg, #FF6B35 0%, #ffab35 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 900;
+        }
+
+        .stat-box .label {
+            color: #a8b3cf;
+            font-size: 13px;
+            margin-top: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .instagram-link {
+            color: #FF6B35;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .instagram-link:hover {
+            color: #ff8555;
+            text-decoration: underline;
+        }
+
+        /* Checklist */
+        .checklist {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .checklist-item {
+            padding: 20px 25px;
+            margin-bottom: 15px;
+            background: rgba(26, 31, 46, 0.6);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            transition: all 0.3s;
+        }
+
+        .checklist-item:hover {
+            transform: translateX(5px);
+        }
+
+        .checklist-item.yes {
+            border-left: 4px solid #4caf50;
+        }
+
+        .checklist-item.no {
+            border-left: 4px solid #f44336;
+        }
+
+        .check-icon {
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+
+        /* Investment Section */
+        .investment-box {
+            background: linear-gradient(135deg, rgba(26, 31, 46, 0.9) 0%, rgba(37, 43, 61, 0.9) 100%);
+            backdrop-filter: blur(20px);
+            border: 3px solid #FF6B35;
+            border-radius: 24px;
+            padding: 70px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+        }
+
+        .investment-box h3 {
+            font-size: 36px;
+            margin-bottom: 35px;
+            color: white;
+            font-weight: 900;
+        }
+
+        .included-list {
+            text-align: left;
+            margin: 40px 0;
+        }
+
+        .included-item {
+            padding: 18px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: rgba(255, 107, 53, 0.05);
+            border-radius: 10px;
+            transition: all 0.3s;
+        }
+
+        .included-item:hover {
+            background: rgba(255, 107, 53, 0.1);
+            transform: translateX(5px);
+        }
+
+        .included-item::before {
+            content: '✅';
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+
+        /* FAQ */
+        .faq-container {
+            max-width: 950px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: rgba(26, 31, 46, 0.6);
+            backdrop-filter: blur(10px);
+            margin-bottom: 20px;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid rgba(45, 53, 72, 0.6);
+            transition: all 0.3s;
+        }
+
+        .faq-item:hover {
+            border-color: rgba(255, 107, 53, 0.4);
+        }
+
+        .faq-question {
+            padding: 28px 35px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 700;
+            color: white;
+            border-bottom: 2px solid rgba(45, 53, 72, 0.6);
+            transition: all 0.3s;
+        }
+
+        .faq-question:hover {
+            color: #FF6B35;
+            background: rgba(255, 107, 53, 0.05);
+        }
+
+        .faq-answer {
+            padding: 28px 35px;
+            color: #b8c1db;
+            line-height: 1.8;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(15, 20, 31, 0.95);
+            padding: 50px 0;
+            text-align: center;
+            border-top: 1px solid rgba(255, 107, 53, 0.2);
+        }
+
+        footer a {
+            color: #FF6B35;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        footer a:hover {
+            color: #ff8555;
+            text-decoration: underline;
+        }
+
+        /* Fixed Logo */
+        .fixed-logo {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 999;
+            transition: all 0.3s;
+        }
+
+        .fixed-logo img {
+            height: 50px;
+            width: auto;
+            filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));
+        }
+
+        .fixed-logo:hover {
+            transform: scale(1.05);
+        }
+
+        /* Floating WhatsApp */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background: #25D366;
+            color: white;
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+            z-index: 999;
+            text-decoration: none;
+            transition: all 0.3s;
+            animation: whatsapp-pulse 2s infinite;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 30px rgba(37, 211, 102, 0.6);
+        }
+
+        @keyframes whatsapp-pulse {
+            0%, 100% {
+                box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+            }
+            50% {
+                box-shadow: 0 6px 30px rgba(37, 211, 102, 0.7);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .fixed-logo {
+                top: 15px;
+                left: 15px;
+            }
+
+            .fixed-logo img {
+                height: 40px;
+            }
+
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .section-title {
+                font-size: 32px;
+            }
+
+            .author-content {
+                grid-template-columns: 1fr;
+            }
+
+            .comparison-row {
+                grid-template-columns: 1fr;
+            }
+
+            .comparison-cell:first-child {
+                background: rgba(45, 53, 72, 0.6);
+                font-weight: 700;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .pricing-highlight {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .investment-box {
+                padding: 40px 25px;
+            }
+
+            .price-box {
+                padding: 30px 20px;
+            }
+        }
+
+        .highlight-box {
+            background: rgba(255, 107, 53, 0.12);
+            backdrop-filter: blur(10px);
+            border-left: 4px solid #FF6B35;
+            padding: 35px;
+            border-radius: 12px;
+            margin: 50px auto;
+            max-width: 850px;
+        }
+
+        .highlight-box p {
+            font-size: 20px;
+            color: white;
+            margin: 0;
+            font-weight: 500;
+        }
+
+        .bonus-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .bonus-card {
+            background: rgba(26, 31, 46, 0.6);
+            backdrop-filter: blur(10px);
+            padding: 35px;
+            border-radius: 16px;
+            border: 2px solid rgba(45, 53, 72, 0.6);
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .bonus-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(255, 107, 53, 0.4);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .bonus-card h4 {
+            color: #FF6B35;
+            font-size: 20px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .timeline-item {
+            background: rgba(26, 31, 46, 0.6);
+            backdrop-filter: blur(10px);
+            padding: 35px;
+            border-radius: 16px;
+            margin-bottom: 25px;
+            border-left: 4px solid #FF6B35;
+            transition: all 0.3s;
+        }
+
+        .timeline-item:hover {
+            transform: translateX(10px);
+            box-shadow: -10px 0 30px rgba(255, 107, 53, 0.2);
+        }
+
+        .timeline-item h3 {
+            color: white;
+            font-size: 26px;
+            margin-bottom: 18px;
+            font-weight: 700;
+        }
+
+        .timeline-item ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .timeline-item li {
+            padding: 10px 0;
+            color: #b8c1db;
+            font-weight: 400;
+        }
+
+        .timeline-item li::before {
+            content: '→ ';
+            color: #FF6B35;
+            font-weight: 700;
+        }
+
+        .guarantee-badge {
+            display: inline-block;
+            background: rgba(76, 175, 80, 0.15);
+            border: 3px solid #4caf50;
+            border-radius: 16px;
+            padding: 25px 45px;
+            margin: 35px 0;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .urgency-timer {
+            background: rgba(255, 107, 53, 0.2);
+            border: 2px solid #FF6B35;
+            border-radius: 10px;
+            padding: 18px 35px;
+            display: inline-block;
+            margin: 25px 0;
+            font-size: 16px;
+            color: #FF6B35;
+            font-weight: 700;
+            animation: urgency-pulse 2s infinite;
+        }
+
+        @keyframes urgency-pulse {
+            0%, 100% {
+                background: rgba(255, 107, 53, 0.2);
+            }
+            50% {
+                background: rgba(255, 107, 53, 0.3);
+            }
+        }
+
+        .countdown-timer {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .countdown-item {
+            background: rgba(26, 31, 46, 0.8);
+            backdrop-filter: blur(10px);
+            padding: 20px 30px;
+            border-radius: 12px;
+            border: 2px solid #FF6B35;
+            min-width: 100px;
+            text-align: center;
+        }
+
+        .countdown-number {
+            font-size: 42px;
+            font-weight: 900;
+            color: #FF6B35;
+            line-height: 1;
+            text-shadow: 0 0 20px rgba(255, 107, 53, 0.5);
+        }
+
+        .countdown-label {
+            font-size: 13px;
+            color: #a8b3cf;
+            margin-top: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <!-- Fixed Logo -->
+    <div class="fixed-logo">
+        <picture>
+            <source srcset="images/logo-mini.webp" type="image/webp">
+            <img src="images/logo-mini.png" alt="Rev Pulse">
+        </picture>
+    </div>
+
+    <!-- Pre-Hero Story -->
+    <section class="pre-hero">
+        <div class="container">
+            <h2 data-aos="fade-down">Dois gestores de tráfego. Uma diferença brutal:</h2>
+            <div class="comparison-grid">
+                <div class="person-card" data-aos="fade-right" data-aos-delay="100">
+                    <h3>João</h3>
+                    <p>Fechou <strong>3 clientes</strong></p>
+                    <p>Passou <strong>18 dias</strong> configurando automações no N8N</p>
+                    <p class="revenue">R$ 12.000</p>
+                </div>
+                <div class="person-card winner" data-aos="fade-left" data-aos-delay="200">
+                    <h3>Maria</h3>
+                    <p>Fechou <strong>11 clientes</strong></p>
+                    <p>Gastou <strong>4 horas</strong> por cliente com Rev Pulse</p>
+                    <p class="revenue">R$ 38.000</p>
+                </div>
+            </div>
+            <p class="difference" data-aos="fade-up" data-aos-delay="300"><strong>A diferença?</strong> Maria implanta em horas. João demora dias.</p>
+            <p style="margin-top: 20px; color: #b8c1db;" data-aos="fade-up" data-aos-delay="400">Enquanto Maria já estava fechando o próximo, João ainda estava debugando webhook.</p>
+        </div>
+    </section>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1 data-aos="fade-down">Pare de Perder Dinheiro Configurando Bots por Dias Quando Você Pode Implantar em Horas</h1>
+            <p class="subtitle" data-aos="fade-up" data-aos-delay="100">Aprenda a vender e implantar atendentes IA para negócios locais usando o Rev Pulse — sem programar, sem N8N, sem perder semanas por cliente.</p>
+
+            <div class="pricing-highlight">
+                <div class="pricing-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="label">Implantação</div>
+                    <div class="value">R$ 2k - 8k</div>
+                    <p style="color: #a8b3cf; font-size: 14px; margin-top: 5px;">(em 2-6 horas)</p>
+                </div>
+                <div class="pricing-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="label">Mensalidade</div>
+                    <div class="value">R$ 497 - 1.497</div>
+                    <p style="color: #a8b3cf; font-size: 14px; margin-top: 5px;">(suporte contínuo)</p>
+                </div>
+            </div>
+
+            <div class="price-box" data-aos="zoom-in" data-aos-delay="400">
+                <div class="offer-badge">🔥 OFERTA DE LANÇAMENTO</div>
+                <div class="price">
+                    <span class="original-price">R$ 997</span>
+                    R$ 497
+                </div>
+                <div class="installment">ou 12x de R$ 57,42 no cartão</div>
+            </div>
+
+            <a href="https://checkout.pagtrust.com.br/ck5d2ca0eb?funnel=fn9649ed0a" class="cta-button" data-aos="fade-up" data-aos-delay="500" onclick="fbq('track', 'InitiateCheckout', {value: 497.00, currency: 'BRL', content_name: 'Rev Pulse - Oferta Principal'});" aria-label="Garantir acesso ao curso Rev Pulse por R$ 497 - Oferta principal">GARANTIR ACESSO POR R$ 497 →</a>
+        </div>
+    </section>
+
+    <!-- Truth Section -->
+    <section style="background: linear-gradient(135deg, #1a1f2e 0%, #252b3d 100%); padding: 100px 0;">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down"><span aria-hidden="true">⚡</span> A Verdade que Ninguém Te Conta</h2>
+            <div style="max-width: 850px; margin: 0 auto; font-size: 18px; line-height: 1.8; color: #b8c1db;">
+                <p style="margin-bottom: 20px;" data-aos="fade-up">Você já sabe que <strong style="color: white;">atendentes IA são o futuro</strong>.</p>
+                <p style="margin-bottom: 20px;" data-aos="fade-up" data-aos-delay="100">Você já viu dezenas de pessoas vendendo isso e faturando alto.</p>
+                <p style="margin-bottom: 30px;" data-aos="fade-up" data-aos-delay="200"><strong style="color: white;">Mas tem um problema:</strong> A maioria usa N8N, Make ou ferramentas complexas que:</p>
+
+                <div class="checklist" data-aos="fade-up" data-aos-delay="300">
+                    <div class="checklist-item no">
+                        <span class="check-icon">❌</span>
+                        <span>Exigem conhecimento técnico avançado</span>
+                    </div>
+                    <div class="checklist-item no">
+                        <span class="check-icon">❌</span>
+                        <span>Levam DIAS para configurar por cliente</span>
+                    </div>
+                    <div class="checklist-item no">
+                        <span class="check-icon">❌</span>
+                        <span>Travam sua capacidade de escalar</span>
+                    </div>
+                    <div class="checklist-item no">
+                        <span class="check-icon">❌</span>
+                        <span>Te transformam em "técnico de TI" em vez de vendedor</span>
+                    </div>
+                </div>
+
+                <div class="highlight-box" style="margin-top: 40px;" data-aos="zoom-in" data-aos-delay="400">
+                    <p><strong>Resultado:</strong> Você fecha 2-3 clientes/mês no máximo. E passa mais tempo configurando do que vendendo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison -->
+    <section>
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down"><span aria-hidden="true">✅</span> Existe um Jeito Melhor</h2>
+            <h3 style="text-align: center; font-size: 26px; margin-bottom: 50px; color: #FF6B35; font-weight: 700;" data-aos="fade-up">Rev Pulse vs N8N: A Diferença que Muda Tudo</h3>
+
+            <div class="comparison-table" data-aos="fade-up" data-aos-delay="100">
+                <div class="comparison-row">
+                    <div class="comparison-cell header"></div>
+                    <div class="comparison-cell header" style="background: rgba(255, 107, 53, 0.2); color: #FF6B35;">Rev Pulse</div>
+                    <div class="comparison-cell header">N8N</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-cell">Tempo de Implantação</div>
+                    <div class="comparison-cell highlight">2-6 horas</div>
+                    <div class="comparison-cell">3-5 dias</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-cell">Precisa Programar</div>
+                    <div class="comparison-cell highlight">Não</div>
+                    <div class="comparison-cell">Sim</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-cell">Curva de Aprendizado</div>
+                    <div class="comparison-cell highlight">1 dia</div>
+                    <div class="comparison-cell">2-3 semanas</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-cell">Clientes/Mês</div>
+                    <div class="comparison-cell highlight">8-12</div>
+                    <div class="comparison-cell">2-3</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-cell">Interface</div>
+                    <div class="comparison-cell highlight">Visual profissional</div>
+                    <div class="comparison-cell">Técnica/complexa</div>
+                </div>
+            </div>
+
+            <div class="highlight-box" style="margin-top: 60px;" data-aos="zoom-in" data-aos-delay="200">
+                <p style="text-align: center;"><strong>Velocidade = Mais Clientes = Mais Dinheiro</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Math Section -->
+    <section style="background: linear-gradient(135deg, #1a1f2e 0%, #252b3d 100%); padding: 100px 0;">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down"><span aria-hidden="true">📈</span> Faça as Contas Comigo</h2>
+            <div class="cards-grid">
+                <div class="card" data-aos="fade-right">
+                    <div class="icon-wrapper">
+                        <i data-feather="x-circle"></i>
+                    </div>
+                    <h3 style="color: #f44336;">Com N8N (ou ferramentas complexas)</h3>
+                    <ul style="list-style: none; padding: 0; margin: 20px 0;">
+                        <li style="padding: 10px 0;">→ 3-5 dias por implantação</li>
+                        <li style="padding: 10px 0;">→ <strong>Máximo:</strong> 3 clientes/mês</li>
+                        <li style="padding: 10px 0;">→ Implantações: R$ 12.000/mês</li>
+                        <li style="padding: 10px 0;">→ Você vira refém da tecnologia</li>
+                    </ul>
+                </div>
+                <div class="card" style="border-color: #FF6B35;" data-aos="fade-left">
+                    <div class="icon-wrapper">
+                        <i data-feather="check-circle"></i>
+                    </div>
+                    <h3 style="color: #4caf50;">Com Rev Pulse</h3>
+                    <ul style="list-style: none; padding: 0; margin: 20px 0;">
+                        <li style="padding: 10px 0;">→ 2-6 horas por implantação</li>
+                        <li style="padding: 10px 0;">→ <strong>Realista:</strong> 8-10 clientes/mês</li>
+                        <li style="padding: 10px 0;">→ Implantações: R$ 32.000 - R$ 50.000/mês</li>
+                        <li style="padding: 10px 0;">→ Você escala e ainda tem vida</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="highlight-box" style="margin-top: 60px;" data-aos="zoom-in">
+                <p style="text-align: center; font-size: 24px;"><strong>Diferença anual:</strong> R$ 240.000 vs R$ 480.000+</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Continue with remaining sections... (I'll continue in next message due to length) -->
+
+    <section>
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down"><span aria-hidden="true">🎯</span> O Que É o Rev Pulse?</h2>
+            <p class="section-subtitle" data-aos="fade-up"><strong>Curso Completo + Software Vitalício</strong> que ensina gestores de tráfego a vender e implantar atendentes IA para negócios locais — do zero ao primeiro cliente pagando.</p>
+
+            <div style="max-width: 950px; margin: 0 auto;">
+                <div class="timeline-item" data-aos="fade-right">
+                    <h3>📚 Módulo 1: Prospecção e Vendas</h3>
+                    <ul>
+                        <li>Nichos mais rentáveis e por quê</li>
+                        <li>Script de vendas que uso há 2 anos</li>
+                        <li>Como cobrar R$ 8k sem culpa</li>
+                        <li>Apresentação que fecha sozinha</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <h3>💻 Módulo 2: Implantação Rápida</h3>
+                    <ul>
+                        <li>Domínio completo do Rev Pulse</li>
+                        <li>Templates prontos por nicho (clínicas, restaurantes, lojas, advogados, academias)</li>
+                        <li>Google Calendar integrado</li>
+                        <li>Follow-up automático</li>
+                        <li>Áudios humanizados</li>
+                        <li>Envio de mídias</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right">
+                    <h3>🎯 Módulo 3: Entrega que Fideliza</h3>
+                    <ul>
+                        <li>Checklist de entrega profissional</li>
+                        <li>Treinamento do cliente (30 min)</li>
+                        <li>Primeiros resultados em 48h</li>
+                        <li>O que monitorar na primeira semana</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <h3>💰 Módulo 4: Mensalidade e Suporte</h3>
+                    <ul>
+                        <li>Como justificar R$ 497-1.497/mês</li>
+                        <li>Suporte que retém clientes</li>
+                        <li>Relatórios simples que provam valor</li>
+                        <li>Upsells naturais</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right">
+                    <h3>🚀 Módulo 5: Escala (10, 20, 50 clientes)</h3>
+                    <ul>
+                        <li>Gestão de múltiplos clientes</li>
+                        <li>Quando contratar ajuda</li>
+                        <li>Processos que funcionam</li>
+                        <li>Contratos e propostas prontos</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="margin-top: 70px;" data-aos="fade-up">
+                <h3 style="text-align: center; font-size: 32px; margin-bottom: 40px; font-weight: 900;">💻 Software Rev Pulse (Vitalício)</h3>
+                <div class="included-list" style="max-width: 750px; margin: 0 auto;">
+                    <div class="included-item">Conexões WhatsApp <strong>ilimitadas</strong></div>
+                    <div class="included-item">Interface profissional que impressiona</div>
+                    <div class="included-item">GPT, Gemini e DeepSeek</div>
+                    <div class="included-item">Google Calendar integrado</div>
+                    <div class="included-item">Follow-up automático</div>
+                    <div class="included-item">Áudios humanizados</div>
+                    <div class="included-item">Envio de mídias completo</div>
+                    <div class="included-item">Modo IA / Modo Manual</div>
+                    <div class="included-item">Sem mensalidade NUNCA</div>
+                    <div class="included-item">Atualizações futuras incluídas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section style="background: linear-gradient(135deg, #1a1f2e 0%, #252b3d 100%); padding: 100px 0;">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down"><span aria-hidden="true">🔥</span> Funcionalidades que Fecham Vendas</h2>
+            <div class="feature-list">
+                <div class="feature-item" data-aos="fade-up">
+                    <div class="icon-wrapper" style="display: inline-flex;">
+                        <i data-feather="cpu"></i>
+                    </div>
+                    <h3>🤖 IA Contextual (GPT, Gemini, DeepSeek)</h3>
+                    <p>Entende contexto completo, responde naturalmente, resolve problemas reais.</p>
+                    <p class="why"><strong>Por que fecha:</strong> Cliente vê a IA respondendo como se fosse ele.</p>
+                </div>
+
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-wrapper" style="display: inline-flex;">
+                        <i data-feather="calendar"></i>
+                    </div>
+                    <h3>📅 Google Calendar Automático</h3>
+                    <p>Cliente do seu cliente agenda → já cai na agenda do Google.</p>
+                    <p class="why"><strong>Por que fecha:</strong> Dono de clínica/salão/consultório ODEIA agenda bagunçada.</p>
+                </div>
+
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-wrapper" style="display: inline-flex;">
+                        <i data-feather="repeat"></i>
+                    </div>
+                    <h3>🔄 Follow-Up Inteligente</h3>
+                    <p>Reengaja quem parou de responder. Automático.</p>
+                    <p class="why"><strong>Por que fecha:</strong> Todo vendedor odeia fazer follow-up manual.</p>
+                </div>
+
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon-wrapper" style="display: inline-flex;">
+                        <i data-feather="mic"></i>
+                    </div>
+                    <h3>🎙️ Áudios com Voz Real</h3>
+                    <p>Envia áudios com voz humanizada ou voz do próprio cliente.</p>
+                    <p class="why"><strong>Por que fecha:</strong> "Parece que é uma pessoa de verdade!"</p>
+                </div>
+
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon-wrapper" style="display: inline-flex;">
+                        <i data-feather="toggle-right"></i>
+                    </div>
+                    <h3>📊 Modo Manual com 1 Clique</h3>
+                    <p>Desliga IA e assume controle humano instantaneamente.</p>
+                    <p class="why"><strong>Por que fecha:</strong> Cliente não fica "refém do robô".</p>
+                </div>
+
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="icon-wrapper" style="display: inline-flex;">
+                        <i data-feather="image"></i>
+                    </div>
+                    <h3>📎 Envio Automático de Mídias</h3>
+                    <p>Cardápio, fotos, documentos, vídeos. Tudo automatizado.</p>
+                    <p class="why"><strong>Por que fecha:</strong> Restaurante envia cardápio. Clínica envia antes/depois. Automático.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Niches -->
+    <section>
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down"><span aria-hidden="true">🎯</span> Nichos Mais Rentáveis</h2>
+            <div class="cards-grid">
+                <div class="card" data-aos="fade-up">
+                    <div class="icon-wrapper">
+                        <i data-feather="heart"></i>
+                    </div>
+                    <h3>🏥 Clínicas e Consultórios</h3>
+                    <p><strong style="color: #FF6B35;">Implantação:</strong> R$ 5.000 - R$ 8.000<br>
+                    <strong style="color: #FF6B35;">Mensalidade:</strong> R$ 997 - R$ 1.497</p>
+                    <p style="margin-top: 15px; color: #b8c1db;">Agenda complexa, não podem perder paciente, ticket alto por consulta.</p>
+                </div>
+
+                <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-wrapper">
+                        <i data-feather="briefcase"></i>
+                    </div>
+                    <h3>⚖️ Advogados e Consultores</h3>
+                    <p><strong style="color: #FF6B35;">Implantação:</strong> R$ 4.000 - R$ 6.000<br>
+                    <strong style="color: #FF6B35;">Mensalidade:</strong> R$ 897 - R$ 1.297</p>
+                    <p style="margin-top: 15px; color: #b8c1db;">Qualificação de leads é crucial, ticket alto, querem parecer profissionais.</p>
+                </div>
+
+                <div class="card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-wrapper">
+                        <i data-feather="activity"></i>
+                    </div>
+                    <h3>💪 Academias e Estúdios</h3>
+                    <p><strong style="color: #FF6B35;">Implantação:</strong> R$ 4.000 - R$ 6.000<br>
+                    <strong style="color: #FF6B35;">Mensalidade:</strong> R$ 797 - R$ 1.297</p>
+                    <p style="margin-top: 15px; color: #b8c1db;">Aula experimental, follow-up de leads, confirmações automáticas.</p>
+                </div>
+
+                <div class="card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon-wrapper">
+                        <i data-feather="coffee"></i>
+                    </div>
+                    <h3>🍕 Restaurantes e Deliverys</h3>
+                    <p><strong style="color: #FF6B35;">Implantação:</strong> R$ 3.000 - R$ 5.000<br>
+                    <strong style="color: #FF6B35;">Mensalidade:</strong> R$ 697 - R$ 997</p>
+                    <p style="margin-top: 15px; color: #b8c1db;">Perdem pedidos à noite/madrugada, envio de cardápio, recompra automática.</p>
+                </div>
+
+                <div class="card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon-wrapper">
+                        <i data-feather="shopping-bag"></i>
+                    </div>
+                    <h3>🏪 Lojas (Física + Online)</h3>
+                    <p><strong style="color: #FF6B35;">Implantação:</strong> R$ 2.500 - R$ 4.000<br>
+                    <strong style="color: #FF6B35;">Mensalidade:</strong> R$ 597 - R$ 897</p>
+                    <p style="margin-top: 15px; color: #b8c1db;">Responder sobre produtos, enviar fotos, recuperar carrinhos abandonados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Author Section -->
+    <section class="author-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down"><span aria-hidden="true">👤</span> Quem Está Te Ensinando Isso?</h2>
+            <div class="author-content">
+                <div data-aos="fade-right">
+                    <picture>
+                        <source srcset="images/familia.webp" type="image/webp">
+                        <img src="images/familia.jpg" alt="Igor Silveira e família" class="author-image" loading="lazy">
+                    </picture>
+                </div>
+                <div class="author-text" data-aos="fade-left">
+                    <h2>Igor Silveira</h2>
+                    <p>Meu nome é <strong>Igor Silveira</strong>, pai da Helena e da Heloísa, esposo da Brenda.</p>
+                    <p>E não sou "guru de internet que surgiu do nada".</p>
+                    <p>Sou fundador da <strong>Revolute Digital</strong>, uma assessoria de tráfego e comercial com <strong>mais de 15 colaboradores</strong>.</p>
+                    <p>Em <strong>7 anos de mercado</strong>, eu investi <strong>R$ 25 MILHÕES em tráfego pago</strong> e gerei <strong>R$ 169 MILHÕES em vendas</strong> para meus clientes.</p>
+
+                    <div class="author-stats">
+                        <div class="stat-box">
+                            <div class="number" id="stat1">0</div>
+                            <div class="label">Investidos em Tráfego</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="number" id="stat2">0</div>
+                            <div class="label">Gerados em Vendas</div>
+                        </div>
+                    </div>
+
+                    <p>Quando comecei com tráfego pago para negócios locais, era mato. Ninguém entendia o que eu fazia.</p>
+                    <p>Hoje, o mercado me considera referência. Mas prefiro que você julgue por conta própria.</p>
+                    <p><strong>Desde 2021</strong> crio conteúdo para ajudar gestores de tráfego e profissionais de marketing a mudarem de vida com o digital.</p>
+                    <p>E agora estou abrindo o método exato que meus alunos estão usando para sair da "guerra de preço" do tráfego e construir bases recorrentes de R$ 20k-40k/mês.</p>
+                    <p style="margin-top: 30px;"><strong>Me acompanhe no Instagram:</strong> <a href="https://instagram.com/oigorsilveira" target="_blank" class="instagram-link">@oigorsilveira</a></p>
+                    <p style="color: #b8c1db;">Veja com seus próprios olhos que eu vivo o que ensino.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who is it for -->
+    <section>
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down"><span aria-hidden="true">✅</span> Para Quem É (e Para Quem NÃO É)</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; max-width: 1050px; margin: 0 auto;">
+                <div data-aos="fade-right">
+                    <h3 style="font-size: 26px; margin-bottom: 30px; color: #4caf50; text-align: center; font-weight: 800;">✅ É Para Você Se:</h3>
+                    <div class="checklist">
+                        <div class="checklist-item yes">
+                            <span class="check-icon">✅</span>
+                            <span>É gestor de tráfego querendo sair da guerra de preço</span>
+                        </div>
+                        <div class="checklist-item yes">
+                            <span class="check-icon">✅</span>
+                            <span>Trabalha com marketing e quer ticket maior</span>
+                        </div>
+                        <div class="checklist-item yes">
+                            <span class="check-icon">✅</span>
+                            <span>Quer construir recorrência previsível</span>
+                        </div>
+                        <div class="checklist-item yes">
+                            <span class="check-icon">✅</span>
+                            <span>Prefere negócios locais (vendem mais fácil)</span>
+                        </div>
+                        <div class="checklist-item yes">
+                            <span class="check-icon">✅</span>
+                            <span>Tem perfil de atendimento/consultoria</span>
+                        </div>
+                        <div class="checklist-item yes">
+                            <span class="check-icon">✅</span>
+                            <span>Quer trabalhar menos horas por mais dinheiro</span>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-left">
+                    <h3 style="font-size: 26px; margin-bottom: 30px; color: #f44336; text-align: center; font-weight: 800;">❌ NÃO É Para Você Se:</h3>
+                    <div class="checklist">
+                        <div class="checklist-item no">
+                            <span class="check-icon">❌</span>
+                            <span>Procura dinheiro rápido sem trabalhar</span>
+                        </div>
+                        <div class="checklist-item no">
+                            <span class="check-icon">❌</span>
+                            <span>Não quer interagir com clientes</span>
+                        </div>
+                        <div class="checklist-item no">
+                            <span class="check-icon">❌</span>
+                            <span>Acha que apertar botão gera dinheiro</span>
+                        </div>
+                        <div class="checklist-item no">
+                            <span class="check-icon">❌</span>
+                            <span>Não tem interesse em aprender vendas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Testimonials -->
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down"><span aria-hidden="true">🎥</span> Veja o Que Nossos Alunos Estão Dizendo</h2>
+            <p class="section-subtitle" data-aos="fade-up">Depoimentos reais em vídeo:</p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; max-width: 1100px; margin: 0 auto;">
+                <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3); border: 2px solid rgba(255, 107, 53, 0.3); aspect-ratio: 9/16;" data-aos="fade-up">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qu172zsIejw" title="Depoimento Rev Pulse" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="display: block;"></iframe>
+                </div>
+                <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3); border: 2px solid rgba(255, 107, 53, 0.3); aspect-ratio: 9/16;" data-aos="fade-up" data-aos-delay="100">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/wuWMbD6_UfM" title="Depoimento Rev Pulse" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="display: block;"></iframe>
+                </div>
+                <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3); border: 2px solid rgba(255, 107, 53, 0.3); aspect-ratio: 9/16;" data-aos="fade-up" data-aos-delay="200">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lkvYDQC44ME" title="Depoimento Rev Pulse" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="display: block;"></iframe>
+                </div>
+                <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3); border: 2px solid rgba(255, 107, 53, 0.3); aspect-ratio: 9/16;" data-aos="fade-up" data-aos-delay="300">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ItiHHRKBAow" title="Depoimento Rev Pulse" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="display: block;"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section style="background: linear-gradient(135deg, #1a1f2e 0%, #252b3d 100%); padding: 100px 0;">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down"><span aria-hidden="true">💬</span> Mais Resultados dos Nossos Alunos</h2>
+            <p class="section-subtitle" data-aos="fade-up">Prints reais de conversas:</p>
+
+            <div class="cards-grid" style="max-width: 1100px; margin: 0 auto;">
+                <div class="card" style="padding: 0; overflow: hidden; border: 2px solid #FF6B35;" data-aos="fade-up">
+                    <picture>
+                        <source srcset="images/depoimento-novo1.webp" type="image/webp">
+                        <img src="images/depoimento-novo1.jpg" alt="Depoimento aluno Rev Pulse - Oking Davi fechou 2 clientes e auto escola com atendente IA WhatsApp" loading="lazy" width="400" height="300" style="width: 100%; height: auto; display: block;">
+                    </picture>
+                    <div style="padding: 30px;">
+                        <h3 style="color: #FF6B35; font-size: 20px; margin-bottom: 15px;">Oking Davi</h3>
+                        <p style="color: #b8c1db; font-size: 15px; line-height: 1.6;"><strong style="color: white;">"Galera tô feliz, fechei mais 2 clientes h..."</strong><br>Fechei uma auto escola hj tb 👏🏻👏🏻👏🏻👏🏻</p>
+                    </div>
+                </div>
+
+                <div class="card" style="padding: 0; overflow: hidden; border: 2px solid #4caf50;" data-aos="fade-up" data-aos-delay="100">
+                    <picture>
+                        <source srcset="images/depoimento-novo2.webp" type="image/webp">
+                        <img src="images/depoimento-novo2.jpg" alt="Depoimento Rev Pulse - Oking Davi bateu meta da mentoria fechando clientes com IA" loading="lazy" width="400" height="300" style="width: 100%; height: auto; display: block;">
+                    </picture>
+                    <div style="padding: 30px;">
+                        <h3 style="color: #4caf50; font-size: 20px; margin-bottom: 15px;">Oking Davi</h3>
+                        <p style="color: #b8c1db; font-size: 15px; line-height: 1.6;"><strong style="color: white;">"Fechei mais 2 clientes hoje"</strong><br>E bati a meta que o Igor flw pra mim na mentoria 🔥</p>
+                    </div>
+                </div>
+
+                <div class="card" style="padding: 0; overflow: hidden; border: 2px solid #FF6B35;" data-aos="fade-up" data-aos-delay="200">
+                    <picture>
+                        <source srcset="images/depoimento-novo3.webp" type="image/webp">
+                        <img src="images/depoimento-novo3.jpg" alt="Depoimento Alecsander Gestor" loading="lazy" style="width: 100%; height: auto; display: block;">
+                    </picture>
+                    <div style="padding: 30px;">
+                        <h3 style="color: #FF6B35; font-size: 20px; margin-bottom: 15px;">Alecsander Gestor</h3>
+                        <p style="color: #b8c1db; font-size: 15px; line-height: 1.6;"><strong style="color: white;">"Consegui mais um cliente loja de colchões"</strong><br>Eles falaram que se tivessem resultado vão me indicar pra loja de material de construção 🚀</p>
+                    </div>
+                </div>
+
+                <div class="card" style="padding: 0; overflow: hidden; border: 2px solid #4caf50;" data-aos="fade-up" data-aos-delay="300">
+                    <picture>
+                        <source srcset="images/depoimento-novo4.webp" type="image/webp">
+                        <img src="images/depoimento-novo4.jpg" alt="Depoimento Luiz Henrique" loading="lazy" style="width: 100%; height: auto; display: block;">
+                    </picture>
+                    <div style="padding: 30px;">
+                        <h3 style="color: #4caf50; font-size: 20px; margin-bottom: 15px;">Luiz Henrique Gonçalves</h3>
+                        <p style="color: #b8c1db; font-size: 15px; line-height: 1.6;"><strong style="color: white;">"Fechei com três recentemente"</strong><br>Um lava-jato, uma de estética e outra de mecânica de caminhões 💪</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="highlight-box" style="margin-top: 60px;" data-aos="zoom-in">
+                <p style="text-align: center; font-size: 20px;"><strong>Esses são apenas alguns dos centenas de alunos que já estão faturando.</strong><br><span style="color: #FF6B35;">E você poderia ser o próximo.</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment -->
+    <section id="investimento" style="background: linear-gradient(135deg, #1a1f2e 0%, #252b3d 100%); padding: 120px 0;">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down"><span aria-hidden="true">💰</span> Investimento</h2>
+            <div class="investment-box" data-aos="zoom-in">
+                <div class="urgency-timer">⏰ OFERTA TERMINA EM:</div>
+                <div class="countdown-timer">
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="countdown-hours">00</div>
+                        <div class="countdown-label">Horas</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="countdown-minutes">00</div>
+                        <div class="countdown-label">Minutos</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="countdown-seconds">00</div>
+                        <div class="countdown-label">Segundos</div>
+                    </div>
+                </div>
+                <h3>🔥 Oferta de Lançamento</h3>
+                <div class="price-box" style="margin: 40px 0;">
+                    <div class="price">
+                        <span class="original-price">R$ 997</span>
+                        R$ 497
+                    </div>
+                    <div class="installment">ou 12x de R$ 57,42 no cartão</div>
+                </div>
+                <p style="color: #4caf50; font-size: 22px; margin: 25px 0; font-weight: 700;">Você economiza: R$ 500</p>
+
+                <h3 style="font-size: 26px; margin: 50px 0 30px; font-weight: 800;">O Que Está Incluído:</h3>
+                <div class="included-list">
+                    <div class="included-item"><strong>Curso Completo</strong> (5 módulos práticos)</div>
+                    <div class="included-item"><strong>Software Rev Pulse Vitalício</strong></div>
+                    <div class="included-item">Conexões WhatsApp <strong>Ilimitadas</strong></div>
+                    <div class="included-item">Templates de IA por Nicho</div>
+                    <div class="included-item">Scripts de Vendas Testados</div>
+                    <div class="included-item">Modelos de Contrato e Proposta</div>
+                    <div class="included-item">Planilha de Precificação</div>
+                    <div class="included-item">Checklist de Implantação</div>
+                    <div class="included-item">Todas as Atualizações Futuras (curso + software)</div>
+                    <div class="included-item">Comunidade Exclusiva</div>
+                    <div class="included-item">Suporte Técnico via WhatsApp</div>
+                </div>
+
+                <a href="https://checkout.pagtrust.com.br/ck5d2ca0eb?funnel=fn9649ed0a" class="cta-button" style="margin-top: 50px;" onclick="fbq('track', 'InitiateCheckout', {value: 497.00, currency: 'BRL', content_name: 'Rev Pulse - Seção Investimento'});" aria-label="Garantir acesso ao Rev Pulse por R$ 497 - Seção investimento">SIM, QUERO GARANTIR POR R$ 497 →</a>
+
+                <div style="display: flex; gap: 20px; justify-content: center; align-items: center; margin: 30px 0; flex-wrap: wrap;">
+                    <div style="display: flex; align-items: center; gap: 8px; color: #4caf50; font-size: 14px; font-weight: 600;">
+                        <i data-feather="shield" style="width: 20px; height: 20px; stroke: #4caf50;"></i>
+                        Pagamento 100% Seguro
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 8px; color: #4caf50; font-size: 14px; font-weight: 600;">
+                        <i data-feather="lock" style="width: 20px; height: 20px; stroke: #4caf50;"></i>
+                        Dados Criptografados
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 8px; color: #4caf50; font-size: 14px; font-weight: 600;">
+                        <i data-feather="credit-card" style="width: 20px; height: 20px; stroke: #4caf50;"></i>
+                        Visa, Master, Pix, Boleto
+                    </div>
+                </div>
+
+                <div class="guarantee-badge" style="margin-top: 20px;">
+                    🔒 Garantia de 7 Dias<br>
+                    <span style="font-size: 14px; color: #a8b3cf;">Não gostou? Devolvemos 100%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonus -->
+    <section>
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down"><span aria-hidden="true">🎁</span> Bônus Incluídos</h2>
+            <div class="bonus-grid">
+                <div class="bonus-card" data-aos="fade-up">
+                    <div class="icon-wrapper" style="margin: 0 auto 20px;">
+                        <i data-feather="file-text"></i>
+                    </div>
+                    <h4>Bônus #1</h4>
+                    <p><strong>50 Templates de IA Prontos</strong></p>
+                    <p style="color: #b8c1db; margin-top: 10px;">Configurações para 50 nichos diferentes. Copie, cole, adapte em minutos.</p>
+                </div>
+                <div class="bonus-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-wrapper" style="margin: 0 auto 20px;">
+                        <i data-feather="trending-up"></i>
+                    </div>
+                    <h4>Bônus #2</h4>
+                    <p><strong>Calculadora de ROI para Cliente</strong></p>
+                    <p style="color: #b8c1db; margin-top: 10px;">Mostre quanto o cliente vai economizar/ganhar. Fecha vendas na apresentação.</p>
+                </div>
+                <div class="bonus-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-wrapper" style="margin: 0 auto 20px;">
+                        <i data-feather="video"></i>
+                    </div>
+                    <h4>Bônus #3</h4>
+                    <p><strong>Vídeo de Apresentação Editável</strong></p>
+                    <p style="color: #b8c1db; margin-top: 10px;">Template pronto mostrando bot funcionando. Personalize e envie para prospects.</p>
+                </div>
+                <div class="bonus-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon-wrapper" style="margin: 0 auto 20px;">
+                        <i data-feather="check-square"></i>
+                    </div>
+                    <h4>Bônus #4</h4>
+                    <p><strong>Checklist de 30 Pontos</strong></p>
+                    <p style="color: #b8c1db; margin-top: 10px;">Implantação profissional sem esquecer nada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section style="background: linear-gradient(135deg, #1a1f2e 0%, #252b3d 100%); padding: 100px 0;">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down"><span aria-hidden="true">📈</span> Sua Realidade em 90 Dias</h2>
+            <div style="max-width: 950px; margin: 0 auto;">
+                <div class="timeline-item" data-aos="fade-right">
+                    <h3>Mês 1</h3>
+                    <ul>
+                        <li>Assiste curso + pratica</li>
+                        <li>Fecha 2-3 primeiros clientes</li>
+                        <li>R$ 7.000 - R$ 12.000</li>
+                        <li><strong style="color: #4caf50;">ROI atingido</strong> (investimento recuperado 14x)</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <h3>Mês 2</h3>
+                    <ul>
+                        <li>5-7 novos clientes</li>
+                        <li>R$ 15.000 - R$ 28.000 em implantações</li>
+                        <li>R$ 3.000 - R$ 5.000 recorrente começando</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right">
+                    <h3>Mês 3</h3>
+                    <ul>
+                        <li>8-10 novos clientes</li>
+                        <li>R$ 24.000 - R$ 40.000 em implantações</li>
+                        <li>R$ 8.000 - R$ 12.000 recorrente</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item" style="border-color: #4caf50;" data-aos="fade-left">
+                    <h3 style="color: #4caf50;">Mês 6</h3>
+                    <ul>
+                        <li>Base de 25-35 clientes</li>
+                        <li><strong style="color: #4caf50;">R$ 18.000 - R$ 35.000/mês recorrentes</strong></li>
+                        <li>Você decide: continua como extra ou vira foco principal?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section>
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">❓ Perguntas que Você Deve Estar Fazendo</h2>
+            <div class="faq-container">
+                <div class="faq-item" data-aos="fade-up">
+                    <div class="faq-question">Preciso saber programar?</div>
+                    <div class="faq-answer">Não. O Rev Pulse é 100% visual. Interface simples, intuitiva. Se usa WhatsApp, consegue fazer.</div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="50">
+                    <div class="faq-question">Quanto tempo para fazer uma implantação?</div>
+                    <div class="faq-answer">
+                        • Simples (restaurante, loja): <strong>2-4 horas</strong><br>
+                        • Médio (clínica sem agenda): <strong>3-5 horas</strong><br>
+                        • Complexo (clínica + Google Calendar): <strong>5-6 horas</strong>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">Quantos clientes consigo atender por mês?</div>
+                    <div class="faq-answer">Tempo integral: 8-12 implantações/mês. Part-time (noites/fins de semana): 3-5/mês.</div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="150">
+                    <div class="faq-question">Preciso pagar pelas APIs das IAs?</div>
+                    <div class="faq-answer">Sim. Você precisa chave OpenAI, Google ou DeepSeek. <strong>MAS:</strong> você repassa esse custo na mensalidade (ensinamos como calcular no curso).<br><br>
+                    Custo real para o cliente:<br>
+                    • Pequeno: R$ 50-150/mês<br>
+                    • Médio: R$ 150-300/mês<br>
+                    • Grande: R$ 300-500/mês<br><br>
+                    Você cobra R$ 497-1.497/mês, então sobra margem para seu suporte.</div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">Consigo vender sem ter cases?</div>
+                    <div class="faq-answer">Sim. O curso ensina vendas com demonstração ao vivo + casos de uso que ressoam com o prospect. Seu primeiro cliente não vai pedir case.</div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="250">
+                    <div class="faq-question">E se o cliente reclamar da IA?</div>
+                    <div class="faq-answer">Por isso você cobra mensalidade: para ajustar, melhorar, garantir satisfação. Faz parte do serviço. (Módulo 4 ensina isso)</div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question">Tem suporte?</div>
+                    <div class="faq-answer">Sim. Suporte técnico via WhatsApp para dúvidas sobre Rev Pulse e implantações.</div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="350">
+                    <div class="faq-question">O cliente descobre que uso Rev Pulse?</div>
+                    <div class="faq-answer">Não precisa. Você presta o <strong>serviço</strong> de atendente IA. A ferramenta que usa é escolha sua. (Pode dizer "meu sistema proprietário")</div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="faq-question">Quanto tempo para ter retorno?</div>
+                    <div class="faq-answer">Primeiro cliente já paga o investimento 4-5x. Realista: retorno em 15-30 dias.</div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="450">
+                    <div class="faq-question">Por que o preço tão baixo?</div>
+                    <div class="faq-answer">Porque é lançamento. Ainda não temos centenas de cases. Quando tivermos, volta para R$ 997.</div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="faq-question">Tem garantia?</div>
+                    <div class="faq-answer">Sim. 7 dias de garantia incondicional. Não gostou? Devolvemos 100%.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Updates -->
+    <section style="background: linear-gradient(135deg, #1a1f2e 0%, #252b3d 100%); padding: 100px 0;">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">🚀 Próximas Atualizações (Você Recebe TUDO)</h2>
+            <div class="cards-grid">
+                <div class="card" data-aos="fade-up">
+                    <div class="icon-wrapper">
+                        <i data-feather="cloud"></i>
+                    </div>
+                    <h3>🔜 Rev Pulse Cloud</h3>
+                    <p>Versão web, cliente nem precisa instalar</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-wrapper">
+                        <i data-feather="bar-chart-2"></i>
+                    </div>
+                    <h3>🔜 Dashboard de Métricas</h3>
+                    <p>Relatórios automáticos</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-wrapper">
+                        <i data-feather="link"></i>
+                    </div>
+                    <h3>🔜 API/Webhooks</h3>
+                    <p>Integre com CRMs</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon-wrapper">
+                        <i data-feather="users"></i>
+                    </div>
+                    <h3>🔜 Multi-atendente</h3>
+                    <p>Vários humanos no Modo Manual</p>
+                </div>
+            </div>
+            <p style="text-align: center; margin-top: 50px; color: #b8c1db; font-style: italic;" data-aos="fade-up"><em>Acesso vitalício = você recebe tudo sem pagar nada a mais.</em></p>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section style="background: linear-gradient(135deg, rgba(26, 31, 46, 0.9) 0%, rgba(15, 20, 31, 0.9) 100%); padding: 120px 0; text-align: center;">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">⏰ Última Chamada</h2>
+            <p style="font-size: 22px; max-width: 850px; margin: 0 auto 60px; color: #b8c1db; font-weight: 500;" data-aos="fade-up">Você tem duas opções hoje:</p>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; max-width: 1000px; margin: 0 auto 70px;">
+                <div class="card" data-aos="fade-right">
+                    <div class="icon-wrapper" style="background: rgba(244, 67, 54, 0.2);">
+                        <i data-feather="x" style="stroke: #f44336;"></i>
+                    </div>
+                    <h3 style="color: #f44336;">Opção 1</h3>
+                    <p>Continuar vendendo gestão de tráfego por R$ 800-1.500/mês. Competir com milhares. Brigar por preço. Trabalhar muito, ganhar pouco.</p>
+                </div>
+                <div class="card" style="border-color: #4caf50;" data-aos="fade-left">
+                    <div class="icon-wrapper" style="background: rgba(76, 175, 80, 0.2);">
+                        <i data-feather="check" style="stroke: #4caf50;"></i>
+                    </div>
+                    <h3 style="color: #4caf50;">Opção 2</h3>
+                    <p>Adicionar um serviço de R$ 2k-8k (implantação) + R$ 497-1.497/mês (recorrente). Menos concorrência. Cliente vê valor imediato. Base recorrente crescente.</p>
+                </div>
+            </div>
+
+            <div class="highlight-box" data-aos="zoom-in">
+                <p style="font-size: 26px; font-weight: 700;"><strong>O Investimento:</strong></p>
+                <p style="font-size: 36px; margin: 25px 0;"><span style="text-decoration: line-through; color: #888;">R$ 997</span> <strong style="color: #FF6B35;">R$ 497</strong> hoje</p>
+                <p style="font-size: 19px;">Primeiro cliente paga isso 5x.<br>Segundo cliente é lucro puro.</p>
+            </div>
+
+            <div class="highlight-box" style="margin-top: 40px;" data-aos="zoom-in" data-aos-delay="100">
+                <p style="font-weight: 700;"><strong>Em 90 dias, você pode ter:</strong></p>
+                <p style="margin: 18px 0;">→ 15-20 clientes implantados</p>
+                <p style="margin: 18px 0;">→ R$ 45.000+ em implantações</p>
+                <p style="margin: 18px 0;">→ R$ 8.000-12.000/mês recorrente</p>
+                <p style="font-size: 26px; color: #FF6B35; margin-top: 35px; font-weight: 800;"><strong>R$ 497 para gerar R$ 50.000+ em 90 dias.</strong></p>
+            </div>
+
+            <a href="https://checkout.pagtrust.com.br/ck5d2ca0eb?funnel=fn9649ed0a" class="cta-button" style="font-size: 24px; padding: 28px 70px; margin-top: 60px;" data-aos="fade-up" data-aos-delay="200" onclick="fbq('track', 'InitiateCheckout', {value: 497.00, currency: 'BRL', content_name: 'Rev Pulse - Última Chamada'});" aria-label="Garantir acesso ao Rev Pulse por R$ 497 - Última chamada">SIM, QUERO GARANTIR ACESSO POR R$ 497 →</a>
+
+            <p style="margin-top: 40px; color: #b8c1db;" data-aos="fade-up" data-aos-delay="300">Após a confirmação do pagamento você recebe:<br>
+            Link de download do Rev Pulse • Acesso à área de membros do curso • Todos os bônus • Acesso à comunidade</p>
+
+            <div class="guarantee-badge" style="margin-top: 50px;" data-aos="fade-up" data-aos-delay="400">
+                🔒 7 Dias de Garantia Incondicional<br>
+                <span style="font-size: 14px; color: #a8b3cf;">Não gostou? Devolvemos 100%</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="logo" style="justify-content: center; margin-bottom: 25px;">
+                <picture>
+                    <source srcset="images/logo-revpulse.webp" type="image/webp">
+                    <img src="images/logo-revpulse.png" alt="Rev Pulse" loading="lazy" style="height: 100px; width: auto;">
+                </picture>
+            </div>
+            <p style="margin: 25px 0; color: #b8c1db; font-weight: 500;">Implante em Horas, Fature em Dias</p>
+            <div>
+                <a href="https://instagram.com/oigorsilveira" target="_blank"><i data-feather="instagram" style="width: 18px; height: 18px; vertical-align: middle;"></i> Instagram @oigorsilveira</a>
+                <a href="#"><i data-feather="message-circle" style="width: 18px; height: 18px; vertical-align: middle;"></i> Suporte WhatsApp</a>
+                <a href="#"><i data-feather="mail" style="width: 18px; height: 18px; vertical-align: middle;"></i> Email</a>
+            </div>
+            <div style="margin-top: 35px;">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+            </div>
+            <p style="margin-top: 35px; color: #666; font-size: 14px;">© 2025 Rev Pulse. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/5511999999999?text=Olá! Tenho interesse no Rev Pulse" class="whatsapp-float" target="_blank">
+        💬
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <script defer>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100,
+            easing: 'ease-out-cubic'
+        });
+
+        // Initialize Feather Icons
+        feather.replace();
+
+        // Animated Counter
+        function animateValue(id, start, end, duration, suffix = '') {
+            const obj = document.getElementById(id);
+            const range = end - start;
+            let current = start;
+            const increment = end > start ? 1 : -1;
+            const stepTime = Math.abs(Math.floor(duration / range));
+            const timer = setInterval(function() {
+                current += increment;
+                obj.innerHTML = `R$ ${current}M`;
+                if (current == end) {
+                    clearInterval(timer);
+                }
+            }, stepTime);
+        }
+
+        // Observe when stats section is visible
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateValue("stat1", 0, 25, 2000);
+                    animateValue("stat2", 0, 169, 2000);
+                    statsObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 }); // Reduzido de 0.5 para 0.1 para melhor detecção
+
+        const authorSection = document.querySelector('.author-section');
+        if (authorSection) {
+            statsObserver.observe(authorSection);
+        } else {
+            // Fallback: se não encontrar a seção, anima após 2 segundos
+            setTimeout(function() {
+                animateValue("stat1", 0, 25, 2000);
+                animateValue("stat2", 0, 169, 2000);
+            }, 2000);
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Parallax effect on hero (DISABLED - was causing overlap issues)
+        // window.addEventListener('scroll', function() {
+        //     const scrolled = window.pageYOffset;
+        //     const hero = document.querySelector('.hero');
+        //     if (hero) {
+        //         hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+        //     }
+        // });
+
+        // Countdown Timer (48 hours, resets every 48h)
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const countdownDuration = 48 * 60 * 60 * 1000; // 48 hours in milliseconds
+
+            // Calculate time since epoch modulo 48 hours
+            const timeSinceEpoch = now % countdownDuration;
+            const timeRemaining = countdownDuration - timeSinceEpoch;
+
+            const hours = Math.floor(timeRemaining / (1000 * 60 * 60));
+            const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+            document.getElementById('countdown-hours').textContent = String(hours).padStart(2, '0');
+            document.getElementById('countdown-minutes').textContent = String(minutes).padStart(2, '0');
+            document.getElementById('countdown-seconds').textContent = String(seconds).padStart(2, '0');
+        }
+
+        // Update countdown immediately and then every second
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+
+        // Facebook Pixel - Advanced Events Tracking
+
+        // ViewContent - Track when user sees investment section
+        const investmentSection = document.getElementById('investimento');
+        if (investmentSection) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        fbq('track', 'ViewContent', {
+                            content_name: 'Seção de Investimento',
+                            content_category: 'Pricing',
+                            value: 497.00,
+                            currency: 'BRL'
+                        });
+                        observer.unobserve(investmentSection);
+                    }
+                });
+            }, { threshold: 0.5 });
+            observer.observe(investmentSection);
+        }
+
+        // Lead - Track engagement with video testimonials
+        const videoIframes = document.querySelectorAll('iframe[src*="youtube"]');
+        videoIframes.forEach((iframe, index) => {
+            iframe.addEventListener('load', function() {
+                console.log('Video testimonial loaded:', index);
+            });
+        });
+
+        // Track scroll depth (Lead event at 50% and 75%)
+        let scrollTracked50 = false;
+        let scrollTracked75 = false;
+
+        window.addEventListener('scroll', function() {
+            const scrollPercent = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
+
+            if (scrollPercent >= 50 && !scrollTracked50) {
+                fbq('track', 'Lead', {
+                    content_name: 'Scroll 50%',
+                    status: 'Engaged'
+                });
+                scrollTracked50 = true;
+            }
+
+            if (scrollPercent >= 75 && !scrollTracked75) {
+                fbq('track', 'Lead', {
+                    content_name: 'Scroll 75%',
+                    status: 'Highly Engaged'
+                });
+                scrollTracked75 = true;
+            }
+        });
+
+        // Track time on page (Lead event at 30s, 60s, 120s)
+        let timeTracked30 = false;
+        let timeTracked60 = false;
+        let timeTracked120 = false;
+
+        setInterval(function() {
+            const timeOnPage = Math.floor((Date.now() - performance.timing.navigationStart) / 1000);
+
+            if (timeOnPage >= 30 && !timeTracked30) {
+                fbq('trackCustom', 'TimeOnPage30s');
+                timeTracked30 = true;
+            }
+
+            if (timeOnPage >= 60 && !timeTracked60) {
+                fbq('trackCustom', 'TimeOnPage60s');
+                timeTracked60 = true;
+            }
+
+            if (timeOnPage >= 120 && !timeTracked120) {
+                fbq('trackCustom', 'TimeOnPage120s');
+                timeTracked120 = true;
+            }
+        }, 5000);
+
+        // Track countdown timer visibility (urgency indicator)
+        const countdownElements = document.querySelectorAll('.countdown-timer');
+        if (countdownElements.length > 0) {
+            const countdownObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        fbq('trackCustom', 'CountdownViewed', {
+                            content_name: 'Urgency Timer',
+                            value: 497.00,
+                            currency: 'BRL'
+                        });
+                        countdownObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            countdownElements.forEach(el => countdownObserver.observe(el));
+        }
+
+        console.log('Facebook Pixel Advanced Tracking Initialized');
+    </script>
+</body>
+</html>

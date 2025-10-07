@@ -1,0 +1,21 @@
+{
+  "name": "revpulse",
+  "version": "1.0.0",
+  "description": "Rev Pulse - Landing Page",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "revpulse",
+    "landing-page"
+  ],
+  "author": "Igor Silveira",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}

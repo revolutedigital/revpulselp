@@ -1,0 +1,48 @@
+# robots.txt para Rev Pulse
+# Otimizado para SEO e rastreamento eficiente
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://revpulse.com.br/sitemap.xml
+
+# Diretivas específicas para Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Diretivas para Googlebot-Image (otimizar rastreamento de imagens)
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Diretivas para Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Bloquear rastreadores ruins/spam
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Permitir rastreadores sociais (importante para OG tags)
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /

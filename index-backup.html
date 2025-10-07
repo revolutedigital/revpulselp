@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rev Pulse - Implante Atendentes IA em Horas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #0f1419;
+            color: #e4e6eb;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: #1a1f2e;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            background: white;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .pulse-icon {
+            width: 40px;
+            height: 3px;
+            background: #FF6B35;
+            position: relative;
+        }
+
+        .pulse-icon::before,
+        .pulse-icon::after {
+            content: '';
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: #FF6B35;
+            border-radius: 50%;
+        }
+
+        .pulse-icon::before {
+            left: 5px;
+            top: -3.5px;
+        }
+
+        .pulse-icon::after {
+            right: 5px;
+            top: -3.5px;
+        }
+
+        .logo-text {
+            font-size: 28px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .header-cta {
+            background: #FF6B35;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+
+        .header-cta:hover {
+            transform: scale(1.05);
+            background: #ff7a47;
+        }
+
+        /* Pre-Hero Story */
+        .pre-hero {
+            background: linear-gradient(135deg, #1a1f2e 0%, #2d3548 100%);
+            padding: 60px 0;
+            text-align: center;
+            border-bottom: 3px solid #FF6B35;
+        }
+
+        .pre-hero h2 {
+            font-size: 20px;
+            color: #a8b3cf;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .person-card {
+            background: #1a1f2e;
+            padding: 30px;
+            border-radius: 12px;
+            border: 2px solid #2d3548;
+        }
+
+        .person-card.winner {
+            border-color: #FF6B35;
+            box-shadow: 0 0 30px rgba(255, 107, 53, 0.2);
+        }
+
+        .person-card h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .person-card p {
+            margin-bottom: 15px;
+            color: #a8b3cf;
+        }
+
+        .person-card .revenue {
+            font-size: 28px;
+            color: #FF6B35;
+            font-weight: 700;
+            margin-top: 20px;
+        }
+
+        .difference {
+            margin-top: 30px;
+            font-size: 18px;
+            color: #FF6B35;
+            font-weight: 600;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 100px 0;
+            text-align: center;
+            background: radial-gradient(circle at top, #2d3548 0%, #0f1419 70%);
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            line-height: 1.2;
+            margin-bottom: 30px;
+            color: white;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero .subtitle {
+            font-size: 20px;
+            color: #a8b3cf;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .pricing-highlight {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+        .pricing-item {
+            text-align: center;
+        }
+
+        .pricing-item .label {
+            font-size: 14px;
+            color: #a8b3cf;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .pricing-item .value {
+            font-size: 32px;
+            color: #FF6B35;
+            font-weight: 700;
+        }
+
+        .price-box {
+            background: #1a1f2e;
+            padding: 30px;
+            border-radius: 12px;
+            display: inline-block;
+            margin: 30px 0;
+            border: 2px solid #FF6B35;
+        }
+
+        .price-box .offer-badge {
+            background: #FF6B35;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .price-box .price {
+            font-size: 48px;
+            color: white;
+            font-weight: 700;
+            margin: 15px 0;
+        }
+
+        .price-box .original-price {
+            text-decoration: line-through;
+            color: #666;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        .price-box .installment {
+            color: #a8b3cf;
+            font-size: 16px;
+        }
+
+        .cta-button {
+            background: #FF6B35;
+            color: white;
+            padding: 20px 50px;
+            font-size: 20px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(255, 107, 53, 0.4);
+        }
+
+        /* Sections */
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-size: 42px;
+            text-align: center;
+            margin-bottom: 50px;
+            color: white;
+        }
+
+        .section-subtitle {
+            font-size: 18px;
+            text-align: center;
+            color: #a8b3cf;
+            max-width: 800px;
+            margin: 0 auto 50px;
+        }
+
+        /* Comparison Table */
+        .comparison-table {
+            background: #1a1f2e;
+            border-radius: 12px;
+            overflow: hidden;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .comparison-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border-bottom: 1px solid #2d3548;
+        }
+
+        .comparison-row:last-child {
+            border-bottom: none;
+        }
+
+        .comparison-cell {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .comparison-cell.header {
+            background: #2d3548;
+            font-weight: 700;
+            color: white;
+        }
+
+        .comparison-cell.highlight {
+            background: rgba(255, 107, 53, 0.1);
+            color: #FF6B35;
+            font-weight: 600;
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .card {
+            background: #1a1f2e;
+            padding: 40px;
+            border-radius: 12px;
+            border: 1px solid #2d3548;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #FF6B35;
+        }
+
+        .card-icon {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .card h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .card p {
+            color: #a8b3cf;
+            line-height: 1.8;
+        }
+
+        /* Feature List */
+        .feature-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .feature-item {
+            background: #1a1f2e;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            border-left: 4px solid #FF6B35;
+        }
+
+        .feature-item h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .feature-item .why {
+            color: #FF6B35;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        /* Author Section */
+        .author-section {
+            background: linear-gradient(135deg, #1a1f2e 0%, #2d3548 100%);
+            padding: 80px 0;
+        }
+
+        .author-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .author-image {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+        }
+
+        .author-text h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        .author-text p {
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: #a8b3cf;
+            line-height: 1.8;
+        }
+
+        .author-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .stat-box {
+            background: #0f1419;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-box .number {
+            font-size: 32px;
+            color: #FF6B35;
+            font-weight: 700;
+        }
+
+        .stat-box .label {
+            color: #a8b3cf;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .instagram-link {
+            color: #FF6B35;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .instagram-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Checklist */
+        .checklist {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .checklist-item {
+            padding: 20px;
+            margin-bottom: 15px;
+            background: #1a1f2e;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .checklist-item.yes {
+            border-left: 4px solid #4caf50;
+        }
+
+        .checklist-item.no {
+            border-left: 4px solid #f44336;
+        }
+
+        .check-icon {
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+
+        /* Investment Section */
+        .investment-box {
+            background: linear-gradient(135deg, #1a1f2e 0%, #2d3548 100%);
+            border: 3px solid #FF6B35;
+            border-radius: 12px;
+            padding: 60px;
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .investment-box h3 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        .included-list {
+            text-align: left;
+            margin: 30px 0;
+        }
+
+        .included-item {
+            padding: 15px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .included-item::before {
+            content: '✅';
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+
+        /* FAQ */
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: #1a1f2e;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 25px 30px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            border-bottom: 2px solid #2d3548;
+        }
+
+        .faq-answer {
+            padding: 25px 30px;
+            color: #a8b3cf;
+            line-height: 1.8;
+        }
+
+        /* Footer */
+        footer {
+            background: #1a1f2e;
+            padding: 40px 0;
+            text-align: center;
+            border-top: 3px solid #FF6B35;
+        }
+
+        footer a {
+            color: #FF6B35;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+
+            .author-content {
+                grid-template-columns: 1fr;
+            }
+
+            .comparison-row {
+                grid-template-columns: 1fr;
+            }
+
+            .comparison-cell:first-child {
+                background: #2d3548;
+                font-weight: 700;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .pricing-highlight {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .logo-container {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+
+        .highlight-box {
+            background: rgba(255, 107, 53, 0.1);
+            border-left: 4px solid #FF6B35;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 40px auto;
+            max-width: 800px;
+        }
+
+        .highlight-box p {
+            font-size: 20px;
+            color: white;
+            margin: 0;
+        }
+
+        .bonus-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .bonus-card {
+            background: #1a1f2e;
+            padding: 30px;
+            border-radius: 12px;
+            border: 2px solid #2d3548;
+            text-align: center;
+        }
+
+        .bonus-card h4 {
+            color: #FF6B35;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .timeline-item {
+            background: #1a1f2e;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border-left: 4px solid #FF6B35;
+        }
+
+        .timeline-item h3 {
+            color: white;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .timeline-item ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .timeline-item li {
+            padding: 8px 0;
+            color: #a8b3cf;
+        }
+
+        .timeline-item li::before {
+            content: '→ ';
+            color: #FF6B35;
+        }
+
+        .guarantee-badge {
+            display: inline-block;
+            background: #1a1f2e;
+            border: 3px solid #4caf50;
+            border-radius: 12px;
+            padding: 20px 40px;
+            margin: 30px 0;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .urgency-timer {
+            background: rgba(255, 107, 53, 0.2);
+            border: 2px solid #FF6B35;
+            border-radius: 8px;
+            padding: 15px 30px;
+            display: inline-block;
+            margin: 20px 0;
+            font-size: 16px;
+            color: #FF6B35;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <div class="pulse-icon"></div>
+                    </div>
+                    <span class="logo-text">RevPulse</span>
+                </div>
+                <a href="#investimento" class="header-cta">Garantir Acesso →</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Pre-Hero Story -->
+    <section class="pre-hero">
+        <div class="container">
+            <h2>Dois gestores de tráfego. Uma diferença brutal:</h2>
+            <div class="comparison-grid">
+                <div class="person-card">
+                    <h3>João</h3>
+                    <p>Fechou <strong>3 clientes</strong></p>
+                    <p>Passou <strong>18 dias</strong> configurando automações no N8N</p>
+                    <p class="revenue">R$ 12.000</p>
+                </div>
+                <div class="person-card winner">
+                    <h3>Maria</h3>
+                    <p>Fechou <strong>11 clientes</strong></p>
+                    <p>Gastou <strong>4 horas</strong> por cliente com Rev Pulse</p>
+                    <p class="revenue">R$ 38.000</p>
+                </div>
+            </div>
+            <p class="difference"><strong>A diferença?</strong> Maria implanta em horas. João demora dias.</p>
+            <p style="margin-top: 20px; color: #a8b3cf;">Enquanto Maria já estava fechando o próximo, João ainda estava debugando webhook.</p>
+        </div>
+    </section>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>Pare de Perder Dinheiro Configurando Bots por Dias Quando Você Pode Implantar em Horas</h1>
+            <p class="subtitle">Aprenda a vender e implantar atendentes IA para negócios locais usando o Rev Pulse — sem programar, sem N8N, sem perder semanas por cliente.</p>
+
+            <div class="pricing-highlight">
+                <div class="pricing-item">
+                    <div class="label">Implantação</div>
+                    <div class="value">R$ 2k - 8k</div>
+                    <p style="color: #a8b3cf; font-size: 14px; margin-top: 5px;">(em 2-6 horas)</p>
+                </div>
+                <div class="pricing-item">
+                    <div class="label">Mensalidade</div>
+                    <div class="value">R$ 497 - 1.497</div>
+                    <p style="color: #a8b3cf; font-size: 14px; margin-top: 5px;">(suporte contínuo)</p>
+                </div>
+            </div>
+
+            <div class="price-box">
+                <div class="offer-badge">🔥 OFERTA DE LANÇAMENTO</div>
+                <div class="price">
+                    <span class="original-price">R$ 997</span>
+                    R$ 497
+                </div>
+                <div class="installment">ou 12x de R$ 57,42 no cartão</div>
+            </div>
+
+            <a href="#investimento" class="cta-button">GARANTIR ACESSO POR R$ 497 →</a>
+        </div>
+    </section>
+
+    <!-- Truth Section -->
+    <section style="background: #1a1f2e; padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title">⚡ A Verdade que Ninguém Te Conta</h2>
+            <div style="max-width: 800px; margin: 0 auto; font-size: 18px; line-height: 1.8; color: #a8b3cf;">
+                <p style="margin-bottom: 20px;">Você já sabe que <strong style="color: white;">atendentes IA são o futuro</strong>.</p>
+                <p style="margin-bottom: 20px;">Você já viu dezenas de pessoas vendendo isso e faturando alto.</p>
+                <p style="margin-bottom: 30px;"><strong style="color: white;">Mas tem um problema:</strong> A maioria usa N8N, Make ou ferramentas complexas que:</p>
+
+                <div class="checklist">
+                    <div class="checklist-item no">
+                        <span class="check-icon">❌</span>
+                        <span>Exigem conhecimento técnico avançado</span>
+                    </div>
+                    <div class="checklist-item no">
+                        <span class="check-icon">❌</span>
+                        <span>Levam DIAS para configurar por cliente</span>
+                    </div>
+                    <div class="checklist-item no">
+                        <span class="check-icon">❌</span>
+                        <span>Travam sua capacidade de escalar</span>
+                    </div>
+                    <div class="checklist-item no">
+                        <span class="check-icon">❌</span>
+                        <span>Te transformam em "técnico de TI" em vez de vendedor</span>
+                    </div>
+                </div>
+
+                <div class="highlight-box" style="margin-top: 40px;">
+                    <p><strong>Resultado:</strong> Você fecha 2-3 clientes/mês no máximo. E passa mais tempo configurando do que vendendo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">✅ Existe um Jeito Melhor</h2>
+            <h3 style="text-align: center; font-size: 24px; margin-bottom: 40px; color: #FF6B35;">Rev Pulse vs N8N: A Diferença que Muda Tudo</h3>
+
+            <div class="comparison-table">
+                <div class="comparison-row">
+                    <div class="comparison-cell header"></div>
+                    <div class="comparison-cell header" style="background: rgba(255, 107, 53, 0.2); color: #FF6B35;">Rev Pulse</div>
+                    <div class="comparison-cell header">N8N</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-cell">Tempo de Implantação</div>
+                    <div class="comparison-cell highlight">2-6 horas</div>
+                    <div class="comparison-cell">3-5 dias</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-cell">Precisa Programar</div>
+                    <div class="comparison-cell highlight">Não</div>
+                    <div class="comparison-cell">Sim</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-cell">Curva de Aprendizado</div>
+                    <div class="comparison-cell highlight">1 dia</div>
+                    <div class="comparison-cell">2-3 semanas</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-cell">Clientes/Mês</div>
+                    <div class="comparison-cell highlight">8-12</div>
+                    <div class="comparison-cell">2-3</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-cell">Interface</div>
+                    <div class="comparison-cell highlight">Visual profissional</div>
+                    <div class="comparison-cell">Técnica/complexa</div>
+                </div>
+            </div>
+
+            <div class="highlight-box" style="margin-top: 50px;">
+                <p style="text-align: center;"><strong>Velocidade = Mais Clientes = Mais Dinheiro</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Math Section -->
+    <section style="background: #1a1f2e; padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title">📈 Faça as Contas Comigo</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3 style="color: #f44336;">Com N8N (ou ferramentas complexas)</h3>
+                    <ul style="list-style: none; padding: 0; margin: 20px 0;">
+                        <li style="padding: 10px 0;">→ 3-5 dias por implantação</li>
+                        <li style="padding: 10px 0;">→ <strong>Máximo:</strong> 3 clientes/mês</li>
+                        <li style="padding: 10px 0;">→ Implantações: R$ 12.000/mês</li>
+                        <li style="padding: 10px 0;">→ Você vira refém da tecnologia</li>
+                    </ul>
+                </div>
+                <div class="card" style="border-color: #FF6B35;">
+                    <h3 style="color: #4caf50;">Com Rev Pulse</h3>
+                    <ul style="list-style: none; padding: 0; margin: 20px 0;">
+                        <li style="padding: 10px 0;">→ 2-6 horas por implantação</li>
+                        <li style="padding: 10px 0;">→ <strong>Realista:</strong> 8-10 clientes/mês</li>
+                        <li style="padding: 10px 0;">→ Implantações: R$ 32.000 - R$ 50.000/mês</li>
+                        <li style="padding: 10px 0;">→ Você escala e ainda tem vida</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="highlight-box" style="margin-top: 50px;">
+                <p style="text-align: center; font-size: 24px;"><strong>Diferença anual:</strong> R$ 240.000 vs R$ 480.000+</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is Rev Pulse -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">🎯 O Que É o Rev Pulse?</h2>
+            <p class="section-subtitle"><strong>Curso Completo + Software Vitalício</strong> que ensina gestores de tráfego a vender e implantar atendentes IA para negócios locais — do zero ao primeiro cliente pagando.</p>
+
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div class="timeline-item">
+                    <h3>📚 Módulo 1: Prospecção e Vendas</h3>
+                    <ul>
+                        <li>Nichos mais rentáveis e por quê</li>
+                        <li>Script de vendas que uso há 2 anos</li>
+                        <li>Como cobrar R$ 8k sem culpa</li>
+                        <li>Apresentação que fecha sozinha</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>💻 Módulo 2: Implantação Rápida</h3>
+                    <ul>
+                        <li>Domínio completo do Rev Pulse</li>
+                        <li>Templates prontos por nicho (clínicas, restaurantes, lojas, advogados, academias)</li>
+                        <li>Google Calendar integrado</li>
+                        <li>Follow-up automático</li>
+                        <li>Áudios humanizados</li>
+                        <li>Envio de mídias</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>🎯 Módulo 3: Entrega que Fideliza</h3>
+                    <ul>
+                        <li>Checklist de entrega profissional</li>
+                        <li>Treinamento do cliente (30 min)</li>
+                        <li>Primeiros resultados em 48h</li>
+                        <li>O que monitorar na primeira semana</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>💰 Módulo 4: Mensalidade e Suporte</h3>
+                    <ul>
+                        <li>Como justificar R$ 497-1.497/mês</li>
+                        <li>Suporte que retém clientes</li>
+                        <li>Relatórios simples que provam valor</li>
+                        <li>Upsells naturais</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>🚀 Módulo 5: Escala (10, 20, 50 clientes)</h3>
+                    <ul>
+                        <li>Gestão de múltiplos clientes</li>
+                        <li>Quando contratar ajuda</li>
+                        <li>Processos que funcionam</li>
+                        <li>Contratos e propostas prontos</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="margin-top: 60px;">
+                <h3 style="text-align: center; font-size: 28px; margin-bottom: 30px;">💻 Software Rev Pulse (Vitalício)</h3>
+                <div class="included-list" style="max-width: 700px; margin: 0 auto;">
+                    <div class="included-item">Conexões WhatsApp <strong>ilimitadas</strong></div>
+                    <div class="included-item">Interface profissional que impressiona</div>
+                    <div class="included-item">GPT, Gemini e DeepSeek</div>
+                    <div class="included-item">Google Calendar integrado</div>
+                    <div class="included-item">Follow-up automático</div>
+                    <div class="included-item">Áudios humanizados</div>
+                    <div class="included-item">Envio de mídias completo</div>
+                    <div class="included-item">Modo IA / Modo Manual</div>
+                    <div class="included-item">Sem mensalidade NUNCA</div>
+                    <div class="included-item">Atualizações futuras incluídas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section style="background: #1a1f2e; padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title">🔥 Funcionalidades que Fecham Vendas</h2>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h3>🤖 IA Contextual (GPT, Gemini, DeepSeek)</h3>
+                    <p>Entende contexto completo, responde naturalmente, resolve problemas reais.</p>
+                    <p class="why"><strong>Por que fecha:</strong> Cliente vê a IA respondendo como se fosse ele.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>📅 Google Calendar Automático</h3>
+                    <p>Cliente do seu cliente agenda → já cai na agenda do Google.</p>
+                    <p class="why"><strong>Por que fecha:</strong> Dono de clínica/salão/consultório ODEIA agenda bagunçada.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>🔄 Follow-Up Inteligente</h3>
+                    <p>Reengaja quem parou de responder. Automático.</p>
+                    <p class="why"><strong>Por que fecha:</strong> Todo vendedor odeia fazer follow-up manual.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>🎙️ Áudios com Voz Real</h3>
+                    <p>Envia áudios com voz humanizada ou voz do próprio cliente.</p>
+                    <p class="why"><strong>Por que fecha:</strong> "Parece que é uma pessoa de verdade!"</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>📊 Modo Manual com 1 Clique</h3>
+                    <p>Desliga IA e assume controle humano instantaneamente.</p>
+                    <p class="why"><strong>Por que fecha:</strong> Cliente não fica "refém do robô".</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>📎 Envio Automático de Mídias</h3>
+                    <p>Cardápio, fotos, documentos, vídeos. Tudo automatizado.</p>
+                    <p class="why"><strong>Por que fecha:</strong> Restaurante envia cardápio. Clínica envia antes/depois. Automático.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Niches -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">🎯 Nichos Mais Rentáveis</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">🏥</div>
+                    <h3>Clínicas e Consultórios</h3>
+                    <p><strong style="color: #FF6B35;">Implantação:</strong> R$ 5.000 - R$ 8.000<br>
+                    <strong style="color: #FF6B35;">Mensalidade:</strong> R$ 997 - R$ 1.497</p>
+                    <p style="margin-top: 15px; color: #a8b3cf;">Agenda complexa, não podem perder paciente, ticket alto por consulta.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">⚖️</div>
+                    <h3>Advogados e Consultores</h3>
+                    <p><strong style="color: #FF6B35;">Implantação:</strong> R$ 4.000 - R$ 6.000<br>
+                    <strong style="color: #FF6B35;">Mensalidade:</strong> R$ 897 - R$ 1.297</p>
+                    <p style="margin-top: 15px; color: #a8b3cf;">Qualificação de leads é crucial, ticket alto, querem parecer profissionais.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">💪</div>
+                    <h3>Academias e Estúdios</h3>
+                    <p><strong style="color: #FF6B35;">Implantação:</strong> R$ 4.000 - R$ 6.000<br>
+                    <strong style="color: #FF6B35;">Mensalidade:</strong> R$ 797 - R$ 1.297</p>
+                    <p style="margin-top: 15px; color: #a8b3cf;">Aula experimental, follow-up de leads, confirmações automáticas.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🍕</div>
+                    <h3>Restaurantes e Deliverys</h3>
+                    <p><strong style="color: #FF6B35;">Implantação:</strong> R$ 3.000 - R$ 5.000<br>
+                    <strong style="color: #FF6B35;">Mensalidade:</strong> R$ 697 - R$ 997</p>
+                    <p style="margin-top: 15px; color: #a8b3cf;">Perdem pedidos à noite/madrugada, envio de cardápio, recompra automática.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🏪</div>
+                    <h3>Lojas (Física + Online)</h3>
+                    <p><strong style="color: #FF6B35;">Implantação:</strong> R$ 2.500 - R$ 4.000<br>
+                    <strong style="color: #FF6B35;">Mensalidade:</strong> R$ 597 - R$ 897</p>
+                    <p style="margin-top: 15px; color: #a8b3cf;">Responder sobre produtos, enviar fotos, recuperar carrinhos abandonados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Author Section -->
+    <section class="author-section">
+        <div class="container">
+            <h2 class="section-title">👤 Quem Está Te Ensinando Isso?</h2>
+            <div class="author-content">
+                <div>
+                    <img src="images/familia.jpg" alt="Igor Silveira e família" class="author-image">
+                </div>
+                <div class="author-text">
+                    <h2>Igor Silveira</h2>
+                    <p>Meu nome é <strong>Igor Silveira</strong>, pai da Helena e da Heloísa, esposo da Brenda.</p>
+                    <p>E não sou "guru de internet que surgiu do nada".</p>
+                    <p>Sou fundador da <strong>Revolute Digital</strong>, uma assessoria de tráfego e comercial com <strong>mais de 15 colaboradores</strong>.</p>
+                    <p>Em <strong>7 anos de mercado</strong>, eu investi <strong>R$ 25 MILHÕES em tráfego pago</strong> e gerei <strong>R$ 169 MILHÕES em vendas</strong> para meus clientes.</p>
+
+                    <div class="author-stats">
+                        <div class="stat-box">
+                            <div class="number">R$ 25M</div>
+                            <div class="label">Investidos em Tráfego</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="number">R$ 169M</div>
+                            <div class="label">Gerados em Vendas</div>
+                        </div>
+                    </div>
+
+                    <p>Quando comecei com tráfego pago para negócios locais, era mato. Ninguém entendia o que eu fazia.</p>
+                    <p>Hoje, o mercado me considera referência. Mas prefiro que você julgue por conta própria.</p>
+                    <p><strong>Desde 2021</strong> crio conteúdo para ajudar gestores de tráfego e profissionais de marketing a mudarem de vida com o digital.</p>
+                    <p>E agora estou abrindo o método exato que meus alunos estão usando para sair da "guerra de preço" do tráfego e construir bases recorrentes de R$ 20k-40k/mês.</p>
+                    <p style="margin-top: 30px;"><strong>Me acompanhe no Instagram:</strong> <a href="https://instagram.com/oigorsilveira" target="_blank" class="instagram-link">@oigorsilveira</a></p>
+                    <p style="color: #a8b3cf;">Veja com seus próprios olhos que eu vivo o que ensino.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who is it for -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">✅ Para Quem É (e Para Quem NÃO É)</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; max-width: 1000px; margin: 0 auto;">
+                <div>
+                    <h3 style="font-size: 24px; margin-bottom: 20px; color: #4caf50; text-align: center;">✅ É Para Você Se:</h3>
+                    <div class="checklist">
+                        <div class="checklist-item yes">
+                            <span class="check-icon">✅</span>
+                            <span>É gestor de tráfego querendo sair da guerra de preço</span>
+                        </div>
+                        <div class="checklist-item yes">
+                            <span class="check-icon">✅</span>
+                            <span>Trabalha com marketing e quer ticket maior</span>
+                        </div>
+                        <div class="checklist-item yes">
+                            <span class="check-icon">✅</span>
+                            <span>Quer construir recorrência previsível</span>
+                        </div>
+                        <div class="checklist-item yes">
+                            <span class="check-icon">✅</span>
+                            <span>Prefere negócios locais (vendem mais fácil)</span>
+                        </div>
+                        <div class="checklist-item yes">
+                            <span class="check-icon">✅</span>
+                            <span>Tem perfil de atendimento/consultoria</span>
+                        </div>
+                        <div class="checklist-item yes">
+                            <span class="check-icon">✅</span>
+                            <span>Quer trabalhar menos horas por mais dinheiro</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 style="font-size: 24px; margin-bottom: 20px; color: #f44336; text-align: center;">❌ NÃO É Para Você Se:</h3>
+                    <div class="checklist">
+                        <div class="checklist-item no">
+                            <span class="check-icon">❌</span>
+                            <span>Procura dinheiro rápido sem trabalhar</span>
+                        </div>
+                        <div class="checklist-item no">
+                            <span class="check-icon">❌</span>
+                            <span>Não quer interagir com clientes</span>
+                        </div>
+                        <div class="checklist-item no">
+                            <span class="check-icon">❌</span>
+                            <span>Acha que apertar botão gera dinheiro</span>
+                        </div>
+                        <div class="checklist-item no">
+                            <span class="check-icon">❌</span>
+                            <span>Não tem interesse em aprender vendas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment -->
+    <section id="investimento" style="background: #1a1f2e; padding: 100px 0;">
+        <div class="container">
+            <h2 class="section-title">💰 Investimento</h2>
+            <div class="investment-box">
+                <div class="urgency-timer">⏰ Esta oferta expira em breve</div>
+                <h3>🔥 Oferta de Lançamento</h3>
+                <div class="price-box" style="margin: 30px 0;">
+                    <div class="price">
+                        <span class="original-price">R$ 997</span>
+                        R$ 497
+                    </div>
+                    <div class="installment">ou 12x de R$ 57,42 no cartão</div>
+                </div>
+                <p style="color: #4caf50; font-size: 20px; margin: 20px 0;">Você economiza: R$ 500</p>
+
+                <h3 style="font-size: 24px; margin: 40px 0 20px;">O Que Está Incluído:</h3>
+                <div class="included-list">
+                    <div class="included-item"><strong>Curso Completo</strong> (5 módulos práticos)</div>
+                    <div class="included-item"><strong>Software Rev Pulse Vitalício</strong></div>
+                    <div class="included-item">Conexões WhatsApp <strong>Ilimitadas</strong></div>
+                    <div class="included-item">Templates de IA por Nicho</div>
+                    <div class="included-item">Scripts de Vendas Testados</div>
+                    <div class="included-item">Modelos de Contrato e Proposta</div>
+                    <div class="included-item">Planilha de Precificação</div>
+                    <div class="included-item">Checklist de Implantação</div>
+                    <div class="included-item">Todas as Atualizações Futuras (curso + software)</div>
+                    <div class="included-item">Comunidade Exclusiva</div>
+                    <div class="included-item">Suporte Técnico via WhatsApp</div>
+                </div>
+
+                <a href="#" class="cta-button" style="margin-top: 40px;">SIM, QUERO GARANTIR POR R$ 497 →</a>
+
+                <div class="guarantee-badge" style="margin-top: 30px;">
+                    🔒 Garantia de 7 Dias<br>
+                    <span style="font-size: 14px; color: #a8b3cf;">Não gostou? Devolvemos 100%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonus -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">🎁 Bônus Incluídos</h2>
+            <div class="bonus-grid">
+                <div class="bonus-card">
+                    <h4>Bônus #1</h4>
+                    <p><strong>50 Templates de IA Prontos</strong></p>
+                    <p style="color: #a8b3cf; margin-top: 10px;">Configurações para 50 nichos diferentes. Copie, cole, adapte em minutos.</p>
+                </div>
+                <div class="bonus-card">
+                    <h4>Bônus #2</h4>
+                    <p><strong>Calculadora de ROI para Cliente</strong></p>
+                    <p style="color: #a8b3cf; margin-top: 10px;">Mostre quanto o cliente vai economizar/ganhar. Fecha vendas na apresentação.</p>
+                </div>
+                <div class="bonus-card">
+                    <h4>Bônus #3</h4>
+                    <p><strong>Vídeo de Apresentação Editável</strong></p>
+                    <p style="color: #a8b3cf; margin-top: 10px;">Template pronto mostrando bot funcionando. Personalize e envie para prospects.</p>
+                </div>
+                <div class="bonus-card">
+                    <h4>Bônus #4</h4>
+                    <p><strong>Checklist de 30 Pontos</strong></p>
+                    <p style="color: #a8b3cf; margin-top: 10px;">Implantação profissional sem esquecer nada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section style="background: #1a1f2e; padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title">📈 Sua Realidade em 90 Dias</h2>
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div class="timeline-item">
+                    <h3>Mês 1</h3>
+                    <ul>
+                        <li>Assiste curso + pratica</li>
+                        <li>Fecha 2-3 primeiros clientes</li>
+                        <li>R$ 7.000 - R$ 12.000</li>
+                        <li><strong style="color: #4caf50;">ROI atingido</strong> (investimento recuperado 14x)</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>Mês 2</h3>
+                    <ul>
+                        <li>5-7 novos clientes</li>
+                        <li>R$ 15.000 - R$ 28.000 em implantações</li>
+                        <li>R$ 3.000 - R$ 5.000 recorrente começando</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>Mês 3</h3>
+                    <ul>
+                        <li>8-10 novos clientes</li>
+                        <li>R$ 24.000 - R$ 40.000 em implantações</li>
+                        <li>R$ 8.000 - R$ 12.000 recorrente</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item" style="border-color: #4caf50;">
+                    <h3 style="color: #4caf50;">Mês 6</h3>
+                    <ul>
+                        <li>Base de 25-35 clientes</li>
+                        <li><strong style="color: #4caf50;">R$ 18.000 - R$ 35.000/mês recorrentes</strong></li>
+                        <li>Você decide: continua como extra ou vira foco principal?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">❓ Perguntas que Você Deve Estar Fazendo</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Preciso saber programar?</div>
+                    <div class="faq-answer">Não. O Rev Pulse é 100% visual. Interface simples, intuitiva. Se usa WhatsApp, consegue fazer.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Quanto tempo para fazer uma implantação?</div>
+                    <div class="faq-answer">
+                        • Simples (restaurante, loja): <strong>2-4 horas</strong><br>
+                        • Médio (clínica sem agenda): <strong>3-5 horas</strong><br>
+                        • Complexo (clínica + Google Calendar): <strong>5-6 horas</strong>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Quantos clientes consigo atender por mês?</div>
+                    <div class="faq-answer">Tempo integral: 8-12 implantações/mês. Part-time (noites/fins de semana): 3-5/mês.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Preciso pagar pelas APIs das IAs?</div>
+                    <div class="faq-answer">Sim. Você precisa chave OpenAI, Google ou DeepSeek. <strong>MAS:</strong> você repassa esse custo na mensalidade (ensinamos como calcular no curso).<br><br>
+                    Custo real para o cliente:<br>
+                    • Pequeno: R$ 50-150/mês<br>
+                    • Médio: R$ 150-300/mês<br>
+                    • Grande: R$ 300-500/mês<br><br>
+                    Você cobra R$ 497-1.497/mês, então sobra margem para seu suporte.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Consigo vender sem ter cases?</div>
+                    <div class="faq-answer">Sim. O curso ensina vendas com demonstração ao vivo + casos de uso que ressoam com o prospect. Seu primeiro cliente não vai pedir case.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">E se o cliente reclamar da IA?</div>
+                    <div class="faq-answer">Por isso você cobra mensalidade: para ajustar, melhorar, garantir satisfação. Faz parte do serviço. (Módulo 4 ensina isso)</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Tem suporte?</div>
+                    <div class="faq-answer">Sim. Suporte técnico via WhatsApp para dúvidas sobre Rev Pulse e implantações.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">O cliente descobre que uso Rev Pulse?</div>
+                    <div class="faq-answer">Não precisa. Você presta o <strong>serviço</strong> de atendente IA. A ferramenta que usa é escolha sua. (Pode dizer "meu sistema proprietário")</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Quanto tempo para ter retorno?</div>
+                    <div class="faq-answer">Primeiro cliente já paga o investimento 4-5x. Realista: retorno em 15-30 dias.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Por que o preço tão baixo?</div>
+                    <div class="faq-answer">Porque é lançamento. Ainda não temos centenas de cases. Quando tivermos, volta para R$ 997.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Tem garantia?</div>
+                    <div class="faq-answer">Sim. 7 dias de garantia incondicional. Não gostou? Devolvemos 100%.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Updates -->
+    <section style="background: #1a1f2e; padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title">🚀 Próximas Atualizações (Você Recebe TUDO)</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>🔜 Rev Pulse Cloud</h3>
+                    <p>Versão web, cliente nem precisa instalar</p>
+                </div>
+                <div class="card">
+                    <h3>🔜 Dashboard de Métricas</h3>
+                    <p>Relatórios automáticos</p>
+                </div>
+                <div class="card">
+                    <h3>🔜 API/Webhooks</h3>
+                    <p>Integre com CRMs</p>
+                </div>
+                <div class="card">
+                    <h3>🔜 Multi-atendente</h3>
+                    <p>Vários humanos no Modo Manual</p>
+                </div>
+            </div>
+            <p style="text-align: center; margin-top: 30px; color: #a8b3cf;"><em>Acesso vitalício = você recebe tudo sem pagar nada a mais.</em></p>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section style="background: linear-gradient(135deg, #2d3548 0%, #0f1419 70%); padding: 100px 0; text-align: center;">
+        <div class="container">
+            <h2 class="section-title">⏰ Última Chamada</h2>
+            <p style="font-size: 20px; max-width: 800px; margin: 0 auto 40px; color: #a8b3cf;">Você tem duas opções hoje:</p>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; max-width: 900px; margin: 0 auto 50px;">
+                <div class="card">
+                    <h3 style="color: #f44336;">Opção 1</h3>
+                    <p>Continuar vendendo gestão de tráfego por R$ 800-1.500/mês. Competir com milhares. Brigar por preço. Trabalhar muito, ganhar pouco.</p>
+                </div>
+                <div class="card" style="border-color: #4caf50;">
+                    <h3 style="color: #4caf50;">Opção 2</h3>
+                    <p>Adicionar um serviço de R$ 2k-8k (implantação) + R$ 497-1.497/mês (recorrente). Menos concorrência. Cliente vê valor imediato. Base recorrente crescente.</p>
+                </div>
+            </div>
+
+            <div class="highlight-box">
+                <p style="font-size: 24px;"><strong>O Investimento:</strong></p>
+                <p style="font-size: 32px; margin: 20px 0;"><span style="text-decoration: line-through; color: #666;">R$ 997</span> <strong style="color: #FF6B35;">R$ 497</strong> hoje</p>
+                <p style="font-size: 18px;">Primeiro cliente paga isso 5x.<br>Segundo cliente é lucro puro.</p>
+            </div>
+
+            <div class="highlight-box" style="margin-top: 30px;">
+                <p><strong>Em 90 dias, você pode ter:</strong></p>
+                <p style="margin: 15px 0;">→ 15-20 clientes implantados</p>
+                <p style="margin: 15px 0;">→ R$ 45.000+ em implantações</p>
+                <p style="margin: 15px 0;">→ R$ 8.000-12.000/mês recorrente</p>
+                <p style="font-size: 24px; color: #FF6B35; margin-top: 30px;"><strong>R$ 497 para gerar R$ 50.000+ em 90 dias.</strong></p>
+            </div>
+
+            <a href="#" class="cta-button" style="font-size: 24px; padding: 25px 60px; margin-top: 50px;">SIM, QUERO GARANTIR ACESSO POR R$ 497 →</a>
+
+            <p style="margin-top: 30px; color: #a8b3cf;">Após a confirmação do pagamento você recebe:<br>
+            Link de download do Rev Pulse • Acesso à área de membros do curso • Todos os bônus • Acesso à comunidade</p>
+
+            <div class="guarantee-badge" style="margin-top: 40px;">
+                🔒 7 Dias de Garantia Incondicional<br>
+                <span style="font-size: 14px; color: #a8b3cf;">Não gostou? Devolvemos 100%</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="logo" style="justify-content: center; margin-bottom: 20px;">
+                <div class="logo-icon">
+                    <div class="pulse-icon"></div>
+                </div>
+                <span class="logo-text">RevPulse</span>
+            </div>
+            <p style="margin: 20px 0; color: #a8b3cf;">Implante em Horas, Fature em Dias</p>
+            <div>
+                <a href="https://instagram.com/oigorsilveira" target="_blank">📱 Instagram @oigorsilveira</a>
+                <a href="#">💬 Suporte WhatsApp</a>
+                <a href="#">📧 Email</a>
+            </div>
+            <div style="margin-top: 30px;">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+            </div>
+            <p style="margin-top: 30px; color: #666; font-size: 14px;">© 2025 Rev Pulse. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
