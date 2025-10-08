@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Inteligente: Diferenças Entre Regras e IA | Rev Pulse Blog</title>
+    <meta name="description" content="Entenda as diferenças fundamentais entre chatbots baseados em regras e chatbots com IA. Descubra qual é o melhor para seu negócio.">
+    <meta name="author" content="Igor Silveira - Rev Pulse">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <!-- SEO -->
+    <link rel="canonical" href="https://revpulse.com.br/blog/artigos/chatbot-inteligente.html">
+    <meta property="article:published_time" content="2025-01-19T10:00:00-03:00">
+    <meta property="article:modified_time" content="2025-01-19T10:00:00-03:00">
+    <meta property="article:author" content="Igor Silveira">
+    <meta property="article:section" content="Automação com IA">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://revpulse.com.br/blog/artigos/chatbot-inteligente.html">
+    <meta property="og:title" content="Chatbot Inteligente: Diferenças Entre Regras e IA">
+    <meta property="og:description" content="Aprenda as diferenças entre chatbots de regras e IA. Escolha a solução certa para seu negócio.">
+    <meta property="og:image" content="https://revpulse.com.br/blog/images/chatbot-inteligente.webp">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Rev Pulse Blog">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://revpulse.com.br/blog/artigos/chatbot-inteligente.html">
+    <meta name="twitter:title" content="Chatbot Inteligente: Diferenças Entre Regras e IA">
+    <meta name="twitter:description" content="Aprenda as diferenças entre chatbots de regras e IA.">
+    <meta name="twitter:image" content="https://revpulse.com.br/blog/images/chatbot-inteligente.webp">
+    <meta name="twitter:creator" content="@oigorsilveira">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../../images/logo-mini.png">
+    <link rel="apple-touch-icon" href="../../images/logo-mini.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Schema Markup - Article -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Chatbot Inteligente: Diferenças Entre Regras e IA",
+      "description": "Entenda as diferenças fundamentais entre chatbots baseados em regras e chatbots com IA. Descubra qual é o melhor para seu negócio.",
+      "image": "https://revpulse.com.br/blog/images/chatbot-inteligente.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Igor Silveira",
+        "url": "https://revpulse.com.br",
+        "image": "https://revpulse.com.br/images/familia.webp"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rev Pulse",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://revpulse.com.br/images/logo-revpulse.png"
+        }
+      },
+      "datePublished": "2025-01-19T10:00:00-03:00",
+      "dateModified": "2025-01-19T10:00:00-03:00",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://revpulse.com.br/blog/artigos/chatbot-inteligente.html"
+      }
+    }
+    </script>
+
+    <!-- Schema Markup - BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://revpulse.com.br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://revpulse.com.br/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chatbot Inteligente",
+          "item": "https://revpulse.com.br/blog/artigos/chatbot-inteligente.html"
+        }
+      ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="../blog-styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <a href="../../index.html" class="logo" aria-label="Rev Pulse - Página Inicial">
+                    <div class="logo-icon">
+                        <svg class="pulse-wave" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 10H5L8 4L12 16L16 7L20 13L23 10H30" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <span class="logo-text">Rev Pulse</span>
+                </a>
+                <nav>
+                    <a href="../../index.html" class="nav-link">Home</a>
+                    <a href="../index.html" class="nav-link">Blog</a>
+                    <a href="../../index.html#cta" class="cta-button-nav">Começar Agora</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Article Content -->
+    <main class="article-main">
+        <article class="article-container">
+            <!-- Breadcrumb -->
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <a href="../../index.html">Home</a>
+                <span>/</span>
+                <a href="../index.html">Blog</a>
+                <span>/</span>
+                <span>Chatbot Inteligente</span>
+            </nav>
+
+            <!-- Article Header -->
+            <header class="article-header" data-aos="fade-up">
+                <h1 class="article-title">Chatbot Inteligente: Diferenças Entre Regras e IA</h1>
+                <div class="article-meta">
+                    <img src="../../images/familia.webp" alt="Igor Silveira" class="author-avatar">
+                    <div class="meta-info">
+                        <span class="author-name">Igor Silveira</span>
+                        <time datetime="2025-01-19T10:00:00-03:00" class="publish-date">19 de Janeiro de 2025</time>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Article Body -->
+            <div class="article-body" data-aos="fade-up" data-aos-delay="200">
+                <p>A confusão é comum: todo mundo fala em <strong>chatbot inteligente</strong>, mas poucos entendem a diferença brutal entre um chatbot baseado em regras e um verdadeiramente inteligente com IA. E essa diferença pode custar ou gerar milhares de reais por mês.</p>
+
+                <p>Neste guia completo, vou te mostrar exatamente como cada tipo funciona, quando usar cada um, e como escolher a solução certa sem desperdiçar dinheiro.</p>
+
+                <h2>O Que é um Chatbot Baseado em Regras?</h2>
+
+                <p>Imagine uma árvore de decisões gigante. Cliente digita algo, sistema verifica se contém palavras-chave específicas e segue caminho pré-programado.</p>
+
+                <p><strong>Exemplo prático:</strong></p>
+
+                <p>Cliente digita: "Quero comprar pizza"</p>
+                <ul>
+                    <li>Sistema detecta palavra "pizza"</li>
+                    <li>Mostra menu de pizzas</li>
+                    <li>Cliente escolhe sabor</li>
+                    <li>Sistema pergunta tamanho</li>
+                    <li>E assim por diante...</li>
+                </ul>
+
+                <p>Funciona perfeitamente... até cliente digitar "tô com fome, vcs fazem pizza?" — aí trava, porque não foi programado para essa variação.</p>
+
+                <h3>Como Funciona Por Dentro</h3>
+
+                <p>Baseado em:</p>
+                <ul>
+                    <li><strong>If/Then (Se/Então):</strong> Se cliente digitar X, responda Y</li>
+                    <li><strong>Palavras-chave:</strong> Busca termos específicos na mensagem</li>
+                    <li><strong>Fluxos lineares:</strong> Pergunta 1 → Resposta → Pergunta 2 → Resposta</li>
+                    <li><strong>Zero contexto:</strong> Não lembra conversa anterior</li>
+                </ul>
+
+                <h2>O Que é um Chatbot com IA (Inteligente de Verdade)</h2>
+
+                <p>Usa Processamento de Linguagem Natural (NLP) e Machine Learning para <strong>entender intenção</strong>, não apenas palavras.</p>
+
+                <p><strong>Mesmo exemplo:</strong></p>
+
+                <p>Cliente digita qualquer variação:</p>
+                <ul>
+                    <li>"Quero comprar pizza"</li>
+                    <li>"Tô com fome, vcs fazem pizza?"</li>
+                    <li>"qro uma piza"</li>
+                    <li>"Tem pizza aí?"</li>
+                    <li>"Pode fazer entrega de pizza?"</li>
+                </ul>
+
+                <p>Sistema entende que <strong>intenção</strong> é comprar pizza — e responde apropriadamente em todos os casos.</p>
+
+                <h3>Como Funciona Por Dentro</h3>
+
+                <p>Baseado em:</p>
+                <ul>
+                    <li><strong>Análise de intenção:</strong> Entende o que cliente quer, não apenas o que digitou</li>
+                    <li><strong>Extração de entidades:</strong> Identifica elementos importantes (produto, quantidade, local)</li>
+                    <li><strong>Análise de sentimento:</strong> Detecta se cliente está feliz, frustrado ou neutro</li>
+                    <li><strong>Contexto conversacional:</strong> Lembra tudo que foi dito antes</li>
+                    <li><strong>Aprendizado contínuo:</strong> Melhora com cada conversa</li>
+                </ul>
+
+                <h2>Comparação Direta: Regras vs IA</h2>
+
+                <h3>Capacidade de Entendimento</h3>
+
+                <p><strong>Chatbot de Regras:</strong></p>
+                <ul>
+                    <li>Entende apenas frases exatas ou com palavras-chave programadas</li>
+                    <li>Falha com sinônimos, gírias ou erros de digitação</li>
+                    <li>Precisa que cliente se adapte ao sistema</li>
+                </ul>
+
+                <p><strong>Chatbot com IA:</strong></p>
+                <ul>
+                    <li>Entende variações infinitas da mesma intenção</li>
+                    <li>Funciona com sinônimos, gírias, erros de digitação</li>
+                    <li>Sistema se adapta ao cliente</li>
+                </ul>
+
+                <h3>Flexibilidade</h3>
+
+                <p><strong>Chatbot de Regras:</strong></p>
+                <ul>
+                    <li>Conversas lineares e rígidas</li>
+                    <li>Cliente precisa seguir fluxo pré-definido</li>
+                    <li>Qualquer desvio quebra o atendimento</li>
+                </ul>
+
+                <p><strong>Chatbot com IA:</strong></p>
+                <ul>
+                    <li>Conversas naturais e fluidas</li>
+                    <li>Cliente pode falar de qualquer jeito</li>
+                    <li>Sistema mantém contexto mesmo com mudanças de assunto</li>
+                </ul>
+
+                <h3>Custo e Complexidade</h3>
+
+                <p><strong>Chatbot de Regras:</strong></p>
+                <ul>
+                    <li>Mais barato: R$ 50-300/mês</li>
+                    <li>Fácil de criar: plataformas visuais, arrasta e solta</li>
+                    <li>Não requer conhecimento técnico</li>
+                </ul>
+
+                <p><strong>Chatbot com IA:</strong></p>
+                <ul>
+                    <li>Mais caro: R$ 300-1.500/mês</li>
+                    <li>Configuração mais complexa: precisa treinar modelos</li>
+                    <li>Pode requerer suporte técnico inicial</li>
+                </ul>
+
+                <h3>Manutenção</h3>
+
+                <p><strong>Chatbot de Regras:</strong></p>
+                <ul>
+                    <li>Alta manutenção: precisa criar regra para cada variação</li>
+                    <li>Cresce exponencialmente: 10 intenções = 100+ regras</li>
+                    <li>Você programa tudo manualmente</li>
+                </ul>
+
+                <p><strong>Chatbot com IA:</strong></p>
+                <ul>
+                    <li>Baixa manutenção: aprende automaticamente</li>
+                    <li>Escala linear: 10 intenções = 10 configurações</li>
+                    <li>Sistema aprende sozinho com uso</li>
+                </ul>
+
+                <h3>Taxa de Sucesso</h3>
+
+                <p><strong>Chatbot de Regras:</strong></p>
+                <ul>
+                    <li>50-65% de resolução automática</li>
+                    <li>Alta taxa de frustração quando cliente sai do script</li>
+                    <li>Muitas transferências para humanos</li>
+                </ul>
+
+                <p><strong>Chatbot com IA:</strong></p>
+                <ul>
+                    <li>75-90% de resolução automática</li>
+                    <li>Clientes sentem conversa natural</li>
+                    <li>Transferências apenas quando realmente necessário</li>
+                </ul>
+
+                <h2>Quando Usar Chatbot de Regras</h2>
+
+                <h3>1. Negócios com Interações Muito Previsíveis</h3>
+
+                <p>Exemplo: Pizzaria que só recebe pedidos seguindo sempre mesma sequência (sabor → tamanho → borda → endereço → pagamento).</p>
+
+                <h3>2. Orçamento Muito Limitado</h3>
+
+                <p>Se você tem menos de R$ 200/mês para investir, comece com regras. Melhor ter automação simples que nenhuma.</p>
+
+                <h3>3. Volume Baixo e Simples</h3>
+
+                <p>Menos de 100 conversas/mês com perguntas repetitivas — regras funcionam bem.</p>
+
+                <h3>4. FAQ Automatizado</h3>
+
+                <p>Se objetivo é apenas responder perguntas frequentes básicas (horário, endereço, preços), regras são suficientes.</p>
+
+                <h2>Quando Usar Chatbot com IA</h2>
+
+                <h3>1. Conversas Variadas e Complexas</h3>
+
+                <p>Clientes fazem perguntas de 100 formas diferentes, mudam de assunto, cometem erros de digitação.</p>
+
+                <h3>2. Alto Volume de Atendimentos</h3>
+
+                <p>Mais de 500 conversas/mês — IA escala muito melhor que regras.</p>
+
+                <h3>3. Qualificação de Leads</h3>
+
+                <p>Precisa entender nuances, detectar intenção de compra, personalizar abordagem — IA é essencial.</p>
+
+                <h3>4. Vendas Consultivas</h3>
+
+                <p>Produtos que exigem recomendações personalizadas baseadas em preferências do cliente.</p>
+
+                <h3>5. Suporte Técnico</h3>
+
+                <p>Clientes descrevem problemas de formas únicas — IA entende e diagnostica melhor.</p>
+
+                <h3>6. Múltiplos Idiomas ou Gírias Regionais</h3>
+
+                <p>IA lida muito melhor com variações linguísticas.</p>
+
+                <h2>A Solução Híbrida (Recomendada)</h2>
+
+                <p>A melhor estratégia para 80% dos negócios é combinar ambos:</p>
+
+                <h3>Use Regras Para:</h3>
+                <ul>
+                    <li>Fluxos lineares simples (ex: agendamento)</li>
+                    <li>Menus de navegação</li>
+                    <li>Confirmações e notificações</li>
+                </ul>
+
+                <h3>Use IA Para:</h3>
+                <ul>
+                    <li>Entender intenção inicial do cliente</li>
+                    <li>Responder perguntas abertas</li>
+                    <li>Qualificar leads</li>
+                    <li>Lidar com variações de linguagem</li>
+                </ul>
+
+                <p><strong>Resultado:</strong> Custo-benefício ideal + melhor experiência do cliente.</p>
+
+                <h2>Exemplos Práticos de Cada Tipo</h2>
+
+                <h3>Exemplo 1: Agendamento de Consultas</h3>
+
+                <p><strong>Versão com Regras:</strong></p>
+                <ul>
+                    <li>Bot: "Digite 1 para agendar, 2 para remarcar, 3 para cancelar"</li>
+                    <li>Cliente: "1"</li>
+                    <li>Bot: "Escolha especialidade: 1-Clínico, 2-Pediatra, 3-Dermatologista"</li>
+                    <li>Cliente: "dermatologista" → Sistema trava (esperava "3")</li>
+                </ul>
+
+                <p><strong>Versão com IA:</strong></p>
+                <ul>
+                    <li>Cliente: "Preciso marcar consulta com dermatologista"</li>
+                    <li>Bot: "Claro! Temos horários disponíveis na terça e quinta. Qual prefere?"</li>
+                    <li>Cliente: "tersa de tarde" (com erro de digitação)</li>
+                    <li>Bot: "Perfeito! Terça à tarde. Temos 14h e 16h. Qual melhor para você?"</li>
+                </ul>
+
+                <h3>Exemplo 2: Suporte Técnico</h3>
+
+                <p><strong>Versão com Regras:</strong></p>
+                <ul>
+                    <li>Cliente: "Internet não funciona"</li>
+                    <li>Bot: "Digite 1 se o problema é lentidão, 2 se é queda total"</li>
+                    <li>Cliente: "Tá muito lenta e caindo direto" → Sistema não entende</li>
+                </ul>
+
+                <p><strong>Versão com IA:</strong></p>
+                <ul>
+                    <li>Cliente: "Internet tá muito lenta e caindo direto"</li>
+                    <li>Bot: "Entendo, está enfrentando lentidão e quedas. Vou te ajudar. Já tentou reiniciar o roteador?"</li>
+                    <li>Sistema detecta frustração e prioriza atendimento</li>
+                </ul>
+
+                <h2>Como Avaliar Qual Você Precisa</h2>
+
+                <h3>Faça Este Teste Rápido:</h3>
+
+                <p>Responda estas perguntas:</p>
+
+                <ol>
+                    <li>Seus clientes fazem perguntas sempre do mesmo jeito? (Se sim +1 ponto Regras)</li>
+                    <li>Você atende menos de 200 conversas/mês? (Se sim +1 ponto Regras)</li>
+                    <li>Seu orçamento é menor que R$ 300/mês? (Se sim +1 ponto Regras)</li>
+                    <li>Clientes usam muitas gírias ou erros de digitação? (Se sim +1 ponto IA)</li>
+                    <li>Você precisa qualificar leads? (Se sim +1 ponto IA)</li>
+                    <li>Atendimento envolve recomendações personalizadas? (Se sim +1 ponto IA)</li>
+                </ol>
+
+                <p><strong>Resultado:</strong></p>
+                <ul>
+                    <li><strong>3+ pontos Regras:</strong> Comece com chatbot baseado em regras</li>
+                    <li><strong>3+ pontos IA:</strong> Invista em chatbot com IA</li>
+                    <li><strong>Empate:</strong> Use solução híbrida</li>
+                </ul>
+
+                <h2>Principais Plataformas de Cada Tipo</h2>
+
+                <h3>Chatbots Baseados em Regras</h3>
+
+                <ul>
+                    <li><strong>ManyChat:</strong> R$ 15-300/mês, focado em Instagram/Facebook</li>
+                    <li><strong>Chatfuel:</strong> Grátis até 50 conversas, depois R$ 60+/mês</li>
+                    <li><strong>Landbot:</strong> R$ 150-400/mês, visual bonito</li>
+                    <li><strong>Rev Pulse (modo básico):</strong> Pagamento único R$ 497</li>
+                </ul>
+
+                <h3>Chatbots com IA</h3>
+
+                <ul>
+                    <li><strong>Dialogflow (Google):</strong> R$ 300-1.200/mês, poderoso mas complexo</li>
+                    <li><strong>Watson Assistant (IBM):</strong> R$ 800+/mês, para grandes empresas</li>
+                    <li><strong>Rev Pulse (modo IA):</strong> Pagamento único R$ 497 + integrações</li>
+                    <li><strong>Blip:</strong> R$ 600-1.500/mês, brasileiro</li>
+                </ul>
+
+                <h2>Erros Fatais na Escolha</h2>
+
+                <h3>Erro 1: Escolher IA Quando Não Precisa</h3>
+
+                <p>Cliente paga R$ 1.200/mês por IA para responder 10 perguntas simples/dia. Desperdício total.</p>
+
+                <h3>Erro 2: Escolher Regras Quando IA é Necessária</h3>
+
+                <p>E-commerce com 500 conversas/dia usando regras — frustra clientes, perde vendas.</p>
+
+                <h3>Erro 3: Não Testar Antes de Decidir</h3>
+
+                <p>A maioria das plataformas oferece trial gratuito. Teste com clientes reais antes de comprometer.</p>
+
+                <h3>Erro 4: Achar Que IA Funciona Sozinha</h3>
+
+                <p>IA precisa ser treinada. Esperar que funcione perfeitamente no dia 1 é ilusão.</p>
+
+                <h2>Migração: Como Evoluir de Regras para IA</h2>
+
+                <p>Começou com regras e agora precisa de IA? Não precisa jogar tudo fora:</p>
+
+                <h3>Passo 1: Identifique Gargalos</h3>
+
+                <p>Onde chatbot de regras mais falha? Quais conversas frustram clientes?</p>
+
+                <h3>Passo 2: Implemente IA Gradualmente</h3>
+
+                <p>Mantenha regras para fluxos que funcionam. Adicione IA apenas onde necessário.</p>
+
+                <h3>Passo 3: Treine com Conversas Reais</h3>
+
+                <p>Use histórico de conversas do chatbot de regras para treinar IA.</p>
+
+                <h3>Passo 4: Teste A/B</h3>
+
+                <p>50% dos clientes veem versão regras, 50% veem IA. Compare resultados.</p>
+
+                <h2>Conclusão: Escolha Inteligente Economiza Milhares</h2>
+
+                <p>Não existe "melhor" absoluto — existe melhor para seu contexto específico.</p>
+
+                <p>Chatbot de regras bem feito é melhor que IA mal implementada. E vice-versa.</p>
+
+                <p>A chave é honestidade brutal sobre suas necessidades reais, não sobre o que parece mais impressionante.</p>
+
+                <p>Comece simples. Teste rápido. Evolua baseado em dados. O cliente não liga se é regra ou IA — liga se funciona.</p>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="article-cta" data-aos="fade-up">
+                <h3>Pronto para Criar Seu Chatbot Inteligente?</h3>
+                <p>Aprenda a criar e vender atendentes IA para WhatsApp sem programar. Curso completo + software vitalício por R$ 497.</p>
+                <a href="../../index.html#cta" class="cta-button">Quero Começar Agora →</a>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <svg class="pulse-wave" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 10H5L8 4L12 16L16 7L20 13L23 10H30" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <span class="logo-text">Rev Pulse</span>
+                    </div>
+                    <p class="footer-description">Crie e venda atendentes IA para WhatsApp sem programar.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Links Úteis</h4>
+                        <a href="../../index.html">Home</a>
+                        <a href="../index.html">Blog</a>
+                        <a href="../../index.html#cta">Começar Agora</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contato</h4>
+                        <a href="https://instagram.com/oigorsilveira" target="_blank" rel="noopener">Instagram</a>
+                        <a href="https://www.youtube.com/@oigorsilveira" target="_blank" rel="noopener">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rev Pulse. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init({
+                duration: 1000,
+                once: true,
+                offset: 100,
+                easing: 'ease-out-cubic'
+            });
+        });
+    </script>
+</body>
+</html>

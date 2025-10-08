@@ -4,7 +4,8 @@
   "description": "Rev Pulse - Landing Page",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "blog": "node server-blog.js"
   },
   "keywords": [
     "revpulse",

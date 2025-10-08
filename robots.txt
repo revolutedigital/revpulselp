@@ -7,6 +7,10 @@ Allow: /
 # Sitemap
 Sitemap: https://revpulse.com.br/sitemap.xml
 
+# Permitir rastreamento do blog
+Allow: /blog/
+Allow: /blog/artigos/
+
 # Diretivas específicas para Google
 User-agent: Googlebot
 Allow: /
