@@ -5,8 +5,30 @@ const app = express();
 // Porta dinâmica para Railway
 const PORT = process.env.PORT || 3000;
 
-// Servir arquivos estáticos
-app.use(express.static(__dirname));
+// Servir arquivos estáticos com cache agressivo
+app.use(express.static(__dirname, {
+  maxAge: '1h',
+  etag: true,
+  lastModified: true,
+  setHeaders: (res, filepath) => {
+    // HTML: cache de 10 minutos no browser, 1h no CDN
+    if (filepath.endsWith('.html')) {
+      res.setHeader('Cache-Control', 'public, max-age=600, s-maxage=3600');
+    }
+    // CSS/JS: cache de 1 dia
+    else if (filepath.endsWith('.css') || filepath.endsWith('.js')) {
+      res.setHeader('Cache-Control', 'public, max-age=86400, immutable');
+    }
+    // Imagens: cache de 7 dias
+    else if (filepath.match(/\.(jpg|jpeg|png|gif|webp|svg|ico)$/)) {
+      res.setHeader('Cache-Control', 'public, max-age=604800, immutable');
+    }
+    // Sitemap/Robots: cache de 1 dia
+    else if (filepath.match(/\.(xml|txt)$/)) {
+      res.setHeader('Cache-Control', 'public, max-age=86400');
+    }
+  }
+}));
 
 // Configurar MIME types corretos
 app.use((req, res, next) => {

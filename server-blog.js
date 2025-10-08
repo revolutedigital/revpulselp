@@ -5,8 +5,26 @@ const app = express();
 // Porta 8080 para o blog
 const PORT = 8080;
 
-// Servir arquivos estáticos da raiz do projeto
-app.use(express.static(__dirname));
+// Servir arquivos estáticos com cache de 1 hora
+app.use(express.static(__dirname, {
+  maxAge: '1h',
+  etag: true,
+  lastModified: true,
+  setHeaders: (res, filepath) => {
+    // HTML: cache de 10 minutos
+    if (filepath.endsWith('.html')) {
+      res.setHeader('Cache-Control', 'public, max-age=600, s-maxage=3600');
+    }
+    // CSS/JS: cache de 1 dia
+    else if (filepath.endsWith('.css') || filepath.endsWith('.js')) {
+      res.setHeader('Cache-Control', 'public, max-age=86400, immutable');
+    }
+    // Imagens: cache de 7 dias
+    else if (filepath.match(/\.(jpg|jpeg|png|gif|webp|svg|ico)$/)) {
+      res.setHeader('Cache-Control', 'public, max-age=604800, immutable');
+    }
+  }
+}));
 
 // Configurar MIME types corretos
 app.use((req, res, next) => {
