@@ -104,13 +104,20 @@
     }
     </script>
 
-    <!-- Google Analytics -->
+    <!-- Google Analytics (otimizado) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SR5P3T2D2S"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-SR5P3T2D2S');
+      gtag('config', 'G-SR5P3T2D2S', {
+        'send_page_view': false
+      });
+
+      // Enviar pageview após load para não bloquear
+      window.addEventListener('load', function() {
+        gtag('event', 'page_view');
+      });
     </script>
 
     <link rel="stylesheet" href="blog-styles.css">
