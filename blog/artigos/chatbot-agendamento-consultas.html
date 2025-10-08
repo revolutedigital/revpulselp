@@ -43,10 +43,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet"></noscript>
 
-    <!-- AOS Animation - Lazy load -->
-    <link rel="preload" href="https://unpkg.com/aos@next/dist/aos.css" as="style">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"></noscript>
+    <!-- AOS removido para melhor performance mobile -->
 
     <!-- Schema Markup - Article -->
     <script type="application/ld+json">
@@ -151,7 +148,7 @@
             </nav>
 
             <!-- Article Header -->
-            <header class="article-header" data-aos="fade-up">
+            <header class="article-header">
                 <h1 class="article-title">Chatbot para Agendamento de Consultas: Solução para Clínicas</h1>
                 <div class="article-meta">
                     <img src="../../images/familia.webp" alt="Igor Silveira" class="author-avatar" fetchpriority="high">
@@ -163,7 +160,7 @@
             </header>
 
             <!-- Article Body -->
-            <div class="article-body" data-aos="fade-up" data-aos-delay="200">
+            <div class="article-body">
                 <p>Se você trabalha em uma clínica ou consultório, sabe o caos que é gerenciar agendamentos por telefone. Ligações perdidas, pacientes remarcando a toda hora, agenda desorganizada, recepcionista sobrecarregada. <strong>E o pior: 30-40% das consultas agendadas resultam em no-show (paciente não comparece)</strong>.</p>
 
                 <p>Um chatbot para agendamento de consultas resolve todos esses problemas. Neste guia completo, vou te mostrar exatamente como implementar um sistema de agendamento automatizado que funciona 24 horas, reduz no-show em até 70%, e libera sua recepção para tarefas mais importantes.</p>
@@ -637,7 +634,7 @@ async function getAvailableSlots(doctorCalendarId, date) {
             </div>
 
             <!-- CTA Section -->
-            <div class="article-cta" data-aos="fade-up">
+            <div class="article-cta">
                 <h3>Quer Automatizar Agendamentos na Sua Clínica?</h3>
                 <p>Implemente chatbot de agendamento completo com Rev Pulse. Integração com calendário, lembretes automáticos e conformidade LGPD. Tudo por R$ 497.</p>
                 <a href="https://revpulse.com.br/#cta" class="cta-button">Quero Começar Agora →</a>
@@ -680,17 +677,6 @@ async function getAvailableSlots(doctorCalendarId, date) {
         </div>
     </footer>
 
-    <!-- Scripts -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            AOS.init({
-                duration: 1000,
-                once: true,
-                offset: 100,
-                easing: 'ease-out-cubic'
-            });
-        });
-    </script>
+    <!-- AOS removido para melhor performance mobile -->
 </body>
 </html>

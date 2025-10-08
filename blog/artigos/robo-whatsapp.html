@@ -43,10 +43,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet"></noscript>
 
-    <!-- AOS Animation - Lazy load -->
-    <link rel="preload" href="https://unpkg.com/aos@next/dist/aos.css" as="style">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"></noscript>
+    <!-- AOS removido para melhor performance mobile -->
 
     <!-- Schema Markup - Article -->
     <script type="application/ld+json">
@@ -151,7 +148,7 @@
             </nav>
 
             <!-- Article Header -->
-            <header class="article-header" data-aos="fade-up">
+            <header class="article-header">
                 <h1 class="article-title">Robô WhatsApp: Vale a Pena? Análise Completa</h1>
                 <div class="article-meta">
                     <img src="../../images/familia.webp" alt="Igor Silveira" class="author-avatar" fetchpriority="high">
@@ -163,7 +160,7 @@
             </header>
 
             <!-- Article Body -->
-            <div class="article-body" data-aos="fade-up" data-aos-delay="200">
+            <div class="article-body">
                 <p>Todo dono de negócio já se perguntou: <strong>vale a pena investir em robô WhatsApp?</strong> A resposta honesta é: depende. E neste artigo vou te mostrar exatamente de que depende.</p>
 
                 <p>Vou analisar custos reais, benefícios comprovados, armadilhas comuns e te dar um framework para decidir se faz sentido pro SEU negócio especificamente.</p>
@@ -505,7 +502,7 @@
             </div>
 
             <!-- CTA Section -->
-            <div class="article-cta" data-aos="fade-up">
+            <div class="article-cta">
                 <h3>Pronto para Testar se Robô WhatsApp Vale para Você?</h3>
                 <p>Aprenda a criar e vender atendentes IA para WhatsApp sem programar. Curso completo + software vitalício por R$ 497.</p>
                 <a href="https://revpulse.com.br/#cta" class="cta-button">Quero Começar Agora →</a>
@@ -548,17 +545,6 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            AOS.init({
-                duration: 1000,
-                once: true,
-                offset: 100,
-                easing: 'ease-out-cubic'
-            });
-        });
-    </script>
+    <!-- AOS removido para melhor performance mobile -->
 </body>
 </html>

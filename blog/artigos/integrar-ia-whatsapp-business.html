@@ -43,10 +43,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet"></noscript>
 
-    <!-- AOS Animation - Lazy load -->
-    <link rel="preload" href="https://unpkg.com/aos@next/dist/aos.css" as="style">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"></noscript>
+    <!-- AOS removido para melhor performance mobile -->
 
     <!-- Schema Markup - Article -->
     <script type="application/ld+json">
@@ -151,7 +148,7 @@
             </nav>
 
             <!-- Article Header -->
-            <header class="article-header" data-aos="fade-up">
+            <header class="article-header">
                 <h1 class="article-title">Como Integrar IA com WhatsApp Business: Tutorial Técnico</h1>
                 <div class="article-meta">
                     <img src="../../images/familia.webp" alt="Igor Silveira" class="author-avatar" fetchpriority="high">
@@ -163,7 +160,7 @@
             </header>
 
             <!-- Article Body -->
-            <div class="article-body" data-aos="fade-up" data-aos-delay="200">
+            <div class="article-body">
                 <p>Integrar inteligência artificial com WhatsApp Business pode parecer intimidador se você nunca mexeu com APIs. Mas a verdade é que <strong>qualquer pessoa com conhecimento básico de programação</strong> consegue fazer essa integração em algumas horas.</p>
 
                 <p>Neste tutorial técnico, vou te mostrar exatamente como conectar IA (ChatGPT, Claude, ou modelos open-source) com WhatsApp Business API. Você vai aprender desde a configuração inicial até ter um assistente inteligente conversando naturalmente com seus clientes.</p>
@@ -769,7 +766,7 @@ async function generateResponseLlama(message, context) {
             </div>
 
             <!-- CTA Section -->
-            <div class="article-cta" data-aos="fade-up">
+            <div class="article-cta">
                 <h3>Quer Integrar IA com WhatsApp Sem Programar?</h3>
                 <p>No Rev Pulse você conecta IA ao WhatsApp em cliques, sem código. Plataforma completa + treinamento por R$ 497.</p>
                 <a href="https://revpulse.com.br/#cta" class="cta-button">Quero Começar Agora →</a>
@@ -812,17 +809,6 @@ async function generateResponseLlama(message, context) {
         </div>
     </footer>
 
-    <!-- Scripts -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            AOS.init({
-                duration: 1000,
-                once: true,
-                offset: 100,
-                easing: 'ease-out-cubic'
-            });
-        });
-    </script>
+    <!-- AOS removido para melhor performance mobile -->
 </body>
 </html>

@@ -43,10 +43,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet"></noscript>
 
-    <!-- AOS Animation - Lazy load -->
-    <link rel="preload" href="https://unpkg.com/aos@next/dist/aos.css" as="style">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"></noscript>
+    <!-- AOS removido para melhor performance mobile -->
 
     <!-- Schema Markup - Article -->
     <script type="application/ld+json">
@@ -151,7 +148,7 @@
             </nav>
 
             <!-- Article Header -->
-            <header class="article-header" data-aos="fade-up">
+            <header class="article-header">
                 <h1 class="article-title">Passo a Passo para Criar Bot no WhatsApp: Do Zero ao Primeiro Cliente</h1>
                 <div class="article-meta">
                     <img src="../../images/familia.webp" alt="Igor Silveira" class="author-avatar" fetchpriority="high">
@@ -163,7 +160,7 @@
             </header>
 
             <!-- Article Body -->
-            <div class="article-body" data-aos="fade-up" data-aos-delay="200">
+            <div class="article-body">
                 <p>Quer criar um bot no WhatsApp mas não sabe nem por onde começar? Você está no lugar certo. Este é o guia mais completo e prático da internet para <strong>criar bot WhatsApp do absoluto zero</strong> até conseguir seu primeiro cliente pagando.</p>
 
                 <p>Vou te guiar em cada etapa do processo, sem pular nada, sem enrolação técnica, direto ao ponto. No final, você terá seu bot funcionando E saberá como conseguir clientes.</p>
@@ -594,7 +591,7 @@ Se "Fazer Pedido":
             </div>
 
             <!-- CTA Section -->
-            <div class="article-cta" data-aos="fade-up">
+            <div class="article-cta">
                 <h3>Quer Um Sistema Pronto para Criar Bots E Vender?</h3>
                 <p>Aprenda a criar e vender bots WhatsApp profissionalmente com curso completo + plataforma vitalícia. R$ 497 pagamento único.</p>
                 <a href="https://revpulse.com.br/#cta" class="cta-button">Quero Começar Agora →</a>
@@ -637,17 +634,6 @@ Se "Fazer Pedido":
         </div>
     </footer>
 
-    <!-- Scripts -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            AOS.init({
-                duration: 1000,
-                once: true,
-                offset: 100,
-                easing: 'ease-out-cubic'
-            });
-        });
-    </script>
+    <!-- AOS removido para melhor performance mobile -->
 </body>
 </html>

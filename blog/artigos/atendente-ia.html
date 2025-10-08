@@ -43,10 +43,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet"></noscript>
 
-    <!-- AOS Animation - Lazy load -->
-    <link rel="preload" href="https://unpkg.com/aos@next/dist/aos.css" as="style">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"></noscript>
+    <!-- AOS removido para melhor performance mobile -->
 
     <!-- Schema Markup - Article -->
     <script type="application/ld+json">
@@ -151,7 +148,7 @@
             </nav>
 
             <!-- Article Header -->
-            <header class="article-header" data-aos="fade-up">
+            <header class="article-header">
                 <h1 class="article-title">Atendente IA: Como Treinar e Implementar em Seu Negócio</h1>
                 <div class="article-meta">
                     <img src="../../images/familia.webp" alt="Igor Silveira" class="author-avatar" fetchpriority="high">
@@ -163,7 +160,7 @@
             </header>
 
             <!-- Article Body -->
-            <div class="article-body" data-aos="fade-up" data-aos-delay="200">
+            <div class="article-body">
                 <p>Criar um <strong>atendente IA</strong> eficaz não é só apertar botões e esperar mágica acontecer. Exige treinamento estratégico, implementação cuidadosa e otimização contínua.</p>
 
                 <p>Neste guia completo, vou te mostrar o processo exato — do zero até atendente funcionando perfeitamente — que usei em dezenas de negócios com resultados comprovados.</p>
@@ -615,7 +612,7 @@
             </div>
 
             <!-- CTA Section -->
-            <div class="article-cta" data-aos="fade-up">
+            <div class="article-cta">
                 <h3>Pronto para Treinar Seu Atendente IA?</h3>
                 <p>Aprenda a criar e vender atendentes IA para WhatsApp sem programar. Curso completo + software vitalício por R$ 497.</p>
                 <a href="https://revpulse.com.br/#cta" class="cta-button">Quero Começar Agora →</a>
@@ -658,17 +655,6 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            AOS.init({
-                duration: 1000,
-                once: true,
-                offset: 100,
-                easing: 'ease-out-cubic'
-            });
-        });
-    </script>
+    <!-- AOS removido para melhor performance mobile -->
 </body>
 </html>
