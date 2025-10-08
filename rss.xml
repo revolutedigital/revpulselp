@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rev Pulse Blog - Chatbots e Automação com IA</title>
+    <link>https://revpulse.com.br/blog/</link>
+    <description>Aprenda tudo sobre chatbots WhatsApp, automação com IA e como criar um negócio lucrativo vendendo atendentes virtuais</description>
+    <language>pt-BR</language>
+    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://revpulse.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://revpulse.com.br/images/logo-revpulse.png</url>
+      <title>Rev Pulse Blog</title>
+      <link>https://revpulse.com.br/blog/</link>
+    </image>
+
+    <!-- Artigo 1 -->
+    <item>
+      <title>Chatbot WhatsApp: Guia Completo para Automatizar Seu Atendimento</title>
+      <link>https://revpulse.com.br/blog/artigos/chatbot-whatsapp.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/chatbot-whatsapp.html</guid>
+      <pubDate>Wed, 15 Jan 2025 10:00:00 GMT</pubDate>
+      <description>Descubra como um chatbot WhatsApp pode revolucionar seu atendimento. Aprenda a criar, implementar e lucrar com automação inteligente.</description>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <author>Igor Silveira</author>
+    </item>
+
+    <!-- Artigo 2 -->
+    <item>
+      <title>Atendente Virtual: Como Funciona e Por Que Sua Empresa Precisa</title>
+      <link>https://revpulse.com.br/blog/artigos/atendente-virtual.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/atendente-virtual.html</guid>
+      <pubDate>Wed, 15 Jan 2025 10:00:00 GMT</pubDate>
+      <description>Entenda o que é um atendente virtual, como ele funciona e por que sua empresa precisa de um para escalar o atendimento.</description>
+      <category>Atendente Virtual</category>
+      <category>IA</category>
+      <author>Igor Silveira</author>
+    </item>
+
+    <!-- Artigo 3 -->
+    <item>
+      <title>Automação WhatsApp: Guia Definitivo para Negócios</title>
+      <link>https://revpulse.com.br/blog/artigos/automacao-whatsapp.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/automacao-whatsapp.html</guid>
+      <pubDate>Wed, 15 Jan 2025 10:00:00 GMT</pubDate>
+      <description>Aprenda a automatizar seu WhatsApp Business com estratégias comprovadas e aumente suas vendas em até 300%.</description>
+      <category>Automação</category>
+      <category>WhatsApp Business</category>
+      <author>Igor Silveira</author>
+    </item>
+
+    <!-- Artigo 4 -->
+    <item>
+      <title>Como Criar Chatbot WhatsApp Sem Programar</title>
+      <link>https://revpulse.com.br/blog/artigos/como-criar-chatbot-whatsapp-sem-programar.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/como-criar-chatbot-whatsapp-sem-programar.html</guid>
+      <pubDate>Wed, 15 Jan 2025 10:00:00 GMT</pubDate>
+      <description>Guia passo a passo para criar seu chatbot WhatsApp sem escrever uma linha de código.</description>
+      <category>Tutorial</category>
+      <category>No-Code</category>
+      <author>Igor Silveira</author>
+    </item>
+
+    <!-- Artigo 5 -->
+    <item>
+      <title>Como Vender Chatbot para Empresas Locais</title>
+      <link>https://revpulse.com.br/blog/artigos/como-vender-chatbot-empresas-locais.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/como-vender-chatbot-empresas-locais.html</guid>
+      <pubDate>Wed, 15 Jan 2025 10:00:00 GMT</pubDate>
+      <description>Estratégias de prospecção e vendas para prestadores de serviço de chatbot.</description>
+      <category>Vendas</category>
+      <category>Negócios</category>
+      <author>Igor Silveira</author>
+    </item>
+
+    <!-- Adicione mais artigos conforme necessário -->
+
+  </channel>
+</rss>
