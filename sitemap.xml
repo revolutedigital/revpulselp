@@ -1,267 +1,379 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
-  <!-- Homepage / Landing Page Principal -->
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://revpulse.com.br/</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-
-    <!-- Imagens da página -->
-    <image:image>
-      <image:loc>https://revpulse.com.br/images/logo-revpulse.png</image:loc>
-      <image:title>RevPulse Logo</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://revpulse.com.br/images/logo-mini.png</image:loc>
-      <image:title>RevPulse Mini Logo</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://revpulse.com.br/images/familia.jpg</image:loc>
-      <image:title>Igor Silveira e família - Fundador RevPulse</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://revpulse.com.br/images/depoimento-novo1.jpg</image:loc>
-      <image:title>Depoimento RevPulse - Oking Davi</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://revpulse.com.br/images/depoimento-novo2.jpg</image:loc>
-      <image:title>Depoimento RevPulse - Oking Davi Meta</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://revpulse.com.br/images/depoimento-novo3.jpg</image:loc>
-      <image:title>Depoimento RevPulse - Alecsander Gestor</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://revpulse.com.br/images/depoimento-novo4.jpg</image:loc>
-      <image:title>Depoimento RevPulse - Luiz Henrique</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://revpulse.com.br/images/og-image.jpg</image:loc>
-      <image:title>RevPulse - Atendentes IA para WhatsApp</image:title>
-    </image:image>
   </url>
-
-  <!-- Blog Index -->
   <url>
     <loc>https://revpulse.com.br/blog/</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- Artigos de Cauda Curta -->
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/chatbot-whatsapp.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/atendente-virtual.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/automacao-whatsapp.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/chatbot-empresas.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/bot-whatsapp.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
   <url>
     <loc>https://revpulse.com.br/blog/artigos/assistente-virtual.html</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/ia-whatsapp.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/atendimento-automatico.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/chatbot-inteligente.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/automacao-atendimento.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/robo-whatsapp.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/atendente-ia.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/chatbot-negocios.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/whatsapp-business-bot.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/inteligencia-artificial-empresas.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Artigos de Cauda Longa -->
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/como-criar-chatbot-whatsapp-sem-programar.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/quanto-custa-atendente-virtual-whatsapp.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/melhor-plataforma-criar-chatbot-whatsapp.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/como-automatizar-atendimento-whatsapp-business.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
   <url>
     <loc>https://revpulse.com.br/blog/artigos/atendente-ia-vale-pena-pequenas-empresas.html</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-10-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://revpulse.com.br/blog/artigos/diferenca-chatbot-atendente-ia.html</loc>
-    <lastmod>2025-01-15</lastmod>
+    <loc>https://revpulse.com.br/blog/artigos/atendente-ia.html</loc>
+    <lastmod>2025-10-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/como-vender-chatbot-empresas-locais.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/passo-passo-criar-bot-whatsapp.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/chatbot-whatsapp-restaurantes.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/automacao-vendas-whatsapp.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://revpulse.com.br/blog/artigos/como-cobrar-instalacao-chatbot.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
   <url>
     <loc>https://revpulse.com.br/blog/artigos/atendente-virtual-24-horas-whatsapp.html</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-10-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://revpulse.com.br/blog/artigos/integrar-ia-whatsapp-business.html</loc>
-    <lastmod>2025-01-15</lastmod>
+    <loc>https://revpulse.com.br/blog/artigos/atendente-virtual.html</loc>
+    <lastmod>2025-10-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/atendimento-automatico.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/automacao-atendimento.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/automacao-vendas-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/automacao-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/bot-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-abandonou-carrinho.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-academia-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-advogado-escritorio.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://revpulse.com.br/blog/artigos/chatbot-agendamento-consultas.html</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-10-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-analytics-metricas.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-black-friday.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-cobranca-recuperacao.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-compliance-lgpd.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-crm-integracao.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-dentista-odontologia.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-ecommerce-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-empresas.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-escola-curso.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-feedback-pesquisa.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-gratis-vs-pago.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-hotel-pousada.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-imagem-ocr-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-imobiliaria-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-inteligente.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-multilingual-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-negocios.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-onboarding-clientes.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-pagamento-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-pet-shop.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-salao-beleza.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-suporte-tecnico.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-upsell-cross-sell.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-voz-audio-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-vulnerabilidades-seguranca.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-whatsapp-api-oficial.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-whatsapp-clinicas-medicas.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-whatsapp-restaurantes.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/chatbot-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/como-automatizar-atendimento-whatsapp-business.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/como-cobrar-instalacao-chatbot.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/como-criar-chatbot-whatsapp-sem-programar.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/como-vender-chatbot-empresas-locais.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/dialogflow-vs-chatgpt-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/diferenca-chatbot-atendente-ia.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/futuro-chatbots-ia-2025-2030.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/ia-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/integrar-ia-whatsapp-business.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/inteligencia-artificial-empresas.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/manychat-vs-chatbot-ia.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/melhor-plataforma-criar-chatbot-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/passo-passo-criar-bot-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/quanto-custa-atendente-virtual-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://revpulse.com.br/blog/artigos/quanto-tempo-implantar-chatbot-whatsapp.html</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-10-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/robo-whatsapp.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://revpulse.com.br/blog/artigos/whatsapp-business-bot.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
