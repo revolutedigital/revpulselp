@@ -3,78 +3,374 @@
   <channel>
     <title>Rev Pulse Blog - Chatbots e Automação com IA</title>
     <link>https://revpulse.com.br/blog/</link>
-    <description>Aprenda tudo sobre chatbots WhatsApp, automação com IA e como criar um negócio lucrativo vendendo atendentes virtuais</description>
+    <description>Aprenda tudo sobre chatbots WhatsApp, automação de atendimento e inteligência artificial para empresas. Guias práticos, tutoriais e cases de sucesso.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 GMT</lastBuildDate>
-    <atom:link href="https://revpulse.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Thu, 09 Oct 2025 11:13:42 GMT</lastBuildDate>
+    <atom:link href="https://revpulse.com.br/rss.xml" rel="self" type="application/rss+xml" />
     <image>
-      <url>https://revpulse.com.br/images/logo-revpulse.png</url>
-      <title>Rev Pulse Blog</title>
-      <link>https://revpulse.com.br/blog/</link>
+      <url>https://revpulse.com.br/images/logo-revpulse-oficial.png</url>
+      <title>Rev Pulse</title>
+      <link>https://revpulse.com.br</link>
     </image>
-
-    <!-- Artigo 1 -->
     <item>
-      <title>Chatbot WhatsApp: Guia Completo para Automatizar Seu Atendimento</title>
-      <link>https://revpulse.com.br/blog/artigos/chatbot-whatsapp.html</link>
-      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/chatbot-whatsapp.html</guid>
-      <pubDate>Wed, 15 Jan 2025 10:00:00 GMT</pubDate>
-      <description>Descubra como um chatbot WhatsApp pode revolucionar seu atendimento. Aprenda a criar, implementar e lucrar com automação inteligente.</description>
+      <title><![CDATA[Assistente Virtual IA: O Futuro do Atendimento ao Cliente]]></title>
+      <link>https://revpulse.com.br/blog/artigos/assistente-virtual.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/assistente-virtual.html</guid>
+      <description><![CDATA[O assistente virtual com IA representa a nova era do atendimento ao cliente. Enquanto chatbots tradicionais seguem scripts rígidos, assistentes virtuais inteligentes entendem contexto, aprendem com interações e oferecem experiências verdadeiramente personalizadas. Neste guia completo, você vai desco...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
       <category>Chatbot</category>
       <category>WhatsApp</category>
       <category>Automação</category>
+      <category>Inteligência Artificial</category>
       <author>Igor Silveira</author>
     </item>
-
-    <!-- Artigo 2 -->
     <item>
-      <title>Atendente Virtual: Como Funciona e Por Que Sua Empresa Precisa</title>
+      <title><![CDATA[Atendente IA Vale a Pena para Pequenas Empresas? Análise Real]]></title>
+      <link>https://revpulse.com.br/blog/artigos/atendente-ia-vale-pena-pequenas-empresas.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/atendente-ia-vale-pena-pequenas-empresas.html</guid>
+      <description><![CDATA[Se você tem uma pequena empresa e está se perguntando se atendente IA vale a pena , este artigo vai te dar a resposta baseada em números reais, não promessas de vendedor. Vou te mostrar exatamente quanto custa, quanto retorna, e quando faz sentido (ou não) para o seu negócio investir em automação co...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Atendente IA: Como Treinar e Implementar em Seu Negócio]]></title>
+      <link>https://revpulse.com.br/blog/artigos/atendente-ia.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/atendente-ia.html</guid>
+      <description><![CDATA[Criar um atendente IA eficaz não é só apertar botões e esperar mágica acontecer. Exige treinamento estratégico, implementação cuidadosa e otimização contínua. Neste guia completo, vou te mostrar o processo exato — do zero até atendente funcionando perfeitamente — que usei em dezenas de negócios com ...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Atendente Virtual 24 Horas para WhatsApp: Como Configurar]]></title>
+      <link>https://revpulse.com.br/blog/artigos/atendente-virtual-24-horas-whatsapp.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/atendente-virtual-24-horas-whatsapp.html</guid>
+      <description><![CDATA[Você já perdeu vendas porque não conseguiu responder um cliente às 23h? Ou no final de semana? A verdade é dura: seus clientes não respeitam seu horário comercial . Eles querem atendimento quando precisam, não quando você está disponível. A solução? Um atendente virtual que trabalha 24 horas por dia...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Atendente Virtual: Como Funciona e Por Que Sua Empresa Precisa de Um]]></title>
       <link>https://revpulse.com.br/blog/artigos/atendente-virtual.html</link>
       <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/atendente-virtual.html</guid>
-      <pubDate>Wed, 15 Jan 2025 10:00:00 GMT</pubDate>
-      <description>Entenda o que é um atendente virtual, como ele funciona e por que sua empresa precisa de um para escalar o atendimento.</description>
-      <category>Atendente Virtual</category>
-      <category>IA</category>
+      <description><![CDATA[Imagine ter um funcionário que nunca tira férias, nunca adoece, nunca chega atrasado e consegue atender centenas de clientes ao mesmo tempo. Impossível? Não com um atendente virtual . Se sua empresa ainda depende 100% de atendimento humano, você está deixando dinheiro na mesa. Vou te mostrar exatame...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
       <author>Igor Silveira</author>
     </item>
-
-    <!-- Artigo 3 -->
     <item>
-      <title>Automação WhatsApp: Guia Definitivo para Negócios</title>
+      <title><![CDATA[Atendimento Automático: Como Reduzir Custos em 70%]]></title>
+      <link>https://revpulse.com.br/blog/artigos/atendimento-automatico.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/atendimento-automatico.html</guid>
+      <description><![CDATA[O atendimento automático não é mais privilégio de grandes corporações. Pequenos e médios negócios estão reduzindo custos em 60-80% enquanto melhoram a experiência do cliente. Parece impossível? Os números não mentem. Neste guia, vou te mostrar exatamente como calcular a economia, implementar sem err...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Automação de Atendimento: Estratégias Que Realmente Funcionam]]></title>
+      <link>https://revpulse.com.br/blog/artigos/automacao-atendimento.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/automacao-atendimento.html</guid>
+      <description><![CDATA[A maioria das empresas erra feio na automação de atendimento . Implementam sistemas caros que frustram clientes, não economizam dinheiro e acabam sendo desativados em 6 meses. Neste guia, vou te mostrar as estratégias que realmente funcionam — testadas em dezenas de negócios reais, com resultados me...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Automação de Vendas pelo WhatsApp: Funil Completo]]></title>
+      <link>https://revpulse.com.br/blog/artigos/automacao-vendas-whatsapp.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/automacao-vendas-whatsapp.html</guid>
+      <description><![CDATA[Imagine um vendedor que trabalha 24 horas por dia, nunca fica cansado, nunca esquece de fazer follow-up, e consegue atender 1000 leads simultaneamente sem perder a qualidade. Isso não é ficção científica. É automação de vendas pelo WhatsApp . Neste guia completo, vou te mostrar como construir um fun...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Automação WhatsApp: Guia Definitivo para Negócios em 2025]]></title>
       <link>https://revpulse.com.br/blog/artigos/automacao-whatsapp.html</link>
       <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/automacao-whatsapp.html</guid>
-      <pubDate>Wed, 15 Jan 2025 10:00:00 GMT</pubDate>
-      <description>Aprenda a automatizar seu WhatsApp Business com estratégias comprovadas e aumente suas vendas em até 300%.</description>
+      <description><![CDATA[Se você passa horas respondendo as mesmas perguntas no WhatsApp, tenho uma boa notícia: automação WhatsApp pode devolver seu tempo e ainda multiplicar suas vendas. Neste guia completo, vou te mostrar exatamente como automatizar seu WhatsApp do jeito certo — sem parecer um robô chato e sem perder o t...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
       <category>Automação</category>
-      <category>WhatsApp Business</category>
+      <category>Inteligência Artificial</category>
       <author>Igor Silveira</author>
     </item>
-
-    <!-- Artigo 4 -->
     <item>
-      <title>Como Criar Chatbot WhatsApp Sem Programar</title>
+      <title><![CDATA[Bot WhatsApp: Tudo Que Você Precisa Saber Antes de Criar o Seu]]></title>
+      <link>https://revpulse.com.br/blog/artigos/bot-whatsapp.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/bot-whatsapp.html</guid>
+      <description><![CDATA[Você está prestes a criar um bot WhatsApp , mas não sabe por onde começar? Ou pior — já tentou e ficou frustrado com as limitações? Este guia vai te mostrar exatamente o que você precisa saber antes de investir tempo e dinheiro em um bot. Vou te poupar dos erros que custam caro e te dar o caminho di...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Chatbot para Agendamento de Consultas: Solução para Clínicas]]></title>
+      <link>https://revpulse.com.br/blog/artigos/chatbot-agendamento-consultas.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/chatbot-agendamento-consultas.html</guid>
+      <description><![CDATA[Se você trabalha em uma clínica ou consultório, sabe o caos que é gerenciar agendamentos por telefone. Ligações perdidas, pacientes remarcando a toda hora, agenda desorganizada, recepcionista sobrecarregada. E o pior: 30-40% das consultas agendadas resultam em no-show (paciente não comparece) . Um c...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Chatbot para Empresas: ROI, Cases e Implementação]]></title>
+      <link>https://revpulse.com.br/blog/artigos/chatbot-empresas.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/chatbot-empresas.html</guid>
+      <description><![CDATA[Todo CEO me faz a mesma pergunta: "Quanto vou economizar com um chatbot para empresas ?" A resposta? Entre 60-85% nos custos de atendimento. Mas o ROI vai muito além de economia — estamos falando de aumento de vendas, satisfação do cliente e dados estratégicos que transformam decisões. Neste artigo,...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Chatbot Inteligente: Diferenças Entre Regras e IA]]></title>
+      <link>https://revpulse.com.br/blog/artigos/chatbot-inteligente.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/chatbot-inteligente.html</guid>
+      <description><![CDATA[A confusão é comum: todo mundo fala em chatbot inteligente , mas poucos entendem a diferença brutal entre um chatbot baseado em regras e um verdadeiramente inteligente com IA. E essa diferença pode custar ou gerar milhares de reais por mês. Neste guia completo, vou te mostrar exatamente como cada ti...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Chatbot para Negócios Locais: Passo a Passo Completo]]></title>
+      <link>https://revpulse.com.br/blog/artigos/chatbot-negocios.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/chatbot-negocios.html</guid>
+      <description><![CDATA[Negócios locais são perfeitos para chatbots — mas a maioria implementa errado e desperdiça dinheiro. Neste guia completo, vou te mostrar exatamente como fazer certo, com estratégias específicas para cada tipo de negócio local. Se você tem restaurante, clínica, salão, pet shop, loja física ou qualque...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Chatbot WhatsApp para Restaurantes: Como Aumentar Pedidos em 40%]]></title>
+      <link>https://revpulse.com.br/blog/artigos/chatbot-whatsapp-restaurantes.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/chatbot-whatsapp-restaurantes.html</guid>
+      <description><![CDATA[Se você tem restaurante, pizzaria, lanchonete ou qualquer negócio de alimentação, sabe a loucura que é atender pelo WhatsApp nos horários de pico. Enquanto você responde um cliente, outros 10 estão esperando. Resultado? Pedidos perdidos e dinheiro deixado na mesa. Um chatbot WhatsApp para restaurant...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Chatbot WhatsApp: Guia Completo para Automatizar Seu Atendimento em 2025]]></title>
+      <link>https://revpulse.com.br/blog/artigos/chatbot-whatsapp.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/chatbot-whatsapp.html</guid>
+      <description><![CDATA[O chatbot WhatsApp transformou completamente a forma como empresas se comunicam com seus clientes. Se você ainda está respondendo manualmente cada mensagem no WhatsApp Business, está perdendo tempo e dinheiro. Neste guia completo, vou te mostrar exatamente como funciona um chatbot WhatsApp, quanto c...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Como Automatizar Atendimento no WhatsApp Business: Tutorial Completo 2025]]></title>
+      <link>https://revpulse.com.br/blog/artigos/como-automatizar-atendimento-whatsapp-business.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/como-automatizar-atendimento-whatsapp-business.html</guid>
+      <description><![CDATA[Você está cansado de responder as mesmas perguntas dezenas de vezes por dia no WhatsApp Business? Quer automatizar o atendimento no WhatsApp Business mas não sabe por onde começar? Neste tutorial completo, vou te mostrar exatamente como configurar automação profissional do zero, mesmo que você nunca...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Como Cobrar por Instalação de Chatbot: Guia Completo de Precificação 2025]]></title>
+      <link>https://revpulse.com.br/blog/artigos/como-cobrar-instalacao-chatbot.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/como-cobrar-instalacao-chatbot.html</guid>
+      <description><![CDATA[Uma das perguntas mais frequentes de quem está começando a vender chatbots é: "Quanto eu devo cobrar?" Se você cobrar muito barato, vai trabalhar demais por pouco dinheiro. Se cobrar caro demais, não vai vender. Neste guia, vou te mostrar exatamente como precificar seus serviços de instalação de cha...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Como Criar Chatbot WhatsApp Sem Programar: Guia Passo a Passo 2025]]></title>
       <link>https://revpulse.com.br/blog/artigos/como-criar-chatbot-whatsapp-sem-programar.html</link>
       <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/como-criar-chatbot-whatsapp-sem-programar.html</guid>
-      <pubDate>Wed, 15 Jan 2025 10:00:00 GMT</pubDate>
-      <description>Guia passo a passo para criar seu chatbot WhatsApp sem escrever uma linha de código.</description>
-      <category>Tutorial</category>
-      <category>No-Code</category>
+      <description><![CDATA[Você quer criar um chatbot WhatsApp sem programar , mas não sabe por onde começar? Tenho uma ótima notícia: hoje em dia, você não precisa de nenhum conhecimento técnico para construir um chatbot profissional e funcional. Neste guia completo, vou te mostrar exatamente como criar seu próprio chatbot W...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
       <author>Igor Silveira</author>
     </item>
-
-    <!-- Artigo 5 -->
     <item>
-      <title>Como Vender Chatbot para Empresas Locais</title>
+      <title><![CDATA[Como Vender Chatbot para Empresas Locais: Estratégias de Prospecção]]></title>
       <link>https://revpulse.com.br/blog/artigos/como-vender-chatbot-empresas-locais.html</link>
       <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/como-vender-chatbot-empresas-locais.html</guid>
-      <pubDate>Wed, 15 Jan 2025 10:00:00 GMT</pubDate>
-      <description>Estratégias de prospecção e vendas para prestadores de serviço de chatbot.</description>
-      <category>Vendas</category>
-      <category>Negócios</category>
+      <description><![CDATA[Saber criar chatbots é uma coisa. Saber vender chatbot para empresas locais é outra completamente diferente. E a boa notícia? É muito mais fácil do que você imagina. Neste guia completo, vou te mostrar exatamente como encontrar clientes, abordar empresas, fazer demonstrações que fecham vendas, e pre...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
       <author>Igor Silveira</author>
     </item>
-
-    <!-- Adicione mais artigos conforme necessário -->
-
+    <item>
+      <title><![CDATA[Diferença Entre Chatbot e Atendente IA: Qual Escolher?]]></title>
+      <link>https://revpulse.com.br/blog/artigos/diferenca-chatbot-atendente-ia.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/diferenca-chatbot-atendente-ia.html</guid>
+      <description><![CDATA[Muita gente usa os termos chatbot e atendente IA como se fossem a mesma coisa. Mas são tecnologias diferentes, com capacidades diferentes, custos diferentes, e resultados diferentes. Neste artigo vou te explicar exatamente qual é a diferença entre chatbot e atendente IA, e mais importante: qual você...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[IA para WhatsApp: Como Usar Inteligência Artificial no Atendimento]]></title>
+      <link>https://revpulse.com.br/blog/artigos/ia-whatsapp.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/ia-whatsapp.html</guid>
+      <description><![CDATA[A IA para WhatsApp está revolucionando o atendimento ao cliente no Brasil. Com mais de 165 milhões de usuários brasileiros no WhatsApp, integrar inteligência artificial nessa plataforma não é mais luxo — é necessidade de sobrevivência. Neste guia completo, você vai aprender exatamente como funciona ...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Como Integrar IA com WhatsApp Business: Tutorial Técnico]]></title>
+      <link>https://revpulse.com.br/blog/artigos/integrar-ia-whatsapp-business.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/integrar-ia-whatsapp-business.html</guid>
+      <description><![CDATA[Integrar inteligência artificial com WhatsApp Business pode parecer intimidador se você nunca mexeu com APIs. Mas a verdade é que qualquer pessoa com conhecimento básico de programação consegue fazer essa integração em algumas horas. Neste tutorial técnico, vou te mostrar exatamente como conectar IA...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Inteligência Artificial para Empresas: Casos de Uso Práticos]]></title>
+      <link>https://revpulse.com.br/blog/artigos/inteligencia-artificial-empresas.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/inteligencia-artificial-empresas.html</guid>
+      <description><![CDATA[Inteligência Artificial para empresas saiu do campo da ficção científica e virou necessidade competitiva. Mas a maioria dos empresários não sabe por onde começar ou quais aplicações realmente geram ROI. Neste guia completo, vou te mostrar casos de uso práticos de IA — com exemplos reais, custos, ben...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Melhor Plataforma para Criar Chatbot WhatsApp: Comparativo Completo 2025]]></title>
+      <link>https://revpulse.com.br/blog/artigos/melhor-plataforma-criar-chatbot-whatsapp.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/melhor-plataforma-criar-chatbot-whatsapp.html</guid>
+      <description><![CDATA[Escolher a melhor plataforma para criar chatbot WhatsApp pode ser confuso. Existem dezenas de opções no mercado, cada uma prometendo ser "a melhor", "a mais completa" ou "a mais fácil". Após testar pessoalmente mais de 15 plataformas diferentes e implementar chatbots para mais de 50 clientes, criei ...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Passo a Passo para Criar Bot no WhatsApp: Do Zero ao Primeiro Cliente]]></title>
+      <link>https://revpulse.com.br/blog/artigos/passo-passo-criar-bot-whatsapp.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/passo-passo-criar-bot-whatsapp.html</guid>
+      <description><![CDATA[Quer criar um bot no WhatsApp mas não sabe nem por onde começar? Você está no lugar certo. Este é o guia mais completo e prático da internet para criar bot WhatsApp do absoluto zero até conseguir seu primeiro cliente pagando. Vou te guiar em cada etapa do processo, sem pular nada, sem enrolação técn...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Quanto Custa um Atendente Virtual para WhatsApp? Preços e Opções 2025]]></title>
+      <link>https://revpulse.com.br/blog/artigos/quanto-custa-atendente-virtual-whatsapp.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/quanto-custa-atendente-virtual-whatsapp.html</guid>
+      <description><![CDATA[Se você está pesquisando quanto custa um atendente virtual para WhatsApp , precisa saber que os preços variam drasticamente — desde R$ 0 (planos gratuitos limitados) até mais de R$ 5.000/mês para soluções enterprise. Mas existe um problema: a maioria das empresas não divulga os custos completos. Voc...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Quanto Tempo para Implantar Chatbot WhatsApp? Timeline Realista]]></title>
+      <link>https://revpulse.com.br/blog/artigos/quanto-tempo-implantar-chatbot-whatsapp.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/quanto-tempo-implantar-chatbot-whatsapp.html</guid>
+      <description><![CDATA["Quanto tempo leva para ter meu chatbot funcionando?" É a pergunta que TODO mundo faz antes de começar. E a resposta que você normalmente ouve é: "Depende" . Frustrante, né? Por isso criei este guia com timelines REAIS baseados em centenas de implantações. Vou te mostrar exatamente quanto tempo cada...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[Robô WhatsApp: Vale a Pena? Análise Completa]]></title>
+      <link>https://revpulse.com.br/blog/artigos/robo-whatsapp.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/robo-whatsapp.html</guid>
+      <description><![CDATA[Todo dono de negócio já se perguntou: vale a pena investir em robô WhatsApp? A resposta honesta é: depende. E neste artigo vou te mostrar exatamente de que depende. Vou analisar custos reais, benefícios comprovados, armadilhas comuns e te dar um framework para decidir se faz sentido pro SEU negócio ...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
+    <item>
+      <title><![CDATA[WhatsApp Business Bot: Integração e Configuração]]></title>
+      <link>https://revpulse.com.br/blog/artigos/whatsapp-business-bot.html</link>
+      <guid isPermaLink="true">https://revpulse.com.br/blog/artigos/whatsapp-business-bot.html</guid>
+      <description><![CDATA[Integrar um bot no WhatsApp Business parece complicado — e realmente pode ser se você não souber os passos certos. Neste guia técnico completo, vou te mostrar exatamente como fazer do jeito certo, evitando armadilhas e economizando semanas de tentativa e erro. Este guia serve tanto para quem nunca m...]]></description>
+      <pubDate>Thu, 09 Oct 2025 11:13:42 GMT</pubDate>
+      <category>Chatbot</category>
+      <category>WhatsApp</category>
+      <category>Automação</category>
+      <category>Inteligência Artificial</category>
+      <author>Igor Silveira</author>
+    </item>
   </channel>
 </rss>
