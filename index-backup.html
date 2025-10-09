@@ -576,8 +576,158 @@
             text-decoration: underline;
         }
 
+        /* Cookie/LGPD Consent Modal */
+        .consent-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10, 14, 26, 0.95);
+            z-index: 10000;
+            backdrop-filter: blur(8px);
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        .consent-overlay.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .consent-modal {
+            background: linear-gradient(135deg, #1a1f2e 0%, #252b3d 100%);
+            border: 2px solid #FF6B35;
+            border-radius: 20px;
+            padding: 50px;
+            max-width: 650px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+            animation: slideUp 0.4s ease-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .consent-modal h2 {
+            font-size: 32px;
+            color: #FF6B35;
+            margin-bottom: 20px;
+            font-weight: 900;
+        }
+
+        .consent-modal p {
+            color: #b8c1db;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        .consent-modal strong {
+            color: #fff;
+        }
+
+        .consent-links {
+            margin: 25px 0;
+            padding: 20px;
+            background: rgba(255, 107, 53, 0.1);
+            border-radius: 10px;
+            border-left: 4px solid #FF6B35;
+        }
+
+        .consent-links a {
+            color: #FF6B35;
+            text-decoration: none;
+            font-weight: 600;
+            margin-right: 20px;
+            transition: all 0.3s;
+        }
+
+        .consent-links a:hover {
+            color: #ff8555;
+            text-decoration: underline;
+        }
+
+        .consent-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .consent-accept {
+            flex: 1;
+            background: linear-gradient(135deg, #FF6B35 0%, #ff8555 100%);
+            color: #fff;
+            border: none;
+            padding: 18px 40px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .consent-accept:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(255, 107, 53, 0.5);
+        }
+
+        .consent-decline {
+            flex: 0.4;
+            background: transparent;
+            color: #b8c1db;
+            border: 2px solid #b8c1db;
+            padding: 18px 30px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .consent-decline:hover {
+            border-color: #ff6b35;
+            color: #ff6b35;
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
+            .consent-modal {
+                padding: 35px 25px;
+            }
+
+            .consent-modal h2 {
+                font-size: 26px;
+            }
+
+            .consent-buttons {
+                flex-direction: column;
+            }
+
+            .consent-decline {
+                flex: 1;
+            }
+
             .comparison-grid {
                 grid-template-columns: 1fr;
             }
@@ -707,6 +857,34 @@
     </style>
 </head>
 <body>
+    <!-- LGPD/Cookie Consent Modal -->
+    <div class="consent-overlay" id="consentOverlay">
+        <div class="consent-modal">
+            <h2>🔒 Privacidade e Cookies</h2>
+            <p>Olá! Para oferecer a melhor experiência, utilizamos <strong>cookies</strong> e tecnologias similares para analisar o tráfego, personalizar conteúdo e anúncios.</p>
+
+            <p>Seus dados são tratados com total segurança e em conformidade com a <strong>LGPD (Lei Geral de Proteção de Dados)</strong>.</p>
+
+            <div class="consent-links">
+                <p style="margin-bottom: 10px; font-size: 14px;"><strong>📄 Leia mais:</strong></p>
+                <a href="termos-de-uso.html" target="_blank">Termos de Uso</a>
+                <a href="politica-de-privacidade.html" target="_blank">Política de Privacidade</a>
+            </div>
+
+            <p style="font-size: 15px;"><strong>Ao aceitar, você concorda com:</strong></p>
+            <ul style="padding-left: 25px; color: #b8c1db;">
+                <li>Uso de cookies para melhorar sua experiência</li>
+                <li>Coleta de dados analíticos (Google Analytics, Facebook Pixel)</li>
+                <li>Armazenamento de preferências</li>
+            </ul>
+
+            <div class="consent-buttons">
+                <button class="consent-accept" onclick="acceptConsent()">Aceitar e Continuar</button>
+                <button class="consent-decline" onclick="declineConsent()">Recusar</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Header -->
     <header>
         <div class="container">
@@ -1421,12 +1599,12 @@
             <p style="margin: 20px 0; color: #a8b3cf;">Implante em Horas, Fature em Dias</p>
             <div>
                 <a href="https://instagram.com/oigorsilveira" target="_blank">📱 Instagram @oigorsilveira</a>
-                <a href="#">💬 Suporte WhatsApp</a>
-                <a href="#">📧 Email</a>
+                <a href="https://wa.me/5515998246007?text=Olá! Vim do site e gostaria de saber mais sobre o RevPulse" target="_blank">💬 Suporte WhatsApp</a>
+                <a href="mailto:contato@revpulse.com.br">📧 Email</a>
             </div>
             <div style="margin-top: 30px;">
-                <a href="#">Termos de Uso</a>
-                <a href="#">Política de Privacidade</a>
+                <a href="termos-de-uso.html">Termos de Uso</a>
+                <a href="politica-de-privacidade.html">Política de Privacidade</a>
             </div>
             <p style="margin-top: 30px; color: #666; font-size: 14px;">© 2025 RevPulse. Todos os direitos reservados.</p>
         </div>
@@ -1446,6 +1624,50 @@
                 }
             });
         });
+    </script>
+
+    <!-- Cookie/LGPD Consent Script -->
+    <script>
+        // Check if user already accepted/declined
+        window.addEventListener('load', function() {
+            const consentStatus = localStorage.getItem('revpulse-consent');
+
+            if (!consentStatus) {
+                // Show modal if no consent stored
+                document.getElementById('consentOverlay').classList.add('active');
+            }
+        });
+
+        function acceptConsent() {
+            localStorage.setItem('revpulse-consent', 'accepted');
+            localStorage.setItem('revpulse-consent-date', new Date().toISOString());
+            document.getElementById('consentOverlay').classList.remove('active');
+
+            // Track acceptance
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'consent_accepted', {
+                    'event_category': 'LGPD',
+                    'event_label': 'User accepted cookies'
+                });
+            }
+        }
+
+        function declineConsent() {
+            localStorage.setItem('revpulse-consent', 'declined');
+            localStorage.setItem('revpulse-consent-date', new Date().toISOString());
+            document.getElementById('consentOverlay').classList.remove('active');
+
+            // Optionally disable tracking scripts
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'consent_declined', {
+                    'event_category': 'LGPD',
+                    'event_label': 'User declined cookies'
+                });
+            }
+
+            // Show message
+            alert('Você optou por não aceitar cookies. Algumas funcionalidades podem ser limitadas.');
+        }
     </script>
 </body>
 </html>
