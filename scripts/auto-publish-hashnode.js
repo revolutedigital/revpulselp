@@ -56,7 +56,7 @@ Empresas que implementam chatbots relatam:
 [Leia o artigo completo →](https://revpulse.com.br/blog/artigos/chatbot-whatsapp.html)
 
 ---
-**Autor:** Igor Silveira | **Site:** [Rev Pulse](https://revpulse.com.br)
+**Autor:** Igor Silveira | **Site:** [RevPulse](https://revpulse.com.br)
 `
   }
 ];
@@ -140,7 +140,7 @@ async function main() {
     console.error('\n📝 COMO FAZER:');
     console.error('1. Acesse: https://hashnode.com/settings/developer');
     console.error('2. Clique em "Generate New Token"');
-    console.error('3. Nome: "Rev Pulse"');
+    console.error('3. Nome: "RevPulse"');
     console.error('4. Cole na variável HASHNODE_API_KEY\n');
     process.exit(1);
   }

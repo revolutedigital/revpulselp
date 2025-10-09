@@ -54,7 +54,7 @@ app.get('/', (req, res) => {
 
 // Iniciar servidor
 app.listen(PORT, () => {
-  console.log(`🚀 Rev Pulse Blog rodando na porta ${PORT}`);
+  console.log(`🚀 RevPulse Blog rodando na porta ${PORT}`);
   console.log(`📍 Landing Page: http://localhost:${PORT}`);
   console.log(`📝 Blog: http://localhost:${PORT}/blog`);
   console.log(`\n🎯 Artigos disponíveis:`);

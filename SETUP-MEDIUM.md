@@ -19,7 +19,7 @@ OU
 ### 3. Crie o token
 - Clique no botão **"Get integration token"** ou **"Create token"**
 - Aparece um campo de texto
-- Digite: **"Rev Pulse Auto-Publish"**
+- Digite: **"RevPulse Auto-Publish"**
 - Clique em "Get token"
 
 ### 4. Copie o token

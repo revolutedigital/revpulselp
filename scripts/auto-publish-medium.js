@@ -52,11 +52,11 @@ Empresas que implementam chatbots WhatsApp relatam:
 
 Você não precisa ser programador. Existem plataformas no-code que fazem todo o trabalho pesado.
 
-[Continue lendo no Rev Pulse Blog →](https://revpulse.com.br/blog/artigos/chatbot-whatsapp.html)
+[Continue lendo no RevPulse Blog →](https://revpulse.com.br/blog/artigos/chatbot-whatsapp.html)
 
 ---
 
-**Sobre o autor:** Igor Silveira é especialista em automação com IA e criador do Rev Pulse, plataforma para criar atendentes virtuais sem programar.
+**Sobre o autor:** Igor Silveira é especialista em automação com IA e criador do RevPulse, plataforma para criar atendentes virtuais sem programar.
 `
   },
   // Adicione mais artigos aqui...
@@ -148,7 +148,7 @@ async function main() {
     console.error('\n📝 COMO FAZER:');
     console.error('1. Acesse: https://medium.com/me/settings/security');
     console.error('2. Clique em "Integration tokens"');
-    console.error('3. Crie um token com descrição "Rev Pulse Auto-Publish"');
+    console.error('3. Crie um token com descrição "RevPulse Auto-Publish"');
     console.error('4. Cole o token na variável MEDIUM_TOKEN deste arquivo');
     console.error('5. Rode novamente: node scripts/auto-publish-medium.js\n');
     process.exit(1);

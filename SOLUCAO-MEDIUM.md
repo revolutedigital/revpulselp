@@ -25,7 +25,7 @@ O Medium mudou isso em 2023. Agora você só consegue API se:
 **Passo 2:** Pegue sua API key
 - Vai em: https://hashnode.com/settings/developer
 - Clica em "Generate New Token"
-- Nome: "Rev Pulse Auto-Publish"
+- Nome: "RevPulse Auto-Publish"
 - Copia o token
 
 **Passo 3:** Pegue seu Publication ID

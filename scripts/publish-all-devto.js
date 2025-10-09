@@ -101,10 +101,10 @@ ${preview}
 
 ## 👤 Sobre o Autor
 
-**Igor Silveira** é especialista em automação com Inteligência Artificial e criador do **Rev Pulse**, plataforma que permite criar atendentes virtuais para WhatsApp sem programar.
+**Igor Silveira** é especialista em automação com Inteligência Artificial e criador do **RevPulse**, plataforma que permite criar atendentes virtuais para WhatsApp sem programar.
 
 🌐 **Site:** [revpulse.com.br](https://revpulse.com.br)
-📝 **Blog:** [Blog Rev Pulse](https://revpulse.com.br/blog/)
+📝 **Blog:** [Blog RevPulse](https://revpulse.com.br/blog/)
 📚 **Artigo original:** [${title}](${url})
 `
     };

@@ -1,10 +1,10 @@
-# Landing Page Rev Pulse - Instruções
+# Landing Page RevPulse - Instruções
 
 ## ✅ O que foi criado
 
 Landing page completa com:
 - Copy 10/10 otimizada para conversão
-- Design dark profissional (inspirado no app Rev Pulse)
+- Design dark profissional (inspirado no app RevPulse)
 - Totalmente responsiva (funciona em mobile/tablet/desktop)
 - Foto da família integrada na seção "Quem está te ensinando"
 - Paleta de cores: #0f1419 (fundo), #FF6B35 (accent laranja), #1a1f2e (cards)
@@ -58,7 +58,7 @@ O logo atual é CSS puro (pulso laranja). Se quiser usar a imagem real do logo:
 1. Copie o arquivo do logo para a pasta `images/`
 2. Substitua a div `.logo-icon` por:
 ```html
-<img src="images/logo-revpulse.png" alt="Rev Pulse" style="width: 50px; height: 50px;">
+<img src="images/logo-revpulse.png" alt="RevPulse" style="width: 50px; height: 50px;">
 ```
 
 ## 📱 Testado em
@@ -83,9 +83,9 @@ O logo atual é CSS puro (pulso laranja). Se quiser usar a imagem real do logo:
 2. Pre-Hero (história João vs Maria)
 3. Hero (título principal + preço)
 4. A Verdade que Ninguém Te Conta
-5. Comparação Rev Pulse vs N8N
+5. Comparação RevPulse vs N8N
 6. Faça as Contas Comigo
-7. O Que É o Rev Pulse (módulos do curso)
+7. O Que É o RevPulse (módulos do curso)
 8. Funcionalidades que Fecham Vendas
 9. Nichos Mais Rentáveis
 10. Quem Está Te Ensinando Isso (sua história + foto família)
@@ -138,4 +138,4 @@ Se tiver dúvidas sobre como ajustar algo na página, me chame!
 
 ---
 
-**Desenvolvido com a copy 10/10 e estética inspirada no app Rev Pulse.**
+**Desenvolvido com a copy 10/10 e estética inspirada no app RevPulse.**

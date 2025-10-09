@@ -1,4 +1,4 @@
-# 📊 Facebook Pixel + API de Conversões - Rev Pulse
+# 📊 Facebook Pixel + API de Conversões - RevPulse
 
 ## ✅ O QUE JÁ ESTÁ IMPLEMENTADO
 
@@ -38,7 +38,7 @@
   {
     value: 497.00,
     currency: 'BRL',
-    content_name: 'Rev Pulse - [Localização do CTA]'
+    content_name: 'RevPulse - [Localização do CTA]'
   }
   ```
 
@@ -185,7 +185,7 @@ async function trackPurchase(email, value) {
       customData: {
         value: value,
         currency: 'BRL',
-        content_name: 'Rev Pulse',
+        content_name: 'RevPulse',
         content_type: 'product'
       }
     })
@@ -278,5 +278,5 @@ Quando implementar backend, rastrear esses eventos:
 
 ---
 
-**Desenvolvido para Rev Pulse Landing Page**
+**Desenvolvido para RevPulse Landing Page**
 **Data:** 2025-01-07

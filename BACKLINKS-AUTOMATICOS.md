@@ -1,4 +1,4 @@
-# 🚀 Sistema de Backlinks Automáticos - Rev Pulse
+# 🚀 Sistema de Backlinks Automáticos - RevPulse
 
 Este documento explica como usar o sistema de auto-publicação para gerar backlinks automáticos sem trabalho manual.
 
@@ -11,7 +11,7 @@ Este documento explica como usar o sistema de auto-publicação para gerar backl
 **Passo 2:** Pegue seu token
 - Acesse: https://medium.com/me/settings/security
 - Clique em "Integration tokens"
-- Crie token: "Rev Pulse Auto-Publish"
+- Crie token: "RevPulse Auto-Publish"
 - Copie o token gerado
 
 **Passo 3:** Configure o script
@@ -40,7 +40,7 @@ node scripts/auto-publish-medium.js
 - Acesse: https://dev.to/settings/extensions
 - Role até "DEV Community API Keys"
 - Clique em "Generate API Key"
-- Dê nome: "Rev Pulse Auto-Publish"
+- Dê nome: "RevPulse Auto-Publish"
 - Copie a key gerada
 
 **Passo 3:** Configure o script

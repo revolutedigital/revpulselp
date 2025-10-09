@@ -1,4 +1,4 @@
-# 📊 SEO Checklist - Rev Pulse
+# 📊 SEO Checklist - RevPulse
 
 ## ✅ Buscadores Principais
 

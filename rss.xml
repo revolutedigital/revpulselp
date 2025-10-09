@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rev Pulse Blog - Chatbots e Automação com IA</title>
+    <title>RevPulse Blog - Chatbots e Automação com IA</title>
     <link>https://revpulse.com.br/blog/</link>
     <description>Aprenda tudo sobre chatbots WhatsApp, automação de atendimento e inteligência artificial para empresas. Guias práticos, tutoriais e cases de sucesso.</description>
     <language>pt-BR</language>
@@ -9,7 +9,7 @@
     <atom:link href="https://revpulse.com.br/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://revpulse.com.br/images/logo-revpulse-oficial.png</url>
-      <title>Rev Pulse</title>
+      <title>RevPulse</title>
       <link>https://revpulse.com.br</link>
     </image>
     <item>

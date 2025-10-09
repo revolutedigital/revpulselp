@@ -1,4 +1,4 @@
-# 📝 Rev Pulse Blog
+# 📝 RevPulse Blog
 
 Blog SEO-otimizado com 30 artigos sobre chatbots WhatsApp, atendentes virtuais e automação com IA.
 
@@ -92,7 +92,7 @@ npm start
 
 ## 🎨 Design
 
-O blog usa o **mesmo design** da landing page Rev Pulse:
+O blog usa o **mesmo design** da landing page RevPulse:
 
 - **Cor principal:** `#FF6B35` (laranja)
 - **Fundo:** `#0a0e1a` (escuro)
@@ -171,7 +171,7 @@ cp blog/template-artigo.html blog/artigos/seu-artigo.html
 
 1. **Tráfego orgânico** via Google
 2. **Educar o mercado** sobre chatbots/IA
-3. **Gerar leads** para o curso Rev Pulse
+3. **Gerar leads** para o curso RevPulse
 4. **Construir autoridade** no nicho
 
 ### Tipos de conteúdo:
@@ -225,7 +225,7 @@ cp blog/template-artigo.html blog/artigos/seu-artigo.html
 
 ## 📞 Suporte
 
-Criado por: **Igor Silveira** (Rev Pulse)
+Criado por: **Igor Silveira** (RevPulse)
 
 - Instagram: [@oigorsilveira](https://instagram.com/oigorsilveira)
 - YouTube: [@oigorsilveira](https://youtube.com/@oigorsilveira)

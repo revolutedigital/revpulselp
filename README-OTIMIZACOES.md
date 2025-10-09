@@ -1,4 +1,4 @@
-# 🚀 Rev Pulse - Otimizações SEO Implementadas
+# 🚀 RevPulse - Otimizações SEO Implementadas
 
 ## 📊 Resultado Final: **9.9/10** ⭐⭐⭐⭐⭐
 
@@ -49,8 +49,8 @@ logo-mini.png      → 68.5% menor
 1. "Quanto tempo leva para implantar um atendente IA?"
 2. "O software tem custo de mensalidade?"
 3. "Consigo integrar com outras plataformas?"
-4. "Já tenho clientes, posso usar o Rev Pulse?"
-5. "Qual IA o Rev Pulse utiliza?"
+4. "Já tenho clientes, posso usar o RevPulse?"
+5. "Qual IA o RevPulse utiliza?"
 
 ### **5. Acessibilidade (WCAG)** ✅
 - ✅ Aria-labels em todos os CTAs principais (3 botões)

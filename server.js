@@ -61,6 +61,6 @@ app.get('/robots.txt', (req, res) => {
 
 // Iniciar servidor
 app.listen(PORT, () => {
-  console.log(`🚀 Rev Pulse rodando na porta ${PORT}`);
+  console.log(`🚀 RevPulse rodando na porta ${PORT}`);
   console.log(`📍 Acesse: http://localhost:${PORT}`);
 });

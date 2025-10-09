@@ -1,4 +1,4 @@
-# 🚀 Deploy Rev Pulse no Railway
+# 🚀 Deploy RevPulse no Railway
 
 ## 📋 Pré-requisitos
 
@@ -20,7 +20,7 @@ git init
 git add .
 
 # Fazer commit
-git commit -m "Initial commit - Rev Pulse Landing Page"
+git commit -m "Initial commit - RevPulse Landing Page"
 
 # Adicionar repositório remoto (substitua com seu repo)
 git remote add origin https://github.com/SEU_USUARIO/revpulse.git
@@ -184,13 +184,13 @@ railway logs
   - Mais recursos
   - Domínio personalizado sem limitações
 
-Para uma landing page como Rev Pulse, o **plano grátis é mais que suficiente!**
+Para uma landing page como RevPulse, o **plano grátis é mais que suficiente!**
 
 ---
 
 ## 🎉 Pronto!
 
-Seu site Rev Pulse está no ar! 🚀
+Seu site RevPulse está no ar! 🚀
 
 **URL do Railway:** `https://seu-projeto.up.railway.app`
 

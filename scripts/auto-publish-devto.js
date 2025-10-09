@@ -72,7 +72,7 @@ Combina regras simples com IA. Responde automaticamente o que consegue e transfe
 Você não precisa ser programador para criar um chatbot profissional. Existem plataformas no-code que fazem todo o trabalho pesado.
 
 ### Principais plataformas:
-- **Rev Pulse** — A mais simples para iniciantes
+- **RevPulse** — A mais simples para iniciantes
 - **ManyChat** — Popular mas limitada
 - **N8N** — Complexo demais para não-programadores
 
@@ -83,7 +83,7 @@ Os preços variam muito:
 - **Plataformas básicas:** R$ 50-200/mês
 - **Plataformas avançadas:** R$ 300-800/mês
 - **Desenvolvimento customizado:** R$ 3.000-15.000 (uma vez)
-- **Rev Pulse:** Pagamento único de R$ 497 (sem mensalidade)
+- **RevPulse:** Pagamento único de R$ 497 (sem mensalidade)
 
 ## Casos de Uso
 
@@ -106,7 +106,7 @@ A boa notícia? Você não precisa esperar. Com as ferramentas certas, pode cria
 
 **📚 Leia o artigo completo com todos os detalhes:** [Chatbot WhatsApp: Guia Completo](https://revpulse.com.br/blog/artigos/chatbot-whatsapp.html)
 
-**👤 Sobre o autor:** Igor Silveira é especialista em automação com IA e criador do Rev Pulse, plataforma para criar atendentes virtuais sem programar.
+**👤 Sobre o autor:** Igor Silveira é especialista em automação com IA e criador do RevPulse, plataforma para criar atendentes virtuais sem programar.
 `
   },
   // Adicione mais artigos aqui...
@@ -169,7 +169,7 @@ async function main() {
     console.error('1. Acesse: https://dev.to/settings/extensions');
     console.error('2. Role até "DEV Community API Keys"');
     console.error('3. Clique em "Generate API Key"');
-    console.error('4. Dê um nome: "Rev Pulse Auto-Publish"');
+    console.error('4. Dê um nome: "RevPulse Auto-Publish"');
     console.error('5. Cole a key na variável DEVTO_API_KEY deste arquivo');
     console.error('6. Rode novamente: node scripts/auto-publish-devto.js\n');
     process.exit(1);

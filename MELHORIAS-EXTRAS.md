@@ -1,4 +1,4 @@
-# Melhorias Extras para Landing Page Rev Pulse
+# Melhorias Extras para Landing Page RevPulse
 
 ## 🚀 Melhorias de Conversão (Prioridade ALTA)
 
@@ -8,7 +8,7 @@
 ```html
 <section style="background: #1a1f2e; padding: 80px 0;">
     <div class="container">
-        <h2 class="section-title">🎥 Veja o Rev Pulse em Ação</h2>
+        <h2 class="section-title">🎥 Veja o RevPulse em Ação</h2>
         <div style="max-width: 800px; margin: 0 auto;">
             <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px;">
                 <iframe
@@ -150,12 +150,12 @@ document.addEventListener('mouseleave', function(e) {
 ```
 
 ### 6. Screenshot do App
-**Onde:** Adicionar na seção "O Que É o Rev Pulse"
+**Onde:** Adicionar na seção "O Que É o RevPulse"
 - Tire screenshot da interface do app
 - Salve como `images/app-screenshot.png`
 - Adicione:
 ```html
-<img src="images/app-screenshot.png" alt="Interface Rev Pulse" style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.4); margin: 40px 0;">
+<img src="images/app-screenshot.png" alt="Interface RevPulse" style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.4); margin: 40px 0;">
 ```
 
 ### 7. Logos das IAs
@@ -289,7 +289,7 @@ calcularROI();
 <meta name="author" content="Igor Silveira">
 
 <!-- Open Graph (Facebook/LinkedIn) -->
-<meta property="og:title" content="Rev Pulse - Implante Atendentes IA em Horas">
+<meta property="og:title" content="RevPulse - Implante Atendentes IA em Horas">
 <meta property="og:description" content="Do zero ao primeiro cliente pagando R$ 2k-8k em implantações + R$ 497-1.497/mês recorrente">
 <meta property="og:image" content="https://seudominio.com/images/og-image.jpg">
 <meta property="og:url" content="https://seudominio.com">
@@ -297,7 +297,7 @@ calcularROI();
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Rev Pulse - Implante Atendentes IA em Horas">
+<meta name="twitter:title" content="RevPulse - Implante Atendentes IA em Horas">
 <meta name="twitter:description" content="Curso + Software para gestores de tráfego venderem atendentes IA">
 <meta name="twitter:image" content="https://seudominio.com/images/twitter-card.jpg">
 
@@ -312,12 +312,12 @@ calcularROI();
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "Rev Pulse - Curso + Software",
+  "name": "RevPulse - Curso + Software",
   "image": "https://seudominio.com/images/produto.jpg",
   "description": "Curso completo + Software vitalício para implantar atendentes IA",
   "brand": {
     "@type": "Brand",
-    "name": "Rev Pulse"
+    "name": "RevPulse"
   },
   "offers": {
     "@type": "Offer",
@@ -335,7 +335,7 @@ calcularROI();
 ### 15. Botão Flutuante do WhatsApp
 **Adicionar antes do `</body>`:**
 ```html
-<a href="https://wa.me/5511999999999?text=Olá! Tenho interesse no Rev Pulse"
+<a href="https://wa.me/5511999999999?text=Olá! Tenho interesse no RevPulse"
    style="position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 32px; box-shadow: 0 4px 12px rgba(0,0,0,0.4); z-index: 1000; text-decoration: none;"
    target="_blank">
     💬
