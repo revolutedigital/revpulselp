@@ -664,12 +664,12 @@ footer {
 .toc-content {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease-out;
-    padding: 0 20px;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    padding: 0;
 }
 
 .toc-content.open {
-    max-height: 800px;
+    max-height: 1000px;
     padding: 20px;
 }
 
