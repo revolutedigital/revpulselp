@@ -1260,8 +1260,20 @@
             }
         }
 
+        .who-is-it-for-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            max-width: 1050px;
+            margin: 0 auto;
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
+            .who-is-it-for-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
             .fixed-logo {
                 top: 15px;
                 left: 15px;
@@ -1738,7 +1750,7 @@
                     <span class="original-price">R$ 1.997</span>
                     R$ 997
                 </div>
-                <div class="installment">ou 12x de R$ 115,42 no cartão</div>
+                <div class="installment">ou 12x de R$ 99,70 no cartão</div>
             </div>
 
             <a href="https://checkout.pagtrust.com.br/ck5d2ca0eb?funnel=fn9649ed0a" class="cta-button" data-aos="fade-up" data-aos-delay="500" onclick="fbq('track', 'InitiateCheckout', {value: 997.00, currency: 'BRL', content_name: 'RevPulse - Oferta Principal'});" aria-label="Garantir acesso ao curso RevPulse por R$ 997 - Oferta principal">GARANTIR ACESSO POR R$ 997 →</a>
@@ -2104,7 +2116,7 @@
     <section>
         <div class="container">
             <h2 class="section-title" data-aos="fade-down"><span aria-hidden="true">✅</span> Para Quem É (e Para Quem NÃO É)</h2>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; max-width: 1050px; margin: 0 auto;">
+            <div class="who-is-it-for-grid">
                 <div data-aos="fade-right">
                     <h3 style="font-size: 26px; margin-bottom: 30px; color: #4caf50; text-align: center; font-weight: 800;">✅ É Para Você Se:</h3>
                     <div class="checklist">
@@ -2266,7 +2278,7 @@
                         <span class="original-price">R$ 1.997</span>
                         R$ 997
                     </div>
-                    <div class="installment">ou 12x de R$ 115,42 no cartão</div>
+                    <div class="installment">ou 12x de R$ 99,70 no cartão</div>
                 </div>
                 <p style="color: #4caf50; font-size: 22px; margin: 25px 0; font-weight: 700;">Você economiza: R$ 1.000</p>
 
