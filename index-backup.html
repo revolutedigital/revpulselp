@@ -276,12 +276,19 @@
             box-sizing: border-box;
         }
 
+        html {
+            overflow-x: hidden;
+            width: 100%;
+        }
+
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: #0a0e1a;
             color: #e4e6eb;
             line-height: 1.6;
             overflow-x: hidden;
+            width: 100%;
+            max-width: 100vw;
         }
 
         /* Custom Scrollbar */
@@ -317,10 +324,18 @@
 
         .container {
             max-width: 1200px;
+            width: 100%;
             margin: 0 auto;
             padding: 0 24px;
             position: relative;
             z-index: 1;
+            overflow-x: hidden;
+        }
+
+        section {
+            overflow-x: hidden;
+            width: 100%;
+            max-width: 100vw;
         }
 
 
